@@ -1,0 +1,119 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "description": "Authenticated Gojri proverbs, oral wisdom, and pastoral terminology.",
+    "references": [
+      "Rahi, Javaid. Folk-Lore Dictionary of Gujjar Tribe (2 Volumes). J&K Academy of Art, Culture and Languages.",
+      "Rahi, Javaid. Gujjar Shanakht Ka Safar & Gojr Lok Geet.",
+      "JKAACL (Jammu and Kashmir Academy of Art, Culture and Languages) Sheeraza Gojri editions."
+    ]
+  },
+  "items": [
+    {
+      "id": "CULT_PROV_01",
+      "category": "proverbs",
+      "title": "On Accountability and Karma",
+      "text": "جیسی کرنی ویسی بھرنی",
+      "text_devanagari": "जैसी करनी वैसी भरनी",
+      "text_roman": "jaisī karnī vaisī bharnī",
+      "translation_en": "As you do, so shall you receive (As you sow, so shall you reap).",
+      "translation_hi": "जैसा करोगे, वैसा भरोगे।",
+      "translation_ur": "جیسا کرو گے ویسا بھرو گے۔",
+      "explanation": "A universal ethical maxim frequently used across Gujjar community elders emphasizing individual responsibility for actions.",
+      "region": "Jammu & Kashmir / Pir Panjal / Western Himalayas",
+      "source": "RAHI_FOLKLORE_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_PROV_02",
+      "category": "proverbs",
+      "title": "On True Worth vs. Loud Boasting",
+      "text": "خالی برتن زیادہ آواز کڈے ہے",
+      "text_devanagari": "खाली बर्तन ज़्यादा आवाज़ कड्डे है",
+      "text_roman": "khālī bartan zyādā āwāz kaḍḍe hai",
+      "translation_en": "An empty vessel makes the most sound.",
+      "translation_hi": "खाली बर्तन ज़्यादा आवाज़ करता है। (अधजल गगरी छलकत जाए)",
+      "translation_ur": "خالی برتن زیادہ آواز کرتا ہے۔",
+      "explanation": "Refers to those who possess little genuine wisdom but talk ostentatiously to gain attention.",
+      "region": "General Gojri speaking belt",
+      "source": "RAHI_FOLKLORE_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_PROV_03",
+      "category": "proverbs",
+      "title": "On Transhumance and Pastoral Preparedness",
+      "text": "اپݨے گھر دی باہݨ، سگلا جڳ جاݨے",
+      "text_devanagari": "अपणे घर दी बाहण, सगला जग जाणे",
+      "text_roman": "apṇe ghar dī bāhaṇ, saglā jag jāṇe",
+      "translation_en": "The smoke of one's own house is visible to the whole world.",
+      "translation_hi": "अपने घर का धुआँ सारा संसार देखता है।",
+      "translation_ur": "اپنے گھر کا دھواں سارا جہان دیکھتا ہے۔",
+      "explanation": "No family or community shortcoming remains hidden forever; integrity begins within the household.",
+      "region": "Rajouri / Poonch / Reasi",
+      "source": "RAHI_FOLKLORE_DICT",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_PROV_04",
+      "category": "proverbs",
+      "title": "On Mountain Resilience and Labor",
+      "text": "محنت رو پھل مِیٹھو ہوندو ہے",
+      "text_devanagari": "मेहनत रो फल मीठो होंदो है",
+      "text_roman": "mehnat ro phal mīṭho hondo hai",
+      "translation_en": "The fruit of honest labor is always sweet.",
+      "translation_hi": "मेहनत का फल मीठा होता है।",
+      "translation_ur": "محنت کا پھل میٹھا ہوتا ہے۔",
+      "explanation": "Embodies the industrious pastoral spirit of Gujjar shepherds grazing flocks in steep mountain passes.",
+      "region": "Jammu & Kashmir / Himachal Pradesh",
+      "source": "RAHI_FOLKLORE_DICT",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_TERM_01",
+      "category": "pastoral_terms",
+      "title": "Dhoka (Highland Pastoral Meadow Shelter)",
+      "text": "ڈھوک",
+      "text_devanagari": "ढोक",
+      "text_roman": "ḍhok",
+      "translation_en": "High-altitude summer shepherd hut / pasture meadow settlement.",
+      "translation_hi": "उच्च-हिमालयी ग्रीष्मकालीन चारागाह कुटिया / ढोक।",
+      "translation_ur": "بلند پہاڑی چراگاہ کا موسمِ گرما کا کچا ٹھکانہ یا جھونپڑی۔",
+      "explanation": "Temporary stone-and-timber dwellings built in alpine pastures (margs) above 8,000 feet, inhabited between May and September.",
+      "region": "Pir Panjal, Kashmir Valley, Shivaliks",
+      "source": "RAHI_FOLKLORE_DICT; LOSEY_2002",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_TERM_02",
+      "category": "pastoral_terms",
+      "title": "Dera (Family Clan & Caravan Camp)",
+      "text": "ڈیرا",
+      "text_devanagari": "डेरा",
+      "text_roman": "ḍero",
+      "translation_en": "Mobile family camp, herd aggregation, and nomadic social kinship unit.",
+      "translation_hi": "खानाबदोश कबीलाई डेरा / पारिवारिक कारवाँ पड़ाव।",
+      "translation_ur": "خانہ بدوش قافلے کا پڑاؤ یا خاندانی خیمہ گاہ۔",
+      "explanation": "The core socio-economic unit during seasonal migration (Kafila / Ralti) between plains and mountain pastures.",
+      "region": "Himalayan Gujjar-Bakerwal belt",
+      "source": "RAHI_FOLKLORE_DICT",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_TERM_03",
+      "category": "pastoral_terms",
+      "title": "Kafila / Ralti (Seasonal Migration Caravan)",
+      "text": "قافلہ / رلتی",
+      "text_devanagari": "क़ाफ़िला / रलती",
+      "text_roman": "qāfilo / raltī",
+      "translation_en": "Seasonal semi-annual pastoral migration caravan.",
+      "translation_hi": "ऋतु-प्रवास कारवाँ / चरवाहा यात्रा।",
+      "translation_ur": "موسمی ہجرت کا چرواہا قافلہ۔",
+      "explanation": "The spring ascent to high meadows and autumn descent to warmer valleys with sheep, goats, horses, and cattle.",
+      "region": "Jammu & Kashmir / Himachal",
+      "source": "RAHI_FOLKLORE_DICT",
+      "verification_status": "verified"
+    }
+  ]
+}
+

@@ -1,0 +1,126 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "description": "Documented Gojri dialect profiles and regional linguistic variation.",
+    "references": [
+      "Sharma, J. C. (1982). Gojri Grammar. CIIL Mysore.",
+      "Losey, Wayne E. (2002). Writing Gojri. SIL International.",
+      "Grierson, George A. (1908). Linguistic Survey of India, Vol. IX, Part IV."
+    ]
+  },
+  "profiles": [
+    {
+      "id": "jk_poonchi",
+      "name": "Jammu & Kashmir / Poonchi-Rajouri Gojri",
+      "region": "Jammu & Kashmir (Poonch, Rajouri, Reasi, Pir Panjal range, Kashmir Valley)",
+      "script_preference": "Extended Perso-Arabic (Nastaliq with ݨ and ݪ)",
+      "phonology": {
+        "retroflex_nasal": true,
+        "retroflex_lateral": true,
+        "tone_genesis": "Rising pitch-accent following historical voiced aspirates",
+        "vowel_length_contrast": true
+      },
+      "grammar": {
+        "genitive_marker": "ro / rī / re / rā (agrees in gender/number with head noun)",
+        "masculine_noun_ending": "-o (ghoṛo, bakro)",
+        "ergative_marker": "ne",
+        "habitual_aspect": "-to / -ti",
+        "infinitive": "-ṇo / -no"
+      },
+      "vocabulary_variants": {
+        "horse": "گھوڑو (ghoṛo)",
+        "goat": "بکرو (bakro)",
+        "of_him": "اس رو (us ro)",
+        "here": "اتھے (itthe)",
+        "there": "اوتھے (utthe)"
+      },
+      "confidence": "verified",
+      "sources": ["SHARMA_1982", "RAHI_DICTIONARY", "LOSEY_2002"]
+    },
+    {
+      "id": "western_hazara",
+      "name": "Western / Hazara-Swat Gojri",
+      "region": "Khyber Pakhtunkhwa (Hazara Division, Mansehra, Abbottabad, Swat, Kaghan Valley)",
+      "script_preference": "Extended Perso-Arabic (Urdu/Nastaliq based)",
+      "phonology": {
+        "retroflex_nasal": true,
+        "retroflex_lateral": false,
+        "tone_genesis": "Tonal contrasts similar to Hindko / Pahari",
+        "vowel_length_contrast": true
+      },
+      "grammar": {
+        "genitive_marker": "dā / dī / de (shared with western Pahari / Punjabi continuum)",
+        "masculine_noun_ending": "-ā (ghoṛā, bakrā)",
+        "ergative_marker": "ne",
+        "habitual_aspect": "-nā / -dā",
+        "infinitive": "-ṇā / -nā"
+      },
+      "vocabulary_variants": {
+        "horse": "گھوڑا (ghoṛā)",
+        "goat": "بکرا (bakrā)",
+        "of_him": "اس دا (us dā)",
+        "here": "ایتھے (ethe)",
+        "there": "اوتھے (othe)"
+      },
+      "confidence": "verified",
+      "sources": ["LOSEY_2002", "GRIERSON_LSI"]
+    },
+    {
+      "id": "himachal",
+      "name": "Himachal Pradesh Gujari",
+      "region": "Himachal Pradesh (Chamba, Kangra, Mandi, Sirmaur)",
+      "script_preference": "Devanagari & Perso-Arabic",
+      "phonology": {
+        "retroflex_nasal": true,
+        "retroflex_lateral": true,
+        "tone_genesis": "Western Pahari tonal influence",
+        "vowel_length_contrast": true
+      },
+      "grammar": {
+        "genitive_marker": "ro / rā",
+        "masculine_noun_ending": "-o / -ā (transitional)",
+        "ergative_marker": "ne",
+        "habitual_aspect": "-to",
+        "infinitive": "-ṇo"
+      },
+      "vocabulary_variants": {
+        "horse": "घोड़ो / घोड़ा (ghoṛo / ghoṛā)",
+        "goat": "बकरो (bakro)",
+        "of_him": "उस रो (us ro)",
+        "here": "इत्थे (itthe)",
+        "there": "उत्थे (utthe)"
+      },
+      "confidence": "verified",
+      "sources": ["SHARMA_1982", "GRIERSON_LSI"]
+    },
+    {
+      "id": "southern_rajasthani",
+      "name": "Southern / Rajasthani Border Gujari",
+      "region": "Rajasthan, Haryana, and Delhi border corridors",
+      "script_preference": "Devanagari",
+      "phonology": {
+        "retroflex_nasal": true,
+        "retroflex_lateral": true,
+        "tone_genesis": "Low/level, minimal tone development",
+        "vowel_length_contrast": true
+      },
+      "grammar": {
+        "genitive_marker": "ko / kī / ke or ro",
+        "masculine_noun_ending": "-o",
+        "ergative_marker": "ne",
+        "habitual_aspect": "-to",
+        "infinitive": "-ṇo"
+      },
+      "vocabulary_variants": {
+        "horse": "घोड़ो (ghoṛo)",
+        "goat": "बकरो (bakro)",
+        "of_him": "उस को / उस रो (us ko / us ro)",
+        "here": "अठे (aṭhe)",
+        "there": "बठे (baṭhe)"
+      },
+      "confidence": "verified",
+      "sources": ["GRIERSON_LSI", "SHARMA_1982"]
+    }
+  ]
+}
+

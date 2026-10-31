@@ -1,0 +1,386 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "description": "Documented Gojri grammatical rules based on published linguistic field studies and grammars.",
+    "references": [
+      "Sharma, J. C. (1982). Gojri Grammar. CIIL Mysore.",
+      "Losey, Wayne E. (2002). Writing Gojri. SIL International / University of North Dakota.",
+      "Grierson, George A. (1908). Linguistic Survey of India, Vol. IX, Part IV."
+    ]
+  },
+  "rules": [
+    {
+      "id": "RULE_PHON_01",
+      "category": "phonology",
+      "name": "Retroflex Consonant Inventory and Tonal Genesis",
+      "description": "Gojri features a complete retroflex stop series (/ṭ/, /ṭh/, /ḍ/, /ḍh/) alongside retroflex nasal /ṇ/ and flap /ṛ/. Historical loss of voiced aspirates or glottal friction in intervocalic/final positions frequently conditions pitch-accent or tonal contours on adjoining vowels.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982; LOSEY_2002",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "پاݨی",
+          "roman": "pāṇi",
+          "translation_en": "water (distinct retroflex nasal /ṇ/)"
+        },
+        {
+          "gojri": "گھوڑو",
+          "roman": "ghoṛo",
+          "translation_en": "horse (voiced velar aspirate /gh/ with retroflex flap /ṛ/)"
+        }
+      ]
+    },
+    {
+      "id": "RULE_NOUN_01",
+      "category": "nouns_and_pronouns",
+      "name": "Masculine Marked Nouns in -o / -aa",
+      "description": "Marked masculine nouns end in /-o/ (or /-ā/ in eastern dialect variants). In the direct plural and oblique singular, the final /-o/ shifts to /-e/. In the oblique plural, it takes /-yā̃/ or /-ā̃/.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (pp. 34-42)",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "گھوڑو (واحد مستقیم) -> گھوڑے (جمع مستقیم / واحد مائل) -> گھوڑیاں (جمع مائل)",
+          "roman": "ghoṛo (dir.sg) -> ghoṛe (dir.pl / obl.sg) -> ghoṛyā̃ (obl.pl)",
+          "translation_en": "horse -> horses / horse (obl) -> horses (obl)"
+        },
+        {
+          "gojri": "چھورو -> چھورے -> چھوریاں",
+          "roman": "chhoro -> chhore -> chhoryā̃",
+          "translation_en": "boy -> boys -> boys (obl)"
+        }
+      ]
+    },
+    {
+      "id": "RULE_NOUN_02",
+      "category": "nouns_and_pronouns",
+      "name": "Feminine Marked Nouns in -i",
+      "description": "Feminine nouns commonly end in /-i/. The plural is formed by adding /-yā̃/ or /-ā̃/ in both direct and oblique cases.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "گھوڑی -> گھوڑیاں",
+          "roman": "ghoṛi -> ghoṛiyā̃",
+          "translation_en": "mare -> mares"
+        },
+        {
+          "gojri": "بکری -> بکریاں",
+          "roman": "bakri -> bakriyā̃",
+          "translation_en": "she-goat -> she-goats"
+        }
+      ]
+    },
+    {
+      "id": "RULE_PRON_01",
+      "category": "nouns_and_pronouns",
+      "name": "Personal Pronoun Case Alternation",
+      "description": "First and second person pronouns have distinct direct and oblique/agentive forms. When followed by postpositions (e.g., dative nā / accusative / agentive ne), first-person singular shifts to man- / maĩ-.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982; LOSEY_2002",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "ہوں (مستقیم) / منے (مفعولی/مائل)",
+          "roman": "hū̃ (direct: 'I') / manne (dative: 'to me')",
+          "translation_en": "I / to me"
+        },
+        {
+          "gojri": "توں (واحد حاضر) / تسی (جمع/تعظیمی حاضر)",
+          "roman": "tū̃ (singular informal) / tusī̃ (plural/polite)",
+          "translation_en": "you / you (all / formal)"
+        }
+      ]
+    },
+    {
+      "id": "RULE_POSTPOS_01",
+      "category": "case_and_postpositions",
+      "name": "Split-Ergative Case Marking with 'ne'",
+      "description": "Gojri operates a split-ergative alignment in the perfective (past completed) aspect with transitive verbs. The agent subject takes the postposition 'ne' (transcribed 'nE' by Sharma), while the verb agrees in gender and number with the direct object patient.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982; LOSEY_2002",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "چھورے نے روٹی کھادی",
+          "roman": "chhore ne roṭī khādī",
+          "translation_en": "The boy ate bread (bread is feminine, verb khādī agrees with roṭī)."
+        },
+        {
+          "gojri": "چھوری نے آم کھایو",
+          "roman": "chhori ne ām khāyo",
+          "translation_en": "The girl ate a mango (mango is masculine, verb khāyo agrees with ām)."
+        }
+      ]
+    },
+    {
+      "id": "RULE_POSTPOS_02",
+      "category": "case_and_postpositions",
+      "name": "Genitive Marker Concord (ro / ra / ri / re)",
+      "description": "The genitive postposition inflects like an adjective, agreeing with the head noun in gender, number, and case: 'ro' (m.sg.dir), 'ra' or 're' (m.pl.dir / m.sg.obl), 'ri' (f.sg/pl).",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982; GRIERSON_LSI",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "اس رو گھوڑو",
+          "roman": "us ro ghoṛo",
+          "translation_en": "his/her horse (masculine singular head)"
+        },
+        {
+          "gojri": "اس ری بکری",
+          "roman": "us rī bakri",
+          "translation_en": "his/her goat (feminine head)"
+        }
+      ]
+    },
+    {
+      "id": "RULE_VERB_01",
+      "category": "verbs",
+      "name": "Infinitive Suffix in -ṇo / -no",
+      "description": "The citation / infinitive form of Gojri verbs is formed by appending /-ṇo/ (after vowels, retroflexes, and liquids) or /-no/ (after dentals/nasals) to the verbal root.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "جا -> جاوݨو",
+          "roman": "jā -> jāvṇo",
+          "translation_en": "go -> to go"
+        },
+        {
+          "gojri": "کر -> کرݨو",
+          "roman": "kar -> karṇo",
+          "translation_en": "do -> to do"
+        }
+      ]
+    },
+    {
+      "id": "RULE_TAM_01",
+      "category": "tense_aspect_mood",
+      "name": "Habitual / Imperfective Aspect in -to / -ti",
+      "description": "The present habitual/imperfective aspect is marked on the verbal root with the suffix /-to/ (m.sg), /-te/ (m.pl), /-ti/ (f.sg), /-tiyā̃/ (f.pl), followed by present copula auxiliaries.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "اوہ سکول جاتو ہے",
+          "roman": "oh skūl jāto hai",
+          "translation_en": "He goes to school."
+        },
+        {
+          "gojri": "اوہ کتاب پڑھتی ہے",
+          "roman": "oh kitāb paṛhti hai",
+          "translation_en": "She reads a book."
+        }
+      ]
+    },
+    {
+      "id": "RULE_TAM_02",
+      "category": "tense_aspect_mood",
+      "name": "Future Tense Marking in -go / -ga / -gi",
+      "description": "The future tense is expressed by suffixing /-go/ (masculine singular), /-ga/ (masculine plural), and /-gi/ (feminine) to the inflected subjunctive verb base.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "ہوں جاواں گو",
+          "roman": "hū̃ jāvā̃ go",
+          "translation_en": "I will go (masculine speaker)."
+        },
+        {
+          "gojri": "اسی آواں گا",
+          "roman": "asī̃ āvā̃ gā",
+          "translation_en": "We will come."
+        }
+      ]
+    },
+    {
+      "id": "RULE_NEG_01",
+      "category": "negation",
+      "name": "Pre-verbal Negation Particles ('na', 'nahī̃')",
+      "description": "Negation in indicative clauses is formed by placing 'nahī̃' or 'na' immediately before the main verb or auxiliary. Imperative / prohibitive negation uses 'mat' or 'na'.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "اوہ نئیں آیو",
+          "roman": "oh naī̃ āyo",
+          "translation_en": "He did not come."
+        },
+        {
+          "gojri": "اتھے مت جا",
+          "roman": "uthe mat jā",
+          "translation_en": "Do not go there."
+        }
+      ]
+    },
+    {
+      "id": "RULE_SYNTAX_01",
+      "category": "sentence_structure",
+      "name": "Canonical SOV Word Order",
+      "description": "Standard sentence structure in Gojri follows Subject-Object-Verb (SOV) order. Adverbs typically precede verbs, and modifiers precede head nouns.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982; LOSEY_2002",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "چھورو [S] گھوڑے ناں [O] گھاہ [O2] دیوے ہے [V]",
+          "roman": "chhoro [S] ghoṛe nā [O] ghāh [O2] dīve hai [V]",
+          "translation_en": "The boy gives grass to the horse."
+        }
+      ]
+    },
+    {
+      "id": "RULE_DIALECT_01",
+      "category": "dialect_variation",
+      "name": "East vs. West Gojri Nominal and Genitive Differences",
+      "description": "Western Gojri (Hazara, Swat, Muzaffarabad) shows heavier Punjabi/Pahari phonetic influence, while Eastern and Jammu Gojri retains archaic Rajasthani traits such as genitive 'ro/ri' and masculine endings in '-o'.",
+      "dialect": "Comparative (Jammu & Kashmir vs. KPK/Hazara)",
+      "source": "LOSEY_2002; GRIERSON_LSI",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "جموں / پونچھ: گھوڑو، اس رو | مغربی ہزارہ: گھوڑا، اس دا",
+          "roman": "Jammu/Poonch: ghoṛo, us ro | Western/Hazara: ghoṛā, us dā",
+          "translation_en": "horse / of him (contrasting genitive ro vs dā)"
+        }
+      ]
+    },
+    {
+      "id": "RULE_REDUPL_01",
+      "category": "reduplication_and_expressives",
+      "name": "Echo-Word Formation with /v-/ Replacement",
+      "description": "Gojri features productive expressives and echo-formations to signify 'X and related items/activities'. If the base begins with a consonant other than /v-/, the initial consonant is replaced with /v-/ (e.g. kām -> kām-vām, chāh -> chāh-vāh). If the base begins with /p-/, it often alternates with /dh-/ (e.g. pāṇi -> pāṇi-dhāṇi).",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (pp. 95-98)",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "کام وام",
+          "roman": "kām-vām",
+          "translation_en": "work and related chores"
+        },
+        {
+          "gojri": "چاہ واہ",
+          "roman": "chāh-vāh",
+          "translation_en": "tea and snacks"
+        },
+        {
+          "gojri": "پاݨی دھاݨی",
+          "roman": "pāṇi-dhāṇi",
+          "translation_en": "water and refreshments"
+        }
+      ]
+    },
+    {
+      "id": "RULE_INTERROG_01",
+      "category": "questions_and_commands",
+      "name": "Interrogative Particles and Question Formation",
+      "description": "Wh-questions employ dedicated question pronouns placed in pre-verbal focus: 'ke / kai' (what), 'koṇ' (who), 'kiddhar / kithe' (where), 'kadoñ / kad' (when), 'kyon' (why), and 'kiso' (what kind of). Polar (yes/no) questions employ rising intonation or sentence-initial 'ke'.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "تہاڈو ناں کے ہے؟",
+          "roman": "tuhāḍo nā̃ ke hai?",
+          "translation_en": "What is your name?"
+        },
+        {
+          "gojri": "تسی کتھے جاؤ چھو؟",
+          "roman": "tusī̃ kitthe jāo chho?",
+          "translation_en": "Where are you going?"
+        }
+      ]
+    },
+    {
+      "id": "RULE_IMPER_01",
+      "category": "questions_and_commands",
+      "name": "Imperative and Prohibitive Verb Inflection",
+      "description": "Imperative forms vary by degree of honorificity and number. Informal singular commands use the bare verb root (e.g. bol! 'speak!'). Plural and polite commands suffix /-o/ (e.g. bolo! 'speak!'). Prohibitive (negative commands) place 'mat' or 'na' before the verb.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "اتھے آؤ!",
+          "roman": "itthe āo!",
+          "translation_en": "Come here! (polite/plural)"
+        },
+        {
+          "gojri": "جھوٹھ مت بولو!",
+          "roman": "jhūṭh mat bolo!",
+          "translation_en": "Do not speak lies!"
+        }
+      ]
+    },
+    {
+      "id": "RULE_AGREE_01",
+      "category": "agreement",
+      "name": "Adjectival and Head-Noun Concord",
+      "description": "Marked adjectives in /-o/ systematically agree with head nouns in gender, number, and case: masculine singular direct takes /-o/ (chaṅgo), masculine plural and masculine oblique takes /-e/ (chaṅge), and feminine takes /-i/ (chaṅgi).",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "چنگو چھورو",
+          "roman": "chaṅgo chhoro",
+          "translation_en": "good boy (m.sg.dir)"
+        },
+        {
+          "gojri": "چنگی چھوری",
+          "roman": "chaṅgi chhori",
+          "translation_en": "good girl (f.sg.dir)"
+        },
+        {
+          "gojri": "چنگے چھورے ناں",
+          "roman": "chaṅge chhore nā",
+          "translation_en": "to the good boy (m.sg.obl + dative)"
+        }
+      ]
+    },
+    {
+      "id": "RULE_WORDFORM_01",
+      "category": "word_formation",
+      "name": "Nominal Derivation via Suffixation (-āī, -vālo)",
+      "description": "Productive derivational suffixes include /-āī/ to form abstract qualities from adjectives (chaṅgo -> chaṅgāī 'goodness', mīṭho -> miṭhāī 'sweetness') and /-vālo/ to denote agent, possessor, or practitioner (ghoṛewālo 'horse-keeper', ḍerewālo 'camp-dweller').",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "چنگو -> چنگائی",
+          "roman": "chaṅgo -> chaṅgāī",
+          "translation_en": "good -> goodness / virtue"
+        },
+        {
+          "gojri": "ڈیرا -> ڈیرے والو",
+          "roman": "ḍero -> ḍerewālo",
+          "translation_en": "camp -> person of the camp / nomadic herdsman"
+        }
+      ]
+    },
+    {
+      "id": "RULE_CLAUSE_01",
+      "category": "clause_structure",
+      "name": "Subordination and Relative-Correlative Clauses",
+      "description": "Complex sentences use relative-correlative pairs: 'je ... te ...' (if ... then ... conditional) or 'jo ... so ...' (whoever ... he ... relative). Complement clauses are introduced by the complementizer 'ke' or 'ki' positioned between matrix and subordinate verbs.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "جے توں آواں گو تے اسی ملساں",
+          "roman": "je tū̃ āvā̃ go te asī̃ milsā̃",
+          "translation_en": "If you come, then we will meet."
+        }
+      ]
+    }
+  ]
+}

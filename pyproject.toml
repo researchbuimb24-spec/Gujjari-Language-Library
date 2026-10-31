@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gojrilang"
+version = "0.2.0"
+description = "A Python NLP and digital language preservation toolkit for Gujari / Gojri."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "GojriLang Open Source Contributors" }
+]
+keywords = [
+    "gojri",
+    "gujari",
+    "gujri",
+    "nlp",
+    "computational-linguistics",
+    "language-preservation",
+    "dictionary",
+    "transliteration",
+    "morphology",
+    "himalayas"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Topic :: Text Processing :: Linguistic",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+gojri = "gojrilang.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gojrilang/gojrilang"
+Repository = "https://github.com/gojrilang/gojrilang"
+Issues = "https://github.com/gojrilang/gojrilang/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gojrilang = ["data/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v"
+

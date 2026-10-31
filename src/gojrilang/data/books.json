@@ -1,0 +1,109 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "description": "Verified corpus of public domain and academic open-access Gojri literature and language specimens.",
+    "attribution": "Compiled from Grierson (1908), Sharma (1982), and Losey (2002)."
+  },
+  "books": [
+    {
+      "id": "grierson_1908_lsi",
+      "title": "Linguistic Survey of India: Specimens of Gujari / Gojri",
+      "author": "Sir George Abraham Grierson",
+      "year": 1908,
+      "publisher": "Superintendent of Government Printing, India (Calcutta)",
+      "dialect": "Poonchi & Hazara Gojri",
+      "license": "Public Domain",
+      "description": "Specimens of the Gujari language collected from Poonch (J&K) and Hazara during the Linguistic Survey of India (Vol. IX, Part IV). Contains the classical interlinear Parable of the Prodigal Son.",
+      "pages": [
+        {
+          "page_number": 1,
+          "section_title": "Parable of the Prodigal Son - Opening (Poonch specimen)",
+          "text_perso_arabic": "ہک آدمی کا دو پتر تھیا۔ انھاں ماں کن چھوٹو اپنے باپو نا بولیو کہ باپو مال رو جیہڑو حصہ مھارا آوے سو منے دے۔",
+          "text_devanagari": "हिक आदमी का दो पुत्तर थिया। इन्हाँ माँ कन छोटो अपने बापू ना बोल्यो कि बापू माल रो जेहड़ो हिस्सा म्हारो आवे सो मने दे।",
+          "text_roman": "Hik ādmī kā do puttar thiyā. Inhā̃ mā̃ kan chhoṭo apne bāpū nā bolyo ki bāpū māl ro jehṛo hisso mhāro āve so mane de.",
+          "translation_en": "A certain man had two sons. And the younger of them said to his father, Father, give me the portion of goods that falleth to me.",
+          "notes": "Recorded in Poonch, Western Jammu & Kashmir; exhibits typical Gojri genitive 'ro/ri' and agentive/dative 'nā'."
+        },
+        {
+          "page_number": 2,
+          "section_title": "Parable of the Prodigal Son - Departure and Want",
+          "text_perso_arabic": "تھوڑیاں دہاڑیاں پچھے چھوٹو پتر سبھ کجھ کٹھو کر کے پردیس ٹر گیو۔ اوتھے اپنے مال نا بدمعاشی ما اڑائی چھڈیو۔",
+          "text_devanagari": "थोड़ियां दिहाड़ियां पीछे छोटो पुत्तर सभ कुझ कठो कर के परदेस टुर ग्यो। ओथे अपने माल ना बदमाशी मा उड़ाई छड्यो।",
+          "text_roman": "Thoṛyā̃ dihāṛyā̃ pachhe chhoṭo puttar sabh kujh kaṭho kar ke pardes ṭur gyo. Othe apne māl nā badmāshī mā uṛāī chhaḍyo.",
+          "translation_en": "And not many days after, the younger son gathered all together, and took his journey into a far country, and there wasted his substance with riotous living.",
+          "notes": "Past participle 'ṭur gyo' (went away) and compound verb 'uṛāī chhaḍyo' (squandered away)."
+        },
+        {
+          "page_number": 3,
+          "section_title": "Parable of the Prodigal Son - Repentance and Return",
+          "text_perso_arabic": "جد ہوش ما آیو تا بولیو کہ مھارے باپو کے کنے مزدوراں نا رج کھانو ملتو ہے تے ہوں اتھے بھکھو مروں چھوں۔",
+          "text_devanagari": "जद होश मा आयो ता बोल्यो कि म्हारे बापू के कने मज़दूराँ ना रज खानो मिलतो है ते हूँ इथे भुक्खो मरों छूँ।",
+          "text_roman": "Jad hosh mā āyo tā bolyo ki mhāre bāpū ke kane mazdūrā̃ nā raj khāno milto hai te hū̃ ithe bhukkho marõ chhū̃.",
+          "translation_en": "And when he came to himself, he said, How many hired servants of my father's have bread enough and to spare, and I perish with hunger!",
+          "notes": "Contains 1st person 'hū̃' and auxiliary form 'chhū̃' (I am)."
+        }
+      ]
+    },
+    {
+      "id": "sharma_1982_narratives",
+      "title": "Gojri Grammar: Narrative and Folk Texts",
+      "author": "J. C. Sharma",
+      "year": 1982,
+      "publisher": "Central Institute of Indian Languages (CIIL), Mysore",
+      "dialect": "General / Jammu & Kashmir Gojri",
+      "license": "Academic Research Open Access",
+      "description": "Authentic narrative texts, folktales, and pastoral discourse recorded during CIIL linguistic field research in Jammu & Kashmir.",
+      "pages": [
+        {
+          "page_number": 1,
+          "section_title": "The Shepherd and the Flock (چرواہو تے اِجّڑ / Charwāho te Ijjaṛ)",
+          "text_perso_arabic": "اک چرواہو روز پہاڑاں ما اپنے اِجّڑ نا چراوݨ جاؤتو سی۔ اوہ ساریاں بھیڈاں بکریاں نا پیار نال سَمبھالو سی۔",
+          "text_devanagari": "इक चरवाहो रोज़ पहाड़ाँ मा अपने इज्जड़ ना चरावण जावतो सी। ओह सारियाँ भीडाँ बकरियाँ ना प्यार नाल सम्भालो सी।",
+          "text_roman": "Ik charwāho roz pahāṛā̃ mā apne ijjaṛ nā charāvaṇ jāvto sī. Oh sāriyā̃ bhīḍā̃ bakriyā̃ nā pyār nāl sambhālo sī.",
+          "translation_en": "A shepherd used to go to the mountains daily to graze his flock. He took care of all the sheep and goats with affection.",
+          "notes": "Narrative past habitual: 'jāvto sī' (used to go); pastoral keyword 'ijjaṛ' (flock of sheep/goats)."
+        },
+        {
+          "page_number": 2,
+          "section_title": "High Mountain Pastures (دھار تے ڈہوکاں / Dhār te Ḍhokā̃)",
+          "text_perso_arabic": "گرمی دے مہینیاں ما گجر اپݨا مال ڈنگر لے کے اُچی دھاراں تے ڈہوکاں وال ٹر جاؤندے نیں۔ برف پگھلݨ تے ہری گھاہ پھٹدی ہے۔",
+          "text_devanagari": "गर्मी दे महीन्याँ मा गुज्जर अपणा माल डंगर ले के उस धाराँ ते ढोकाँ वाल टुर जावन्दे ने। बर्फ पिघलण ते हरी घाह फुटदी है।",
+          "text_roman": "Garmī de mahīnyā̃ mā Gujjar apṇā māl-ḍangar le ke uchī dhārā̃ te ḍhokā̃ vāl ṭur jāvande ne. Baraf pighlaṇ te harī ghāh phuṭdī hai.",
+          "translation_en": "During summer months, Gujjars travel toward high mountain ridges (dhār) and temporary highland settlements (ḍhok) with their cattle. When snow melts, fresh green grass sprouts.",
+          "notes": "Transhumance culture documentation: 'dhār' (mountain ridge) and 'ḍhok' (highland pastoral summer cottage)."
+        }
+      ]
+    },
+    {
+      "id": "losey_2002_writing_gojri",
+      "title": "Writing Gojri: Literacy, Proverbs, and Dialogue Specimens",
+      "author": "Wayne E. Losey",
+      "year": 2002,
+      "publisher": "SIL International & University of North Dakota",
+      "dialect": "Northern & Western Gojri",
+      "license": "Academic Research Open Access",
+      "description": "Sociolinguistic and orthographic texts documenting communicative interaction, community proverbs, and literacy materials.",
+      "pages": [
+        {
+          "page_number": 1,
+          "section_title": "Greeting and Hospitality Dialogue",
+          "text_perso_arabic": "سلام علیکم! تساں رو کی حال چال ہے؟ گھر بار سبھ خیریت نال ہے؟ آؤ اندر لنگھ آؤ، چاہ پیؤ۔",
+          "text_devanagari": "सलाम अलैकुम! तुसाँ रो की हाल चाल है? घर बार सभ ख़ैरियत नाल है? आवो अन्दर लंघ आवो, चाह पियो।",
+          "text_roman": "Salām 'alaikum! Tusā̃ ro kī hāl chāl hai? Ghar bār sabh khairiyat nāl hai? Āo andar langh āo, chāh pīo.",
+          "translation_en": "Peace be upon you! How are you doing? Is everything well at home? Please come inside, have some tea.",
+          "notes": "Typical polite register: 2nd plural genitive 'tusā̃ ro' and imperative 'langh āo' (step inside)."
+        },
+        {
+          "page_number": 2,
+          "section_title": "Wisdom of the Elders (بزرگاں ری نصیحت / Buzurgā̃ rī Nasīhat)",
+          "text_perso_arabic": "جے تو محنت کریگا تاں اللہ برکت دیسی۔ جیہڑو بوئیگا سوئی وڈھیگا، ایہہ جگ ری ریت ہے۔",
+          "text_devanagari": "जे तू मेहनत करेगा ताँ अल्लाह बरकत देसी। जेहड़ो बोवेगा सोई वढेगा, एह जग री रीत है।",
+          "text_roman": "Je tū mehnat karegā tā̃ Allāh barkat desī. Jehṛo boegā soī vaḍhegā, eh jag rī rīt hai.",
+          "translation_en": "If you work hard, God will grant blessing. As you sow, so shall you reap; such is the way of the world.",
+          "notes": "Correlative structure: 'jehṛo ... soī' (whoever ... he); synthetic future 'desī' (will give)."
+        }
+      ]
+    }
+  ]
+}
+

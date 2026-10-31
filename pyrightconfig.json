@@ -1,0 +1,11 @@
+{
+  "include": [
+    "src",
+    "tests"
+  ],
+  "extraPaths": [
+    "src",
+    "C:/Users/bhema/AppData/Local/Programs/Python/Python312/Lib/site-packages"
+  ]
+}
+

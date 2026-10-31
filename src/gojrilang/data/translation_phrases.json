@@ -1,0 +1,123 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "description": "Verified bilingual and multilingual phrase translations for Gojri.",
+    "references": [
+      "Sharma, J. C. (1982). Gojri Grammar. CIIL Mysore.",
+      "Rahi, Javaid. Gojri Dictionary & Sheeraza Gojri. JKAACL."
+    ]
+  },
+  "phrases": [
+    {
+      "id": "PHRASE_001",
+      "gojri": "تہاڈو ناں کے ہے؟",
+      "gojri_roman": "tuhāḍo nā̃ ke hai?",
+      "gojri_devanagari": "तहाडो नाँ के है?",
+      "english": "What is your name?",
+      "hindi": "आपका नाम क्या है?",
+      "urdu": "آپ کا نام کیا ہے؟",
+      "category": "greetings",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_002",
+      "gojri": "تسی کس طرح چھو؟",
+      "gojri_roman": "tusī̃ kis tarāh chho?",
+      "gojri_devanagari": "तसी किस तरह छो?",
+      "english": "How are you?",
+      "hindi": "आप कैसे हैं?",
+      "urdu": "آپ کیسے ہیں؟",
+      "category": "greetings",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_003",
+      "gojri": "ہوں ٹھیک چھواں",
+      "gojri_roman": "hū̃ ṭhīk chhvā̃",
+      "gojri_devanagari": "हूँ ठीक छवाँ",
+      "english": "I am fine.",
+      "hindi": "मैं ठीक हूँ।",
+      "urdu": "میں ٹھیک ہوں۔",
+      "category": "greetings",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_004",
+      "gojri": "سلام علیکم",
+      "gojri_roman": "salām alaikum",
+      "gojri_devanagari": "सलाम अलैकुम",
+      "english": "Peace be upon you / Hello",
+      "hindi": "नमस्ते / सलाम",
+      "urdu": "السلام علیکم",
+      "category": "greetings",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_005",
+      "gojri": "تہاڈی مہربانی",
+      "gojri_roman": "tuhāḍī mehrbānī",
+      "gojri_devanagari": "तहाडी मेहरबानी",
+      "english": "Thank you",
+      "hindi": "धन्यवाद / आपकी मेहरबानी",
+      "urdu": "شکریہ / آپ کی مہربانی",
+      "category": "politeness",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_006",
+      "gojri": "اللہ حافظ",
+      "gojri_roman": "allāh hāfiz",
+      "gojri_devanagari": "अल्लाह हाफ़िज़",
+      "english": "Goodbye",
+      "hindi": "अलविदा",
+      "urdu": "خدا حافظ / اللہ حافظ",
+      "category": "farewell",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_007",
+      "gojri": "منے پاݨی پیوݨو ہے",
+      "gojri_roman": "manne pāṇi pīvṇo hai",
+      "gojri_devanagari": "मने पाणी पीवणो है",
+      "english": "I want to drink water.",
+      "hindi": "मुझे पानी पीना है।",
+      "urdu": "مجھے پانی پینا ہے۔",
+      "category": "daily_needs",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_008",
+      "gojri": "گھوڑو تیز دوڑے ہے",
+      "gojri_roman": "ghoṛo tez dauṛe hai",
+      "gojri_devanagari": "घोड़ो तेज़ दौड़े है",
+      "english": "The horse runs fast.",
+      "hindi": "घोड़ा तेज दौड़ता है।",
+      "urdu": "گھوڑا تیز دوڑتا ہے۔",
+      "category": "sample_sentence",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_009",
+      "gojri": "اج موسم چنگو ہے",
+      "gojri_roman": "ajj mausam chaṅgo hai",
+      "gojri_devanagari": "अज्ज मौसम चंगो है",
+      "english": "Today the weather is pleasant.",
+      "hindi": "आज मौसम अच्छा है।",
+      "urdu": "آج موسم اچھا ہے۔",
+      "category": "weather",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_010",
+      "gojri": "ساہڈو ڈیرا ندی کنڈے ہے",
+      "gojri_roman": "sāhḍo ḍero nadī kaṇḍe hai",
+      "gojri_devanagari": "साहडो डेरा नदी कंडे है",
+      "english": "Our camp is by the riverbank.",
+      "hindi": "हमारा डेरा नदी के किनारे है।",
+      "urdu": "ہمارا ڈیرا ندی کنارے ہے۔",
+      "category": "pastoral_life",
+      "verification_status": "verified"
+    }
+  ]
+}
+
