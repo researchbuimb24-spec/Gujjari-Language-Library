@@ -32,10 +32,19 @@
         "goat": "بکرو (bakro)",
         "of_him": "اس رو (us ro)",
         "here": "اتھے (itthe)",
-        "there": "اوتھے (utthe)"
+        "there": "اوتھے (utthe)",
+        "water": "پاݨی (pāṇi)",
+        "dog": "کُتو (kutto)",
+        "boy": "چھورو (chhoro)",
+        "tea": "چاہ (chāh)",
+        "house": "گھر (ghar)"
       },
       "confidence": "verified",
-      "sources": ["SHARMA_1982", "RAHI_DICTIONARY", "LOSEY_2002"]
+      "sources": [
+        "SHARMA_1982",
+        "RAHI_DICTIONARY",
+        "LOSEY_2002"
+      ]
     },
     {
       "id": "western_hazara",
@@ -60,10 +69,18 @@
         "goat": "بکرا (bakrā)",
         "of_him": "اس دا (us dā)",
         "here": "ایتھے (ethe)",
-        "there": "اوتھے (othe)"
+        "there": "اوتھے (othe)",
+        "water": "پاݨی (pāṇī)",
+        "dog": "کتا (kuttā)",
+        "boy": "چھوہرا (chhohrā / chhorā)",
+        "tea": "چائے (chāye)",
+        "house": "گھر (ghar)"
       },
       "confidence": "verified",
-      "sources": ["LOSEY_2002", "GRIERSON_LSI"]
+      "sources": [
+        "LOSEY_2002",
+        "GRIERSON_LSI"
+      ]
     },
     {
       "id": "himachal",
@@ -88,10 +105,18 @@
         "goat": "बकरो (bakro)",
         "of_him": "उस रो (us ro)",
         "here": "इत्थे (itthe)",
-        "there": "उत्थे (utthe)"
+        "there": "उत्थे (utthe)",
+        "water": "पाणी (pāṇi)",
+        "dog": "कुत्तो / कुत्ता (kutto / kuttā)",
+        "boy": "छोरो (chhoro)",
+        "tea": "चाह (chāh)",
+        "house": "घर (ghar)"
       },
       "confidence": "verified",
-      "sources": ["SHARMA_1982", "GRIERSON_LSI"]
+      "sources": [
+        "SHARMA_1982",
+        "GRIERSON_LSI"
+      ]
     },
     {
       "id": "southern_rajasthani",
@@ -116,11 +141,18 @@
         "goat": "बकरो (bakro)",
         "of_him": "उस को / उस रो (us ko / us ro)",
         "here": "अठे (aṭhe)",
-        "there": "बठे (baṭhe)"
+        "there": "बठे (baṭhe)",
+        "water": "पाणी (pāṇī)",
+        "dog": "कुत्तो (kutto)",
+        "boy": "छोरो (chhoro)",
+        "tea": "चाय (chāy)",
+        "house": "घर (ghar)"
       },
       "confidence": "verified",
-      "sources": ["GRIERSON_LSI", "SHARMA_1982"]
+      "sources": [
+        "GRIERSON_LSI",
+        "SHARMA_1982"
+      ]
     }
   ]
 }
-

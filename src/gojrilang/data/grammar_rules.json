@@ -381,6 +381,53 @@
           "translation_en": "If you come, then we will meet."
         }
       ]
+    },
+    {
+      "id": "RULE_PRON_02",
+      "category": "nouns_and_pronouns",
+      "name": "Ergative Pronoun Case Alternations",
+      "description": "First and second person personal pronouns in Gojri display distinct ergative/agentive forms in perfective transitive constructions: mẽ (1st sg. by me), tẽ (2nd sg. by you), asā̃ (1st pl. by us), tusā̃ (2nd pl. by you). The overt postposition ne is primarily employed with 3rd person demonstratives/nouns (us ne, chhore ne).",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (pp. 62-65)",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "میں روٹی کھادی",
+          "roman": "mẽ roṭī khādī",
+          "translation_en": "I ate bread (ergative 1st person mẽ)."
+        },
+        {
+          "gojri": "تیں خط لکھو",
+          "roman": "tẽ khat likho",
+          "translation_en": "You wrote a letter (ergative 2nd person tẽ)."
+        },
+        {
+          "gojri": "اس نے گھوڑو دیکھو",
+          "roman": "us ne ghoṛo dekho",
+          "translation_en": "He saw the horse (3rd person pronoun with ne)."
+        }
+      ]
+    },
+    {
+      "id": "RULE_COMP_01",
+      "category": "sentence_structure",
+      "name": "Comparative and Superlative Formations with Ablative Markers",
+      "description": "Comparison of adjectives is achieved syntactically rather than through inflectional suffixes. The standard of comparison is marked with the ablative postposition thā̃ (or kolū̃ / nalū̃), followed by the base adjective. Superlative meaning is formed using saglā̃ thā̃ (than all) or sab thā̃.",
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (pp. 48-50)",
+      "verification_status": "verified",
+      "examples": [
+        {
+          "gojri": "ایہہ گھوڑو اس تھوں چنگو ہے",
+          "roman": "eh ghoṛo us thā̃ chaṅgo hai",
+          "translation_en": "This horse is better than that one (Comparative with thā̃)."
+        },
+        {
+          "gojri": "او سگلاں تھوں وڈو ہے",
+          "roman": "oh saglā̃ thā̃ vaḍḍo hai",
+          "translation_en": "He is the biggest/eldest of all (Superlative with saglā̃ thā̃)."
+        }
+      ]
     }
   ]
 }

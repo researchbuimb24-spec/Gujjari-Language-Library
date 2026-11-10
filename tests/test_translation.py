@@ -47,3 +47,20 @@ def test_not_found_does_not_hallucinate() -> None:
     assert res.confidence == 0.0
     assert "No verified translation available" in res.text
 
+
+def test_travel_phrase_translation() -> None:
+    res = translate("Where are you going?", source="english", target="gojri")
+    assert res.status == "exact_match"
+    assert "تسی کتھے جاؤ چھو" in res.text
+
+    back = translate("تسی کتھے جاؤ چھو؟", source="gojri", target="english")
+    assert back.status == "exact_match"
+    assert "Where are you going" in back.text
+
+
+def test_hospitality_phrase_translation() -> None:
+    res = translate("چاہ پی کے جاؤ", source="gojri", target="english")
+    assert res.status == "exact_match"
+    assert "tea" in res.text.lower()
+
+

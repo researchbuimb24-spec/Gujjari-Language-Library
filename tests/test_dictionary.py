@@ -92,3 +92,25 @@ def test_get_word_variants() -> None:
     assert len(variants["alternative_spellings"]) >= 1
 
 
+def test_new_lexical_items_lookup() -> None:
+    chah = lookup("چاہ")
+    assert chah is not None
+    assert chah.meaning_en == "tea"
+    assert chah.pos == "noun"
+    assert chah.gender == "feminine"
+
+    roti = lookup("रोटी")
+    assert roti is not None
+    assert "bread" in roti.meaning_en
+
+    rukkh = lookup("rukkh")
+    assert rukkh is not None
+    assert rukkh.meaning_en == "tree"
+
+    sohno = lookup("سوہݨو")
+    assert sohno is not None
+    assert "beautiful" in sohno.meaning_en
+    assert sohno.pos == "adjective"
+
+
+

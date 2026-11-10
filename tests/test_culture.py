@@ -46,4 +46,26 @@ def test_categories_list() -> None:
     cats = list_cultural_categories()
     assert "proverbs" in cats
     assert "pastoral_terms" in cats
+    assert "folklore" in cats
+
+
+def test_folklore_traditions() -> None:
+    items = search_culture("Chhaint", category="folklore")
+    assert len(items) >= 1
+    assert any("چھینٹ" in i.text for i in items)
+    assert items[0].verification_status == "verified"
+
+
+def test_search_culture_pastoral_bahak() -> None:
+    items = search_culture("bahak", category="pastoral_terms")
+    assert len(items) >= 1
+    assert any("بہک" in i.text for i in items)
+
+
+def test_proverb_expansion_sour_grapes() -> None:
+    item = get_cultural_item("CULT_PROV_05")
+    assert item is not None
+    assert "ہتھ نہ پجّے" in item.text
+    assert "sour" in item.translation_en.lower()
+
 

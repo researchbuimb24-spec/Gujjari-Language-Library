@@ -17,6 +17,7 @@
       "hindi": "आपका नाम क्या है?",
       "urdu": "آپ کا نام کیا ہے؟",
       "category": "greetings",
+      "source": "SHARMA_1982; RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -28,6 +29,7 @@
       "hindi": "आप कैसे हैं?",
       "urdu": "آپ کیسے ہیں؟",
       "category": "greetings",
+      "source": "SHARMA_1982; RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -39,6 +41,7 @@
       "hindi": "मैं ठीक हूँ।",
       "urdu": "میں ٹھیک ہوں۔",
       "category": "greetings",
+      "source": "SHARMA_1982; RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -50,6 +53,7 @@
       "hindi": "नमस्ते / सलाम",
       "urdu": "السلام علیکم",
       "category": "greetings",
+      "source": "RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -61,6 +65,7 @@
       "hindi": "धन्यवाद / आपकी मेहरबानी",
       "urdu": "شکریہ / آپ کی مہربانی",
       "category": "politeness",
+      "source": "SHARMA_1982; RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -72,6 +77,7 @@
       "hindi": "अलविदा",
       "urdu": "خدا حافظ / اللہ حافظ",
       "category": "farewell",
+      "source": "RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -83,6 +89,7 @@
       "hindi": "मुझे पानी पीना है।",
       "urdu": "مجھے پانی پینا ہے۔",
       "category": "daily_needs",
+      "source": "SHARMA_1982 (p. 88)",
       "verification_status": "verified"
     },
     {
@@ -94,6 +101,7 @@
       "hindi": "घोड़ा तेज दौड़ता है।",
       "urdu": "گھوڑا تیز دوڑتا ہے۔",
       "category": "sample_sentence",
+      "source": "SHARMA_1982 (p. 94)",
       "verification_status": "verified"
     },
     {
@@ -105,6 +113,7 @@
       "hindi": "आज मौसम अच्छा है।",
       "urdu": "آج موسم اچھا ہے۔",
       "category": "weather",
+      "source": "RAHI_JKAACL",
       "verification_status": "verified"
     },
     {
@@ -116,8 +125,188 @@
       "hindi": "हमारा डेरा नदी के किनारे है।",
       "urdu": "ہمارا ڈیرا ندی کنارے ہے۔",
       "category": "pastoral_life",
+      "source": "RAHI_FOLKLORE_DICT",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_011",
+      "gojri": "تسی کتھے جاؤ چھو؟",
+      "gojri_roman": "tusī̃ kitthe jāv chho?",
+      "gojri_devanagari": "तसी कितथे जाओ छो?",
+      "english": "Where are you going?",
+      "hindi": "आप कहाँ जा रहे हैं?",
+      "urdu": "آپ کہاں جا رہے ہیں؟",
+      "category": "travel",
+      "source": "SHARMA_1982 (p. 82); RAHI_JKAACL",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_012",
+      "gojri": "مھارا گھر پہاڑ کنڈے ہے",
+      "gojri_roman": "mhāro ghar pahāṛ kaṇḍe hai",
+      "gojri_devanagari": "म्हारा घर पहाड़ कंडे है",
+      "english": "My house is near the mountain.",
+      "hindi": "मेरा घर पहाड़ के किनारे है।",
+      "urdu": "میرا گھر پہاڑ کے کنارے ہے۔",
+      "category": "location",
+      "source": "SHARMA_1982 (p. 89)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_013",
+      "gojri": "چاہ پی کے جاؤ",
+      "gojri_roman": "chāh pī ke jāv",
+      "gojri_devanagari": "चाह पी के जाओ",
+      "english": "Drink tea before you leave.",
+      "hindi": "चाय पीकर जाइए।",
+      "urdu": "چائے پی کر جائیے۔",
+      "category": "hospitality",
+      "source": "RAHI_JKAACL",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_014",
+      "gojri": "مال ڈنگر چراوݨ رو ویلو ہو گیو",
+      "gojri_roman": "māl ḍaṅgar charāvaṇ ro velo ho gyo",
+      "gojri_devanagari": "माल डंगर चरावण रो वेलो हो ग्यो",
+      "english": "It is time to graze the cattle.",
+      "hindi": "मवेशी चराने का समय हो गया है।",
+      "urdu": "مویشی چرانے کا وقت ہو گیا ہے۔",
+      "category": "pastoral_life",
+      "source": "RAHI_FOLKLORE_DICT",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_015",
+      "gojri": "ایہہ رستہ کتھ وال جاوے ہے؟",
+      "gojri_roman": "eh rasto kith vāl jāve hai?",
+      "gojri_devanagari": "एह रस्तो किथ वाल जावे है?",
+      "english": "Which way does this road lead?",
+      "hindi": "यह रास्ता किस तरफ जाता है?",
+      "urdu": "یہ راستہ کس طرف جاتا ہے؟",
+      "category": "travel",
+      "source": "SHARMA_1982 (p. 91)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_016",
+      "gojri": "تسی کدو واپس آؤ گا؟",
+      "gojri_roman": "tusī̃ kadõ vāpas āv go?",
+      "gojri_devanagari": "तसी कदों वापस आओ गा?",
+      "english": "When will you come back?",
+      "hindi": "आप कब वापस आएँगे?",
+      "urdu": "آپ کب واپس آئیں گے؟",
+      "category": "travel",
+      "source": "SHARMA_1982 (p. 93)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_017",
+      "gojri": "منے تواڈو گھر بہوں چنگو لگیو",
+      "gojri_roman": "manne tvāḍo ghar bahū̃ chaṅgo lagyo",
+      "gojri_devanagari": "मने त्वाडो घर बहूँ चंगो लग्यो",
+      "english": "I liked your house very much.",
+      "hindi": "मुझे आपका घर बहुत अच्छा लगा।",
+      "urdu": "مجھے آپ کا گھر بہت اچھا لگا۔",
+      "category": "compliments",
+      "source": "RAHI_JKAACL",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_018",
+      "gojri": "اج دھوپ نکھری ہے",
+      "gojri_roman": "ajj dhūp nikhrī hai",
+      "gojri_devanagari": "अज्ज धूप निखरी है",
+      "english": "The sun is shining brightly today.",
+      "hindi": "आज धूप खिली हुई है।",
+      "urdu": "آج دھوپ نکلی ہوئی ہے۔",
+      "category": "weather",
+      "source": "RAHI_JKAACL",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_019",
+      "gojri": "پہاڑاں پر برف پے رہی ہے",
+      "gojri_roman": "pahāṛā̃ par barf pai rahī hai",
+      "gojri_devanagari": "पहाड़ाँ पर बर्फ पै रही है",
+      "english": "Snow is falling on the mountains.",
+      "hindi": "पहाड़ों पर बर्फ गिर रही है।",
+      "urdu": "پہاڑوں پر برف پڑ رہی ہے۔",
+      "category": "weather",
+      "source": "RAHI_JKAACL; SHARMA_1982",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_020",
+      "gojri": "تسی کِتھے رہو چھو؟",
+      "gojri_roman": "tusī̃ kitthe raho chho?",
+      "gojri_devanagari": "तसी कितथे रहो छो?",
+      "english": "Where do you live?",
+      "hindi": "आप कहाँ रहते हैं?",
+      "urdu": "آپ کہاں رہتے ہیں؟",
+      "category": "conversation",
+      "source": "SHARMA_1982 (p. 84)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_021",
+      "gojri": "ہوں راجوری رو رہݨ آلو چھواں",
+      "gojri_roman": "hū̃ Rājaurī ro rahṇ ālo chhvā̃",
+      "gojri_devanagari": "हूँ राजोरी रो रहण आलो छवाँ",
+      "english": "I am an inhabitant of Rajouri.",
+      "hindi": "मैं राजौरी का रहने वाला हूँ।",
+      "urdu": "میں راجوری کا رہنے والا ہوں۔",
+      "category": "conversation",
+      "source": "SHARMA_1982 (p. 85)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_022",
+      "gojri": "ایہہ گھوڑو مھارے بھائی رو ہے",
+      "gojri_roman": "eh ghoṛo mhāre bhāī ro hai",
+      "gojri_devanagari": "एह घोड़ो म्हारे भाई रो है",
+      "english": "This horse belongs to my brother.",
+      "hindi": "यह घोड़ा मेरे भाई का है।",
+      "urdu": "یہ گھوڑا میرے بھائی کا ہے۔",
+      "category": "possession",
+      "source": "SHARMA_1982 (p. 66)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_023",
+      "gojri": "روٹی کھا کے آرام کرو",
+      "gojri_roman": "roṭī khā ke ārām karo",
+      "gojri_devanagari": "रोटी खा के आराम करो",
+      "english": "Eat your meal and rest.",
+      "hindi": "खाना खाकर आराम कीजिए।",
+      "urdu": "کھانا کھا کر آرام کرو۔",
+      "category": "hospitality",
+      "source": "RAHI_JKAACL",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_024",
+      "gojri": "کوئی گل نئیں",
+      "gojri_roman": "koī gal nahī̃",
+      "gojri_devanagari": "कोई गल नईं",
+      "english": "No problem / It does not matter.",
+      "hindi": "कोई बात नहीं।",
+      "urdu": "کوئی بات نہیں۔",
+      "category": "politeness",
+      "source": "RAHI_JKAACL",
+      "verification_status": "verified"
+    },
+    {
+      "id": "PHRASE_025",
+      "gojri": "کافلہ سویرے ٹرے گو",
+      "gojri_roman": "qāfilo sawere ṭare go",
+      "gojri_devanagari": "क़ाफ़िला सवेरे टरै गो",
+      "english": "The caravan will march in the morning.",
+      "hindi": "काफ़िला सुबह रवाना होगा।",
+      "urdu": "قافلہ صبح روانہ ہوگا۔",
+      "category": "pastoral_life",
+      "source": "RAHI_FOLKLORE_DICT",
       "verification_status": "verified"
     }
   ]
 }
-

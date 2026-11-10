@@ -10,7 +10,7 @@ import csv
 import json
 import sqlite3
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
 
 from gojrilang.datasets import load_dictionary_entries
 from gojrilang.dictionary import DictionaryEntry, ExampleSentence
@@ -103,11 +103,11 @@ class GojriLexiconDB:
         """Insert or replace a single lexical entry."""
         self.bulk_insert([entry])
 
-    def bulk_insert(self, entries: List[Union[DictionaryEntry, Dict[str, Any]]]) -> int:
+    def bulk_insert(self, entries: Sequence[Union[DictionaryEntry, Dict[str, Any]]]) -> int:
         """Bulk insert thousands of entries efficiently in a single transaction.
 
         Args:
-            entries: List of DictionaryEntry objects or entry dictionaries.
+            entries: Sequence of DictionaryEntry objects or entry dictionaries.
 
         Returns:
             Number of entries successfully inserted or updated.
@@ -178,6 +178,10 @@ class GojriLexiconDB:
                 """, rows)
 
                 try:
+                    cursor.executemany(
+                        "DELETE FROM entries_fts WHERE entry_id = ?",
+                        [(r[0],) for r in fts_rows],
+                    )
                     cursor.executemany("""
                         INSERT INTO entries_fts(entry_id, word, word_roman, meaning_en, meaning_hi, meaning_ur)
                         VALUES (?, ?, ?, ?, ?, ?)
