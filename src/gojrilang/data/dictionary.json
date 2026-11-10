@@ -4962,6 +4962,4511 @@
       },
       "license": "CC-BY-4.0",
       "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_111",
+      "word": "کالو",
+      "word_devanagari": "कालो",
+      "word_roman": "kālo",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "black, dark-colored",
+      "meaning_hi": "काला, श्याम",
+      "meaning_ur": "کالا، سیاہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کالو گھوڑو تیز دوڑے ہے",
+        "text_devanagari": "कालो घोड़ो तेज़ दौड़े है",
+        "text_roman": "kālo ghoṛo tez dauṛe hai",
+        "translation_en": "The black horse runs fast.",
+        "translation_hi": "काला घोड़ा तेज दौड़ता है।",
+        "translation_ur": "کالا گھوڑا تیز دوڑتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Color adjective inflecting in -o / -i / -e.",
+      "alternative_spellings": [
+        "کالا"
+      ],
+      "definitions": [
+        "Of the darkest color, reflecting no light."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سیاہ"
+      ],
+      "antonyms": [
+        "دھورو",
+        "چٹا"
+      ],
+      "related_terms": [
+        "رنگ"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/kaː.loː/",
+        "phonetic": "kaa-lo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_112",
+      "word": "دھورو",
+      "word_devanagari": "धौरो",
+      "word_roman": "dhauro",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "white, fair",
+      "meaning_hi": "सफेद, श्वेत, धौला",
+      "meaning_ur": "سفید، چٹا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "دھورو بچھیرو بہک ماں ہے",
+        "text_devanagari": "धौरो बछेरो बहक माँ है",
+        "text_roman": "dhauro bachhero bahak mā̃ hai",
+        "translation_en": "The white foal is in the alpine meadow.",
+        "translation_hi": "सफेद बछेड़ा चारागाह में है।",
+        "translation_ur": "سفید بچھیرہ چراگاہ میں ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Traditional Gojri term for white; chhiṭṭo also used in eastern valleys.",
+      "alternative_spellings": [
+        "چٹا",
+        "دھورا"
+      ],
+      "definitions": [
+        "Having the color of fresh snow or milk."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "چٹا",
+        "سفید"
+      ],
+      "antonyms": [
+        "کالو"
+      ],
+      "related_terms": [
+        "برف",
+        "دودھ"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/d̪ʱɔː.roː/",
+        "phonetic": "dhow-ro",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_113",
+      "word": "رتو",
+      "word_devanagari": "रातो",
+      "word_roman": "ratto",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "red, crimson",
+      "meaning_hi": "लाल, रक्तवर्ण",
+      "meaning_ur": "سرخ، لال",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "رتو پھل باغ ماں کھل رہیو ہے",
+        "text_devanagari": "रातो फुल बाग़ माँ खिल रह्यो है",
+        "text_roman": "ratto phul bāgh mā̃ khil rahyo hai",
+        "translation_en": "The red flower is blooming in the garden.",
+        "translation_hi": "लाल फूल बाग में खिल रहा है।",
+        "translation_ur": "سرخ پھول باغ میں کھل رہا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Color adjective related to Sanskrit rakta.",
+      "alternative_spellings": [
+        "لال",
+        "رتا"
+      ],
+      "definitions": [
+        "Having the color of blood or ripe rubies."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "لال",
+        "سرخ"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "لہو",
+        "پھل"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/rət̪.t̪oː/",
+        "phonetic": "rat-to",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_114",
+      "word": "نیلو",
+      "word_devanagari": "नीलो",
+      "word_roman": "nīlo",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "blue, azure",
+      "meaning_hi": "नीला",
+      "meaning_ur": "نیلا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اسمان نیلو ہے",
+        "text_devanagari": "असमान नीलो है",
+        "text_roman": "asmān nīlo hai",
+        "translation_en": "The sky is blue.",
+        "translation_hi": "आसमान नीला है।",
+        "translation_ur": "آسمان نیلا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Color of sky and deep alpine lakes.",
+      "alternative_spellings": [
+        "نیلا"
+      ],
+      "definitions": [
+        "Having the color of a clear cloudless daylight sky."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "اسمان",
+        "جھیل"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/niː.loː/",
+        "phonetic": "nee-lo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_115",
+      "word": "پیلو",
+      "word_devanagari": "पीलो",
+      "word_roman": "pīlo",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "yellow, golden-yellow",
+      "meaning_hi": "पीला",
+      "meaning_ur": "پیلا، زرد",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پیلو پھل سوہݨو لگے ہے",
+        "text_devanagari": "पीलो फुल सोहणो लगे है",
+        "text_roman": "pīlo phul sohṇo lage hai",
+        "translation_en": "The yellow flower looks beautiful.",
+        "translation_hi": "पीला फूल सुंदर लगता है।",
+        "translation_ur": "پیلا پھول خوبصورت لگتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 116); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Color adjective.",
+      "alternative_spellings": [
+        "پیلا",
+        "زرد"
+      ],
+      "definitions": [
+        "Having the color of ripe lemons or mustard blossoms."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "زرد"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "پھل",
+        "سوہݨو"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/piː.loː/",
+        "phonetic": "pee-lo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_116",
+      "word": "ہریو",
+      "word_devanagari": "हरियो",
+      "word_roman": "hariyo",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "green, verdant",
+      "meaning_hi": "हरा, हरित",
+      "meaning_ur": "سبز، ہرا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "بہک ماں ہریو گھاہ ہے",
+        "text_devanagari": "बहक माँ हरियो घाह है",
+        "text_roman": "bahak mā̃ hariyo ghāh hai",
+        "translation_en": "There is green grass in the meadow.",
+        "translation_hi": "चारागाह में हरी घास है।",
+        "translation_ur": "چراگاہ میں ہری گھاس ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 116); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Color of growing vegetation; sāvyo is an attested dialect variant.",
+      "alternative_spellings": [
+        "ہرا",
+        "ساویو"
+      ],
+      "definitions": [
+        "Having the color of growing grass or fresh leaves."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ساویو",
+        "سبز"
+      ],
+      "antonyms": [
+        "سوکھو"
+      ],
+      "related_terms": [
+        "گھاہ",
+        "بہک"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/hə.riː.joː/",
+        "phonetic": "ha-ree-yo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_117",
+      "word": "جیبھ",
+      "word_devanagari": "जीभ",
+      "word_roman": "jībh",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "tongue",
+      "meaning_hi": "जीभ, रसना",
+      "meaning_ur": "زبان، جیبھ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "جیبھ نال سواد آوے ہے",
+        "text_devanagari": "जीभ नाल स्वाद आवे है",
+        "text_roman": "jībh nāl svād āve hai",
+        "translation_en": "Taste comes from the tongue.",
+        "translation_hi": "जीभ से स्वाद आता है।",
+        "translation_ur": "زبان سے ذائقہ آتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 131); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Anatomical organ of taste and speech.",
+      "alternative_spellings": [
+        "زبان"
+      ],
+      "definitions": [
+        "Fleshy muscular organ in the mouth used for tasting, licking, and articulating speech."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "زبان"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "مُنہہ",
+        "دند"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_aspirated"
+      },
+      "pronunciation": {
+        "ipa": "/d͡ʒiːbʱ/",
+        "phonetic": "jeebh",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_118",
+      "word": "پِٹھ",
+      "word_devanagari": "पिठ",
+      "word_roman": "piṭṭh",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "back, spine, dorsal side",
+      "meaning_hi": "पीठ, पृष्ठ",
+      "meaning_ur": "پیٹھ، پشت",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "گھوڑے دی پٹھ پر زین رکھو",
+        "text_devanagari": "घोड़े दी पिठ पर ज़ैन रखो",
+        "text_roman": "ghoṛe dī piṭṭh par zain rakho",
+        "translation_en": "Place the saddle on the horse back.",
+        "translation_hi": "घोड़े की पीठ पर काठी रखो।",
+        "translation_ur": "گھوڑے کی پیٹھ پر زین رکھو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 132); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Anatomy: dorsal aspect.",
+      "alternative_spellings": [
+        "پیٹھ"
+      ],
+      "definitions": [
+        "The rear surface of the human body from shoulders to hips; dorsal surface of animal."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "پشت"
+      ],
+      "antonyms": [
+        "چھاتی"
+      ],
+      "related_terms": [
+        "گھوڑو",
+        "بھار"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_aspirated"
+      },
+      "pronunciation": {
+        "ipa": "/pɪʈʰː/",
+        "phonetic": "pitth",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_119",
+      "word": "چھاتی",
+      "word_devanagari": "छाती",
+      "word_roman": "chhāttī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "chest, breast, bosom",
+      "meaning_hi": "छाती, वक्ष",
+      "meaning_ur": "چھاتی، سینہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اس دی چھاتی ماں پیڑ ہے",
+        "text_devanagari": "उस दी छाती माँ पीड़ है",
+        "text_roman": "us dī chhāttī mā̃ pīṛ hai",
+        "translation_en": "There is pain in his/her chest.",
+        "translation_hi": "उसकी छाती में दर्द है।",
+        "translation_ur": "اس کے سینے میں درد ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 132); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Anatomy: thorax front.",
+      "alternative_spellings": [
+        "سینہ"
+      ],
+      "definitions": [
+        "Anterior surface of the thorax between neck and abdomen."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سینہ"
+      ],
+      "antonyms": [
+        "پِٹھ"
+      ],
+      "related_terms": [
+        "دل"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃʰaːt̪.t̪iː/",
+        "phonetic": "chhat-ti",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_120",
+      "word": "پیٹ",
+      "word_devanagari": "पेट",
+      "word_roman": "pēṭ",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "belly, stomach, abdomen",
+      "meaning_hi": "पेट, उदर",
+      "meaning_ur": "پیٹ، شکم",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "روٹی کھا کے پیٹ بھر گیو",
+        "text_devanagari": "रोटी खा के पेट भर ग्यो",
+        "text_roman": "roṭī khā ke pēṭ bhar gyo",
+        "translation_en": "Having eaten bread, the stomach was filled.",
+        "translation_hi": "रोटी खाकर पेट भर गया।",
+        "translation_ur": "روٹی کھا کر پیٹ بھر گیا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 133); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Abdomen and digestive stomach.",
+      "alternative_spellings": [],
+      "definitions": [
+        "Internal organ in which the first major part of digestion occurs; belly."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "شکم"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "روٹی",
+        "بھکھ"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/peːʈ/",
+        "phonetic": "pet",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_121",
+      "word": "گوڈو",
+      "word_devanagari": "गोडो",
+      "word_roman": "gōḍo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "knee",
+      "meaning_hi": "घुटना",
+      "meaning_ur": "گھٹنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پہاڑ چڑہتیاں گوڈو دکھے ہے",
+        "text_devanagari": "पहाड़ चढ़तियाँ गोडो दुखे है",
+        "text_roman": "pahāṛ chaṛhtiyā̃ gōḍo dukhe hai",
+        "translation_en": "While climbing the mountain, the knee aches.",
+        "translation_hi": "पहाड़ चढ़ते समय घुटना दुखता है।",
+        "translation_ur": "پہاڑ چڑھتے وقت گھٹنا دکھتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 133); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Classic masculine -o noun. Plural: gōḍe.",
+      "alternative_spellings": [
+        "گوڈا"
+      ],
+      "definitions": [
+        "The joint between thigh and lower leg in humans and quadruped hind legs."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "گھٹنا"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "پیر",
+        "لت"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/ɡoː.ɖoː/",
+        "phonetic": "go-do",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_122",
+      "word": "اونگلی",
+      "word_devanagari": "उँगली",
+      "word_roman": "ūṅgḷī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "finger, toe, digit",
+      "meaning_hi": "अँगुली, उँगली",
+      "meaning_ur": "انگلی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ہتھ دی اونگلی ماں انگوٹھی ہے",
+        "text_devanagari": "हथ दी उँगली माँ अँगूठी है",
+        "text_roman": "hatth dī ūṅgḷī mā̃ aṅgūṭhī hai",
+        "translation_en": "There is a ring on the finger of the hand.",
+        "translation_hi": "हाथ की उँगली में अँगूठी है।",
+        "translation_ur": "ہاتھ کی انگلی میں انگوٹھی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 133); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Features retroflex lateral flap ݪ in spoken Poonchi.",
+      "alternative_spellings": [
+        "انگلی"
+      ],
+      "definitions": [
+        "Any of the five terminal digits of human hand or foot."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "ہتھ",
+        "پیر"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/uːŋ.ɡɭiː/",
+        "phonetic": "oong-li",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_123",
+      "word": "ہڈی",
+      "word_devanagari": "हड्डी",
+      "word_roman": "haḍḍī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "bone",
+      "meaning_hi": "हड्डी, अस्थि",
+      "meaning_ur": "ہڈی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "دودھ پیݨ نال ہڈیاں مضبوط ہونیاں ہیں",
+        "text_devanagari": "दूध पीण नाल हड्डियाँ मज़बूत होनियाँ हैं",
+        "text_roman": "dūdh pīṇ nāl haḍḍiyā̃ mazbūt honiyā̃ haiñ",
+        "translation_en": "By drinking milk, bones become strong.",
+        "translation_hi": "दूध पीने से हड्डियाँ मजबूत होती हैं।",
+        "translation_ur": "دودھ پینے سے ہڈیاں مضبوط ہوتی ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 134); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Skeletal tissue.",
+      "alternative_spellings": [
+        "ہڈ"
+      ],
+      "definitions": [
+        "Rigid organ that constitutes part of the skeleton in most vertebrate animals."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "استھی"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "دودھ",
+        "گوشت"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/ɦəɖ.ɖiː/",
+        "phonetic": "had-di",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_124",
+      "word": "لہو",
+      "word_devanagari": "लहू",
+      "word_roman": "lahū",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "blood",
+      "meaning_hi": "खून, रक्त, लहू",
+      "meaning_ur": "خون، لہو",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ست لگی تے لہو نکل آیو",
+        "text_devanagari": "सट्ट लगी ते लहू निकल आयो",
+        "text_roman": "saṭṭ lagī te lahū nikal āyo",
+        "translation_en": "An injury occurred and blood flowed out.",
+        "translation_hi": "चोट लगी और खून निकल आया।",
+        "translation_ur": "چوٹ لگی اور خون نکل آیا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 134); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Vital bodily circulatory fluid.",
+      "alternative_spellings": [
+        "خون"
+      ],
+      "definitions": [
+        "Red liquid that circulates in arteries and veins carrying oxygen."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "خون",
+        "رت"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "رتو",
+        "دل"
+      ],
+      "grammatical_info": {
+        "noun_class": "masculine_u"
+      },
+      "pronunciation": {
+        "ipa": "/lə.ɦuː/",
+        "phonetic": "la-hoo",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_125",
+      "word": "دادو",
+      "word_devanagari": "दादो",
+      "word_roman": "dādo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "paternal grandfather",
+      "meaning_hi": "दादा",
+      "meaning_ur": "دادا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ساہڈو دادو کہانیاں سناندا ہے",
+        "text_devanagari": "साहडो दादो कहानियाँ सुणांदा है",
+        "text_roman": "sāhḍo dādo kahāniyā̃ suṇāndo hai",
+        "translation_en": "Our grandfather narrates stories.",
+        "translation_hi": "हमारे दादा कहानियाँ सुनाते हैं।",
+        "translation_ur": "ہمارے دادا کہانیاں سناتے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 111); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Paternal lineage elder.",
+      "alternative_spellings": [
+        "دادا"
+      ],
+      "definitions": [
+        "Father of one's father."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "دادی"
+      ],
+      "related_terms": [
+        "دادی",
+        "باوو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/d̪aː.d̪oː/",
+        "phonetic": "daa-do",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_126",
+      "word": "دادی",
+      "word_devanagari": "दादी",
+      "word_roman": "dādī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "paternal grandmother",
+      "meaning_hi": "दादी",
+      "meaning_ur": "دادی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "دادی منے پیار کرے ہے",
+        "text_devanagari": "दादी मने प्यार करे है",
+        "text_roman": "dādī manne pyār kare hai",
+        "translation_en": "Grandmother loves me.",
+        "translation_hi": "दादी मुझे प्यार करती हैं।",
+        "translation_ur": "دادی مجھ سے پیار کرتی ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 111); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Paternal lineage matriarch.",
+      "alternative_spellings": [],
+      "definitions": [
+        "Mother of one's father."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "دادو"
+      ],
+      "related_terms": [
+        "دادو",
+        "مای"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/d̪aː.d̪iː/",
+        "phonetic": "daa-di",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_127",
+      "word": "نانو",
+      "word_devanagari": "नानो",
+      "word_roman": "nāno",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "maternal grandfather",
+      "meaning_hi": "नाना",
+      "meaning_ur": "نانا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اسی نانو دے پنڈ گیاں",
+        "text_devanagari": "असी नानो दे पिंड गियाँ",
+        "text_roman": "asī̃ nāno de piṇḍ giyā̃",
+        "translation_en": "We went to grandfather village.",
+        "translation_hi": "हम नाना के गाँव गए।",
+        "translation_ur": "ہم نانا کے گاؤں گئے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 111); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Maternal lineage patriarch.",
+      "alternative_spellings": [
+        "نانا"
+      ],
+      "definitions": [
+        "Father of one's mother."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "نانی"
+      ],
+      "related_terms": [
+        "نانی",
+        "مای"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/naː.noː/",
+        "phonetic": "naa-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_128",
+      "word": "نانی",
+      "word_devanagari": "नानी",
+      "word_roman": "nānī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "maternal grandmother",
+      "meaning_hi": "नानी",
+      "meaning_ur": "نانی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "نانی رو گھر ندی پار ہے",
+        "text_devanagari": "नानी रो घर नदी पार है",
+        "text_roman": "nānī ro ghar nadī pār hai",
+        "translation_en": "Grandmother house is across the stream.",
+        "translation_hi": "नानी का घर नदी के पार है।",
+        "translation_ur": "نانی کا گھر ندی کے پار ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 111); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Maternal lineage matriarch.",
+      "alternative_spellings": [],
+      "definitions": [
+        "Mother of one's mother."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "نانو"
+      ],
+      "related_terms": [
+        "نانو",
+        "مای"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/naː.niː/",
+        "phonetic": "naa-ni",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_129",
+      "word": "چاچو",
+      "word_devanagari": "चाचो",
+      "word_roman": "chācho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "paternal uncle, father's younger brother",
+      "meaning_hi": "चाचा, काका",
+      "meaning_ur": "چچا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چاچو مال چراوݨ گیو ہے",
+        "text_devanagari": "चाचो माल चरावण ग्यो है",
+        "text_roman": "chācho māl charāvaṇ gyo hai",
+        "translation_en": "Uncle has gone to graze the livestock.",
+        "translation_hi": "चाचा मवेशी चराने गए हैं।",
+        "translation_ur": "چچا مویشی چرانے گئے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 112); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Kinship term for father's brother.",
+      "alternative_spellings": [
+        "چاچا",
+        "کاکو"
+      ],
+      "definitions": [
+        "Brother of one's father, particularly younger brother."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کاکو"
+      ],
+      "antonyms": [
+        "چاچی"
+      ],
+      "related_terms": [
+        "چاچی",
+        "باوو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃaː.t͡ʃoː/",
+        "phonetic": "chaa-cho",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_130",
+      "word": "چاچی",
+      "word_devanagari": "चाची",
+      "word_roman": "chāchī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "paternal aunt, wife of father's brother",
+      "meaning_hi": "चाची, काकी",
+      "meaning_ur": "چچی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چاچی چاہ بنا رہی ہے",
+        "text_devanagari": "चाची चाह बना रही है",
+        "text_roman": "chāchī chāh banā rahī hai",
+        "translation_en": "Aunt is making tea.",
+        "translation_hi": "चाची चाय बना रही हैं।",
+        "translation_ur": "چچی چائے بنا رہی ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 112); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Kinship term for wife of father's brother.",
+      "alternative_spellings": [
+        "کاکی"
+      ],
+      "definitions": [
+        "Wife of one's paternal uncle."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کاکی"
+      ],
+      "antonyms": [
+        "چاچو"
+      ],
+      "related_terms": [
+        "چاچو",
+        "چاہ"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃaː.t͡ʃiː/",
+        "phonetic": "chaa-chi",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_131",
+      "word": "مامو",
+      "word_devanagari": "मामो",
+      "word_roman": "māmo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "maternal uncle, mother's brother",
+      "meaning_hi": "मामा",
+      "meaning_ur": "ماموں",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "مامو کل ساہڈے گھر آیو",
+        "text_devanagari": "मामो कल साहडे घर आयो",
+        "text_roman": "māmo kal sāhḍe ghar āyo",
+        "translation_en": "Maternal uncle came to our house yesterday.",
+        "translation_hi": "मामा कल हमारे घर आए।",
+        "translation_ur": "ماموں کل ہمارے گھر آئے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 112); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Brother of one's mother.",
+      "alternative_spellings": [
+        "ماما",
+        "ماموں"
+      ],
+      "definitions": [
+        "Brother of one's mother."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "مامی"
+      ],
+      "related_terms": [
+        "مامی",
+        "مای"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/maː.moː/",
+        "phonetic": "maa-mo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_132",
+      "word": "مامی",
+      "word_devanagari": "मामी",
+      "word_roman": "māmī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "maternal aunt, wife of mother's brother",
+      "meaning_hi": "मामी",
+      "meaning_ur": "ممانی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "مامی نے مٹھائی بھیجی",
+        "text_devanagari": "मामी ने मिठाई भेजी",
+        "text_roman": "māmī ne miṭhāī bhejī",
+        "translation_en": "Maternal aunt sent sweets.",
+        "translation_hi": "मामी ने मिठाई भेजी।",
+        "translation_ur": "ممانی نے مٹھائی بھیجی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 112); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Wife of mother's brother.",
+      "alternative_spellings": [
+        "ممانی"
+      ],
+      "definitions": [
+        "Wife of one's maternal uncle."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ممانی"
+      ],
+      "antonyms": [
+        "مامو"
+      ],
+      "related_terms": [
+        "مامو"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/maː.miː/",
+        "phonetic": "maa-mi",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_133",
+      "word": "جوائی",
+      "word_devanagari": "जवाई",
+      "word_roman": "jāwāī",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "son-in-law",
+      "meaning_hi": "दामाद, जमाई",
+      "meaning_ur": "داماد، جوائی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "جوائی گھر آیو ہے",
+        "text_devanagari": "जवाई घर आयो है",
+        "text_roman": "jāwāī ghar āyo hai",
+        "translation_en": "The son-in-law has arrived at the house.",
+        "translation_hi": "दामाद घर आए हैं।",
+        "translation_ur": "داماد گھر آئے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 113); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Husband of one's daughter.",
+      "alternative_spellings": [
+        "داماد"
+      ],
+      "definitions": [
+        "The husband of one's daughter."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "داماد"
+      ],
+      "antonyms": [
+        "نونہہ"
+      ],
+      "related_terms": [
+        "چھوری",
+        "سوہرو"
+      ],
+      "grammatical_info": {
+        "noun_class": "masculine_i"
+      },
+      "pronunciation": {
+        "ipa": "/d͡ʒaː.ʋaː.iː/",
+        "phonetic": "jaa-waa-ee",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_134",
+      "word": "نونہہ",
+      "word_devanagari": "नूँह",
+      "word_roman": "nū̃h",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "daughter-in-law",
+      "meaning_hi": "बहू, पुत्रवधू",
+      "meaning_ur": "بہو",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "نونہہ نے روٹی پکائی",
+        "text_devanagari": "नूँह ने रोटी पकाई",
+        "text_roman": "nū̃h ne roṭī pakāī",
+        "translation_en": "The daughter-in-law cooked the bread.",
+        "translation_hi": "बहू ने रोटी पकाई।",
+        "translation_ur": "بہو نے روٹی پکائی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 113); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Wife of one's son.",
+      "alternative_spellings": [
+        "بہو"
+      ],
+      "definitions": [
+        "The wife of one's son."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "بہو"
+      ],
+      "antonyms": [
+        "جوائی"
+      ],
+      "related_terms": [
+        "چھورو",
+        "سس"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_aspirated"
+      },
+      "pronunciation": {
+        "ipa": "/nuː̃ɦ/",
+        "phonetic": "noon-h",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_135",
+      "word": "سوہرو",
+      "word_devanagari": "सोहरो",
+      "word_roman": "sohro",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "father-in-law",
+      "meaning_hi": "ससुर",
+      "meaning_ur": "سسر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "سوہرو ڈیرا ماں بیٹھوں ہے",
+        "text_devanagari": "सोहरो डेरा माँ बैठों है",
+        "text_roman": "sohro ḍero mā̃ baiṭhõ hai",
+        "translation_en": "Father-in-law is sitting in the camp.",
+        "translation_hi": "ससुर डेरे में बैठे हैं।",
+        "translation_ur": "سسر ڈیرے میں بیٹھے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 113); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Father of spouse.",
+      "alternative_spellings": [
+        "سہرا"
+      ],
+      "definitions": [
+        "Father of one's spouse."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سسر"
+      ],
+      "antonyms": [
+        "سس"
+      ],
+      "related_terms": [
+        "سس",
+        "ڈیرا"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/soːɦ.roː/",
+        "phonetic": "soh-ro",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_136",
+      "word": "سَسّ",
+      "word_devanagari": "सस्स",
+      "word_roman": "sass",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "mother-in-law",
+      "meaning_hi": "सास",
+      "meaning_ur": "ساس",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "سس نے نونہہ ناں لسی دتی",
+        "text_devanagari": "सस्स ने नूँह नाँ लस्सी दिती",
+        "text_roman": "sass ne nū̃h nā̃ lassī dittī",
+        "translation_en": "Mother-in-law gave buttermilk to daughter-in-law.",
+        "translation_hi": "सास ने बहू को लस्सी दी।",
+        "translation_ur": "ساس نے بہو کو لسی دی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 113); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Mother of spouse.",
+      "alternative_spellings": [
+        "ساس"
+      ],
+      "definitions": [
+        "Mother of one's spouse."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ساس"
+      ],
+      "antonyms": [
+        "سوہرو"
+      ],
+      "related_terms": [
+        "سوہرو",
+        "نونہہ"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/səsː/",
+        "phonetic": "sass",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_137",
+      "word": "بیلی",
+      "word_devanagari": "बेली",
+      "word_roman": "belī",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "friend, companion, comrade",
+      "meaning_hi": "मित्र, दोस्त, सखा, साथी",
+      "meaning_ur": "دوست، یار، ساتھی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "او مھارو بچپن رو بیلی ہے",
+        "text_devanagari": "उह म्हारो बचपन रो बेली है",
+        "text_roman": "oh mhāro bachpan ro belī hai",
+        "translation_en": "He is my childhood friend.",
+        "translation_hi": "वह मेरा बचपन का दोस्त है।",
+        "translation_ur": "وہ میرا بچپن کا دوست ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 113); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Traditional pastoral companion term; sangi also commonly used.",
+      "alternative_spellings": [
+        "سنگی",
+        "یار"
+      ],
+      "definitions": [
+        "A person with whom one has a bond of mutual affection and camaraderie."
+      ],
+      "contextual_usage": "Commonly invoked in folk couplets (Bait).",
+      "synonyms": [
+        "سنگی",
+        "یار",
+        "دوست"
+      ],
+      "antonyms": [
+        "دشمن"
+      ],
+      "related_terms": [
+        "سنگھی"
+      ],
+      "grammatical_info": {
+        "noun_class": "masculine_i"
+      },
+      "pronunciation": {
+        "ipa": "/beː.liː/",
+        "phonetic": "be-lee",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_138",
+      "word": "چھتو",
+      "word_devanagari": "छत्तो",
+      "word_roman": "chhatto",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "ram, uncastrated adult male sheep",
+      "meaning_hi": "मेंढा",
+      "meaning_ur": "مینڈھا، چھترا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چھتو دھار پر کھڑو ہے",
+        "text_devanagari": "छत्तो धार पर खड़ो है",
+        "text_roman": "chhatto dhār par khaṛo hai",
+        "translation_en": "The ram is standing on the mountain ridge.",
+        "translation_hi": "मेंढा पहाड़ी की धार पर खड़ा है।",
+        "translation_ur": "مینڈھا پہاڑی کی چوٹی پر کھڑا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 114); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Adult male sheep heading the flock.",
+      "alternative_spellings": [
+        "چھترا"
+      ],
+      "definitions": [
+        "An uncastrated adult male sheep."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "مینڈھو"
+      ],
+      "antonyms": [
+        "بھیڈ"
+      ],
+      "related_terms": [
+        "بھیڈ",
+        "لیلو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃʰət̪.t̪oː/",
+        "phonetic": "chhat-to",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_139",
+      "word": "لیلو",
+      "word_devanagari": "लेलो",
+      "word_roman": "lelo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "lamb, young sheep",
+      "meaning_hi": "मेमना",
+      "meaning_ur": "میمنا، لیلا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "لیلو چھاننی ماں کودے ہے",
+        "text_devanagari": "लेलो छाननी माँ कूदे है",
+        "text_roman": "lelo chhannī mā̃ kūde hai",
+        "translation_en": "The lamb jumps in the pen.",
+        "translation_hi": "मेमना बाड़े में कूदता है।",
+        "translation_ur": "میمنا باڑے میں اچھل کود کرتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 114); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young offspring of sheep.",
+      "alternative_spellings": [
+        "لیلا"
+      ],
+      "definitions": [
+        "A young sheep in its first year."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "میمنو"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "بھیڈ",
+        "چھتو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/leː.loː/",
+        "phonetic": "le-lo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_140",
+      "word": "پاٹھو",
+      "word_devanagari": "पाठो",
+      "word_roman": "pāṭṭho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "young male goat, kid",
+      "meaning_hi": "बकरे का बच्चा, पाठा",
+      "meaning_ur": "بکری کا نر بچہ، پاٹھا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پاٹھو گھاہ چر رہیو ہے",
+        "text_devanagari": "पाठो घाह चर रह्यो है",
+        "text_roman": "pāṭṭho ghāh char rahyo hai",
+        "translation_en": "The young male kid is grazing grass.",
+        "translation_hi": "पाठा घास चर रहा है।",
+        "translation_ur": "پاٹھا گھاس چر رہا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 114); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young male goat before maturity.",
+      "alternative_spellings": [
+        "پاٹھا"
+      ],
+      "definitions": [
+        "Young male goat."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "پاٹھی"
+      ],
+      "related_terms": [
+        "بکرو",
+        "پاٹھی"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/paːʈ.ʈʰoː/",
+        "phonetic": "paat-tho",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_141",
+      "word": "پاٹھی",
+      "word_devanagari": "पाठी",
+      "word_roman": "pāṭṭhī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "young female goat, female kid",
+      "meaning_hi": "बकरी का बच्चा, पाठी",
+      "meaning_ur": "بکری کا مادہ بچہ، پاٹھی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پاٹھی ددھ پیوے ہے",
+        "text_devanagari": "पाठी दूध पीवे है",
+        "text_roman": "pāṭṭhī dūdh pīve hai",
+        "translation_en": "The young female kid drinks milk.",
+        "translation_hi": "पाठी दूध पीती है।",
+        "translation_ur": "پاٹھی دودھ پیتی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 114); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young female goat before kidding.",
+      "alternative_spellings": [],
+      "definitions": [
+        "Young female goat."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "پاٹھو"
+      ],
+      "related_terms": [
+        "بکری",
+        "پاٹھو"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/paːʈ.ʈʰiː/",
+        "phonetic": "paat-thi",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_142",
+      "word": "کٹو",
+      "word_devanagari": "कट्टो",
+      "word_roman": "kaṭṭo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "male buffalo calf",
+      "meaning_hi": "भैंस का नर बछड़ा, कटड़ा",
+      "meaning_ur": "بھینس کا بچھڑا، کٹڑا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کٹو ندی ماں نہاوے ہے",
+        "text_devanagari": "कट्टो नदी माँ नहावे है",
+        "text_roman": "kaṭṭo nadī mā̃ nahāve hai",
+        "translation_en": "The buffalo calf bathes in the river.",
+        "translation_hi": "कटड़ा नदी में नहाता है।",
+        "translation_ur": "کٹڑا ندی میں نہاتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young male domestic water buffalo.",
+      "alternative_spellings": [
+        "کٹڑا"
+      ],
+      "definitions": [
+        "Young male calf of water buffalo."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کٹڑا"
+      ],
+      "antonyms": [
+        "کٹی"
+      ],
+      "related_terms": [
+        "مہیِش",
+        "کٹی"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/kəʈ.ʈoː/",
+        "phonetic": "kat-to",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_143",
+      "word": "کٹی",
+      "word_devanagari": "कट्टी",
+      "word_roman": "kaṭṭī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "female buffalo calf, heifer",
+      "meaning_hi": "भैंस की बछड़ी, कटड़ी",
+      "meaning_ur": "بھینس کی بچھڑی، کٹڑی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کٹی وڈی ہو کے مہیش بنے گی",
+        "text_devanagari": "कट्टी वड्डी हो के महीश बनेगी",
+        "text_roman": "kaṭṭī vaḍḍī ho ke mahīsh banegī",
+        "translation_en": "The heifer calf will grow up into a buffalo.",
+        "translation_hi": "कटड़ी बड़ी होकर भैंस बनेगी।",
+        "translation_ur": "کٹڑی بڑی ہو کر بھینس بنے گی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young female water buffalo.",
+      "alternative_spellings": [
+        "کٹڑی"
+      ],
+      "definitions": [
+        "Young female calf of water buffalo."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کٹڑی"
+      ],
+      "antonyms": [
+        "کٹو"
+      ],
+      "related_terms": [
+        "مہیِش",
+        "کٹو"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/kəʈ.ʈiː/",
+        "phonetic": "kat-ti",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_144",
+      "word": "واچھو",
+      "word_devanagari": "वाछो",
+      "word_roman": "vāchho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "male cow calf, bull calf",
+      "meaning_hi": "गाय का बछड़ा",
+      "meaning_ur": "گائے کا بچھڑا، وچھا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "واچھو گاں دے نال کھڑو ہے",
+        "text_devanagari": "वाछो गाँ दे नाल खड़ो है",
+        "text_roman": "vāchho gā̃ de nāl khaṛo hai",
+        "translation_en": "The bull calf is standing near the cow.",
+        "translation_hi": "बछड़ा गाय के पास खड़ा है।",
+        "translation_ur": "بچھڑا گائے کے پاس کھڑا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young male bovine.",
+      "alternative_spellings": [
+        "وچھا"
+      ],
+      "definitions": [
+        "Young male calf of domestic cattle."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "وچھا"
+      ],
+      "antonyms": [
+        "واچھی"
+      ],
+      "related_terms": [
+        "گاں",
+        "بلد",
+        "واچھی"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/ʋaː.t͡ʃʰoː/",
+        "phonetic": "vaa-chho",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_145",
+      "word": "واچھی",
+      "word_devanagari": "वाछी",
+      "word_roman": "vāchhī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "female cow calf, heifer",
+      "meaning_hi": "गाय की बछिया",
+      "meaning_ur": "گائے کی بچھڑی، وچھی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "واچھی گھاہ چرنی سکھ رہی ہے",
+        "text_devanagari": "वाछी घाह चरनी सिख रही है",
+        "text_roman": "vāchhī ghāh charnī sikh rahī hai",
+        "translation_en": "The heifer calf is learning to graze grass.",
+        "translation_hi": "बछिया घास चरना सीख रही है।",
+        "translation_ur": "بچھڑی گھاس چرنا سیکھ رہی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 115); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Young female bovine.",
+      "alternative_spellings": [
+        "وچھی"
+      ],
+      "definitions": [
+        "Young female calf of domestic cattle."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "وچھی"
+      ],
+      "antonyms": [
+        "واچھو"
+      ],
+      "related_terms": [
+        "گاں",
+        "واچھو"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/ʋaː.t͡ʃʰiː/",
+        "phonetic": "vaa-chhi",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_146",
+      "word": "کھوتو",
+      "word_devanagari": "खोतो",
+      "word_roman": "khōto",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "donkey, ass",
+      "meaning_hi": "गधा",
+      "meaning_ur": "گدھا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کھوتو بھار ڈھوئے ہے",
+        "text_devanagari": "खोतो भार ढोवे है",
+        "text_roman": "khōto bhār ḍhove hai",
+        "translation_en": "The donkey carries heavy baggage.",
+        "translation_hi": "गधा बोझ ढोता है।",
+        "translation_ur": "گدھا بوجھ ڈھوتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 116); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Domestic pack animal (Equus asinus).",
+      "alternative_spellings": [
+        "کھوتا",
+        "گدھو"
+      ],
+      "definitions": [
+        "Domesticated pack animal with long ears and braying call."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "گدھو"
+      ],
+      "antonyms": [
+        "کھوتی"
+      ],
+      "related_terms": [
+        "کھوتی",
+        "خچر"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/kʰoː.t̪oː/",
+        "phonetic": "kho-to",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_147",
+      "word": "کھوتی",
+      "word_devanagari": "खोती",
+      "word_roman": "khōtī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "female donkey, jenny",
+      "meaning_hi": "गधी",
+      "meaning_ur": "گدھی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کھوتی رستے پر ٹرے ہے",
+        "text_devanagari": "खोती रस्ते पर टरे है",
+        "text_roman": "khōtī raste par ṭare hai",
+        "translation_en": "The female donkey walks along the path.",
+        "translation_hi": "गधी रास्ते पर चलती है।",
+        "translation_ur": "گدھی راستے پر چلتی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 116); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Female donkey.",
+      "alternative_spellings": [
+        "گدھی"
+      ],
+      "definitions": [
+        "Female domesticated ass."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "گدھی"
+      ],
+      "antonyms": [
+        "کھوتو"
+      ],
+      "related_terms": [
+        "کھوتو"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/kʰoː.t̪iː/",
+        "phonetic": "kho-ti",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_148",
+      "word": "خچر",
+      "word_devanagari": "खच्चर",
+      "word_roman": "khachhar",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "mule",
+      "meaning_hi": "खच्चर",
+      "meaning_ur": "خچر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "خچر پہاڑی چڑھائی پر مضبوط ٹرے ہے",
+        "text_devanagari": "खच्चर पहाड़ी चढ़ाई पर मज़बूत टरे है",
+        "text_roman": "khachhar pahāṛī chaṛhāī par mazbūt ṭare hai",
+        "translation_en": "The mule walks sturdily on steep mountain ascents.",
+        "translation_hi": "खच्चर पहाड़ी चढ़ाई पर मजबूती से चलता है।",
+        "translation_ur": "خچر پہاڑی چڑھائی پر مضبوطی سے چلتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 116); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Crucial pack hybrid animal in mountain terrain.",
+      "alternative_spellings": [
+        "بھنگیرو"
+      ],
+      "definitions": [
+        "Sterile hybrid offspring of a male donkey and a female horse."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "گھوڑو",
+        "کھوتو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/kʰət͡ʃ.t͡ʃʰəɾ/",
+        "phonetic": "khach-char",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_149",
+      "word": "بھیڑیو",
+      "word_devanagari": "भेड़ियो",
+      "word_roman": "bheṛiyo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "wolf",
+      "meaning_hi": "भेड़िया",
+      "meaning_ur": "بھیڑیا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "بھیڑیو رات ماں جنگل تھوں آیو",
+        "text_devanagari": "भेड़ियो रात माँ जंगल थूँ आयो",
+        "text_roman": "bheṛiyo rāt mā̃ jaṅgal thū̃ āyo",
+        "translation_en": "The wolf came from the forest at night.",
+        "translation_hi": "भेड़िया रात में जंगल से आया।",
+        "translation_ur": "بھیڑیا رات میں جنگل سے آیا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 117); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Himalayan predator (Canis lupus).",
+      "alternative_spellings": [
+        "بھیڑیا",
+        "گرگ"
+      ],
+      "definitions": [
+        "Wild carnivorous canid of forested mountain slopes."
+      ],
+      "contextual_usage": "Major predator against which Bakerwals deploy shepherd dogs.",
+      "synonyms": [
+        "گرگ"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "کُتو",
+        "بھیڈ"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/bʱeː.ɽiː.joː/",
+        "phonetic": "bhe-ree-yo",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_150",
+      "word": "ریچھ",
+      "word_devanagari": "रींछ",
+      "word_roman": "rīñchh",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "bear, Himalayan black or brown bear",
+      "meaning_hi": "भालू, रीछ",
+      "meaning_ur": "ریچھ، بھالو",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ریچھ جنگل ماں مکی کھاوے ہے",
+        "text_devanagari": "रींछ जंगल माँ मक्की खावे है",
+        "text_roman": "rīñchh jaṅgal mā̃ makkī khāve hai",
+        "translation_en": "The bear eats maize near the forest.",
+        "translation_hi": "भालू जंगल में मक्की खाता है।",
+        "translation_ur": "ریچھ جنگل میں مکی کھاتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 117); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Ursus thibetanus / Ursus arctos isabellinus.",
+      "alternative_spellings": [
+        "بھالو"
+      ],
+      "definitions": [
+        "Large heavily built mountain mammal with thick shaggy fur."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "بھالو"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "جنگل"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/riː̃t͡ʃʰ/",
+        "phonetic": "reenchh",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_151",
+      "word": "چیتو",
+      "word_devanagari": "चीतो",
+      "word_roman": "chīto",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "leopard, mountain panther",
+      "meaning_hi": "तेंदुआ, चीता",
+      "meaning_ur": "تیندوا، چیتا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چیتو پتھراں پچھے چھپیو ہے",
+        "text_devanagari": "चीतो पत्थराँ पीछे छप्यो है",
+        "text_roman": "chīto patthrā̃ pīchhe chhapyo hai",
+        "translation_en": "The leopard is hidden behind the rocks.",
+        "translation_hi": "तेंदुआ पत्थरों के पीछे छिपा है।",
+        "translation_ur": "تیندوا پتھروں کے پیچھے چھپا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 117); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Panthera pardus in Himalayan rocky crags.",
+      "alternative_spellings": [
+        "تیندوا",
+        "چیتا"
+      ],
+      "definitions": [
+        "Solitary apex felid with rosette-patterned spotted coat."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "تیندوا"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "پہاڑ"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃiː.t̪oː/",
+        "phonetic": "chee-to",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_152",
+      "word": "کاں",
+      "word_devanagari": "काँ",
+      "word_roman": "kā̃",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "crow",
+      "meaning_hi": "कौआ, काग",
+      "meaning_ur": "کوا، کاگ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کاں رکھ پر بیٹھو ہے",
+        "text_devanagari": "काँ रुख पर बैठो है",
+        "text_roman": "kā̃ rukkh par baiṭho hai",
+        "translation_en": "The crow is perched on the tree.",
+        "translation_hi": "कौआ पेड़ पर बैठा है।",
+        "translation_ur": "کوا درخت پر بیٹھا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 118); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Avian species (Corvus splendens / Corvus corax).",
+      "alternative_spellings": [
+        "کاگ",
+        "کوا"
+      ],
+      "definitions": [
+        "Glossy black bird with a loud harsh call."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کاگ"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "رُکھ"
+      ],
+      "grammatical_info": {
+        "noun_class": "masculine_nasal"
+      },
+      "pronunciation": {
+        "ipa": "/kaː̃/",
+        "phonetic": "kaan",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_153",
+      "word": "کبوتر",
+      "word_devanagari": "कबूतर",
+      "word_roman": "kabūtar",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "pigeon, dove",
+      "meaning_hi": "कबूतर, कपोत",
+      "meaning_ur": "کبوتر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کبوتر دانا چگے ہے",
+        "text_devanagari": "कबूतर दाना चुगे है",
+        "text_roman": "kabūtar dāno chuge hai",
+        "translation_en": "The pigeon pecks at the grains.",
+        "translation_hi": "कबूतर दाना चुगता है।",
+        "translation_ur": "کبوتر دانہ چگتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 118); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Columbidae family bird.",
+      "alternative_spellings": [],
+      "definitions": [
+        "Stout-bodied bird with a small head, short legs, and cooing call."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "پریوا"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "دانو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/kə.buː.t̪əɾ/",
+        "phonetic": "ka-boo-tar",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_154",
+      "word": "کُکڑ",
+      "word_devanagari": "कुकड़",
+      "word_roman": "kukuṛ",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "rooster, cock",
+      "meaning_hi": "मुर्गा, कुक्कुट",
+      "meaning_ur": "مرغا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ککڑ سویرے بانگ دیوے ہے",
+        "text_devanagari": "कुकड़ सवेरे बाँग देवे है",
+        "text_roman": "kukuṛ sawere bāṅg deve hai",
+        "translation_en": "The rooster crows in the morning.",
+        "translation_hi": "मुर्गा सुबह बाँग देता है।",
+        "translation_ur": "مرغا صبح اذان دیتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 118); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Male domestic gallinaceous bird.",
+      "alternative_spellings": [
+        "مرغو"
+      ],
+      "definitions": [
+        "Male domestic fowl."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "مرغو"
+      ],
+      "antonyms": [
+        "کُکڑی"
+      ],
+      "related_terms": [
+        "کُکڑی",
+        "سویر"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/kʊ.kʊɽ/",
+        "phonetic": "ku-kur",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_155",
+      "word": "کُکڑی",
+      "word_devanagari": "कुकड़ी",
+      "word_roman": "kukaṛī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "hen, female domestic fowl",
+      "meaning_hi": "मुर्गी",
+      "meaning_ur": "مرغی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ککڑی نے انڈو دِیو",
+        "text_devanagari": "कुकड़ी ने अंडो दियो",
+        "text_roman": "kukaṛī ne aṇḍo diyo",
+        "translation_en": "The hen laid an egg.",
+        "translation_hi": "मुर्गी ने अंडा दिया।",
+        "translation_ur": "مرغی نے انڈا دیا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 118); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Female domestic gallinaceous fowl.",
+      "alternative_spellings": [
+        "مرغی"
+      ],
+      "definitions": [
+        "Female domestic fowl."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "مرغی"
+      ],
+      "antonyms": [
+        "کُکڑ"
+      ],
+      "related_terms": [
+        "کُکڑ",
+        "انڈو"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/kʊ.kə.ɽiː/",
+        "phonetic": "ku-ka-ree",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_156",
+      "word": "پرسوں",
+      "word_devanagari": "परसों",
+      "word_roman": "parsõ",
+      "pos": "adverb",
+      "gender": null,
+      "meaning_en": "day before yesterday, day after tomorrow",
+      "meaning_hi": "परसों",
+      "meaning_ur": "پرسوں",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "او پرسوں واپس آوے گو",
+        "text_devanagari": "उह परसों वापस आवे गो",
+        "text_roman": "oh parsõ vāpas āve go",
+        "translation_en": "He will return the day after tomorrow.",
+        "translation_hi": "वह परसों वापस आएगा।",
+        "translation_ur": "وہ پرسوں واپس آئے گا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 144); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Temporal adverb indicating two days distance from present.",
+      "alternative_spellings": [],
+      "definitions": [
+        "On the day before yesterday or on the day after tomorrow."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "اج",
+        "کل"
+      ],
+      "grammatical_info": {
+        "part_of_speech": "adverb_time"
+      },
+      "pronunciation": {
+        "ipa": "/pəɾ.soː̃/",
+        "phonetic": "par-son",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_157",
+      "word": "وریہو",
+      "word_devanagari": "वर्हो",
+      "word_roman": "varho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "year",
+      "meaning_hi": "वर्ष, साल",
+      "meaning_ur": "سال، برس",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ہک وریہو ماں باراں مہینے ہونے ہیں",
+        "text_devanagari": "हिक वर्हो माँ बाराँ महीने होने हैं",
+        "text_roman": "hik varho mā̃ bārā̃ mahīne hone haiñ",
+        "translation_en": "In one year there are twelve months.",
+        "translation_hi": "एक साल में बारह महीने होते हैं।",
+        "translation_ur": "ایک سال میں بارہ مہینے ہوتے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 144); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Calendar year.",
+      "alternative_spellings": [
+        "سال",
+        "برس"
+      ],
+      "definitions": [
+        "The period of 365 or 366 days in the solar calendar."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سال",
+        "برس"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "مہینو",
+        "دہاڑو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/ʋəɾ.ɦoː/",
+        "phonetic": "var-ho",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_158",
+      "word": "مہینو",
+      "word_devanagari": "महीनो",
+      "word_roman": "mahīno",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "month",
+      "meaning_hi": "महीना, मास",
+      "meaning_ur": "مہینہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ایہہ مہینو بہوں ٹھنڈو ہے",
+        "text_devanagari": "एह महीनो बहूँ ठंडो है",
+        "text_roman": "eh mahīno bahū̃ ṭhaṇḍo hai",
+        "translation_en": "This month is very cold.",
+        "translation_hi": "यह महीना बहुत ठंडा है।",
+        "translation_ur": "یہ مہینہ بہت ٹھنڈا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 144); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Lunar or solar month.",
+      "alternative_spellings": [
+        "مہینا"
+      ],
+      "definitions": [
+        "Each of the twelve named periods into which a year is divided."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ماس"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "وریہو",
+        "ہفتو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/mə.ɦiː.noː/",
+        "phonetic": "ma-hee-no",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_159",
+      "word": "ہفتو",
+      "word_devanagari": "हफ्तो",
+      "word_roman": "hafto",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "week, seven-day cycle",
+      "meaning_hi": "सप्ताह, हफ्ता",
+      "meaning_ur": "ہفتہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ہک ہفتو بعد قافلہ ٹرے گو",
+        "text_devanagari": "हिक हफ्तो बाद क़ाफ़िला टरे गो",
+        "text_roman": "hik hafto bād qāfilo ṭare go",
+        "translation_en": "After one week the caravan will march.",
+        "translation_hi": "एक हफ्ते बाद काफ़िला चलेगा।",
+        "translation_ur": "ایک ہفتے بعد قافلہ روانہ ہوگا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 144); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Seven-day period.",
+      "alternative_spellings": [
+        "ہفتہ"
+      ],
+      "definitions": [
+        "A period of seven consecutive days."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ستوارہ"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "دہاڑو",
+        "مہینو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/ɦəf.t̪oː/",
+        "phonetic": "haf-to",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_160",
+      "word": "سیالو",
+      "word_devanagari": "सियालो",
+      "word_roman": "sīyāḷo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "winter season, cold season",
+      "meaning_hi": "शीतकाल, सर्दी, जाड़ा",
+      "meaning_ur": "موسمِ سرما، سیالا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "سیالو ماں باکرواڑ جوں تلے اترے ہیں",
+        "text_devanagari": "सियालो माँ बाकरवाड़ जूँ तले उतरे हैं",
+        "text_roman": "sīyāḷo mā̃ bākarwāṛ jō̃ tale utre haiñ",
+        "translation_en": "In winter the Bakerwals descend downwards to valleys.",
+        "translation_hi": "सर्दियों में बाकरवाल नीचे घाटियों में उतरते हैं।",
+        "translation_ur": "موسم سرما میں باکروال وادیوں میں اترتے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 145); RAHI_FOLKLORE_DICT",
+      "verification_status": "verified",
+      "notes": "Pastoral winter season prompting migration to Shivaliks.",
+      "alternative_spellings": [
+        "سیالا",
+        "سردی"
+      ],
+      "definitions": [
+        "The coldest season of the year, from November to March in Himalayas."
+      ],
+      "contextual_usage": "Core concept in semi-annual transhumance.",
+      "synonyms": [
+        "جاڑو",
+        "سردی"
+      ],
+      "antonyms": [
+        "انہالو"
+      ],
+      "related_terms": [
+        "برف",
+        "ٹھنڈو",
+        "جھوک"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/siː.jaː.ɭoː/",
+        "phonetic": "see-yaa-lo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_161",
+      "word": "انہالو",
+      "word_devanagari": "उन्हालो",
+      "word_roman": "unhāḷo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "summer season, warm season",
+      "meaning_hi": "ग्रीष्मकाल, गर्मी",
+      "meaning_ur": "موسمِ گرما، انہالا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "انہالو ماں ڈوھوکاں پر رونک لگے ہے",
+        "text_devanagari": "उन्हालो माँ ढोकाँ पर रौनक लगे है",
+        "text_roman": "unhāḷo mā̃ ḍhokā̃ par raunaq lage hai",
+        "translation_en": "In summer the highland pasture settlements bustle with life.",
+        "translation_hi": "गर्मियों में ढोकों पर रौनक लगती है।",
+        "translation_ur": "موسم گرما میں ڈھوکوں پر رونق لگتی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 145); RAHI_FOLKLORE_DICT",
+      "verification_status": "verified",
+      "notes": "Summer pasture season (May-September) in Pir Panjal margs.",
+      "alternative_spellings": [
+        "انہالا",
+        "گرمی"
+      ],
+      "definitions": [
+        "The warmest season of the year when pastoralists graze in alpine bahaks."
+      ],
+      "contextual_usage": "Key season for pastoral cheese, butter, and shearing.",
+      "synonyms": [
+        "گرمی"
+      ],
+      "antonyms": [
+        "سیالو"
+      ],
+      "related_terms": [
+        "ڈھوک",
+        "بہک",
+        "تتو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/ʊn.ɦaː.ɭoː/",
+        "phonetic": "un-haa-lo",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_162",
+      "word": "برسات",
+      "word_devanagari": "बरसात",
+      "word_roman": "barsāt",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "monsoon, rainy season",
+      "meaning_hi": "वर्षा ऋतु, बरसात",
+      "meaning_ur": "موسمِ برسات",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "برسات ماں ندی نالے بھر جاوے ہیں",
+        "text_devanagari": "बरसात माँ नदी नाले भर जावे हैं",
+        "text_roman": "barsāt mā̃ nadī nāle bhar jāve haiñ",
+        "translation_en": "During the rainy season rivers and streams swell up.",
+        "translation_hi": "बरसात में नदी-नाले भर जाते हैं।",
+        "translation_ur": "برسات میں ندی نالے بھر جاتے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 145); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "High precipitation period (July-August).",
+      "alternative_spellings": [
+        "برکھا"
+      ],
+      "definitions": [
+        "Seasonal prevailing rain period."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "برکھا"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "مِینہہ",
+        "بدل"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/bəɾ.saːt̪/",
+        "phonetic": "bar-saat",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_163",
+      "word": "بہار",
+      "word_devanagari": "बहार",
+      "word_roman": "bahār",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "spring season",
+      "meaning_hi": "वसंत ऋतु, बहार",
+      "meaning_ur": "موسمِ بہار",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "بہار رو موسم بہوں چنگو ہے",
+        "text_devanagari": "बहार रो मौसम बहूँ चंगो है",
+        "text_roman": "bahār ro mausam bahū̃ chaṅgo hai",
+        "translation_en": "The spring season is very pleasant.",
+        "translation_hi": "वसंत का मौसम बहुत अच्छा होता है।",
+        "translation_ur": "بہار کا موسم بہت اچھا ہوتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 145); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Spring season (Chait-Baisakh) when mountain flowers bloom.",
+      "alternative_spellings": [
+        "بسنت"
+      ],
+      "definitions": [
+        "Season between winter and summer during which vegetation awakes."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "بسنت"
+      ],
+      "antonyms": [
+        "پت جھڑ"
+      ],
+      "related_terms": [
+        "پُھل",
+        "باراں ماہ"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/bə.ɦaːɾ/",
+        "phonetic": "ba-haar",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_164",
+      "word": "سورج",
+      "word_devanagari": "सूरज",
+      "word_roman": "sūraj",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "sun",
+      "meaning_hi": "सूर्य, सूरज, दिनकर",
+      "meaning_ur": "سورج، آفتاب",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "سورج نکل آیو دھوپ کھلی ہے",
+        "text_devanagari": "सूरज निकल आयो धूप खिली है",
+        "text_roman": "sūraj nikal āyo dhūp khilī hai",
+        "translation_en": "The sun came out, sunshine spread.",
+        "translation_hi": "सूरज निकल आया, धूप खिल गई।",
+        "translation_ur": "سورج نکل آیا، دھوپ کھل گئی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 124); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Celestial sun; dih also used colloquially.",
+      "alternative_spellings": [
+        "دِیہہ",
+        "سِورج"
+      ],
+      "definitions": [
+        "The star around which the earth orbits and from which it receives light and warmth."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "دِیہہ",
+        "آفتاب"
+      ],
+      "antonyms": [
+        "چن"
+      ],
+      "related_terms": [
+        "دھوپ",
+        "سویر",
+        "دہاڑو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/suː.ɾəd͡ʒ/",
+        "phonetic": "soo-raj",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_165",
+      "word": "چن",
+      "word_devanagari": "चन्न",
+      "word_roman": "chann",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "moon",
+      "meaning_hi": "चाँद, चंद्रमा",
+      "meaning_ur": "چاند، قمر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "رات ماں چن چمکے ہے",
+        "text_devanagari": "रात माँ चन्न चमके है",
+        "text_roman": "rāt mā̃ chann chamke hai",
+        "translation_en": "The moon shines at night.",
+        "translation_hi": "रात में चाँद चमकता है।",
+        "translation_ur": "رات میں چاند چمکتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 124); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Natural satellite of earth.",
+      "alternative_spellings": [
+        "چندر",
+        "چاند"
+      ],
+      "definitions": [
+        "Natural satellite of the earth, visible by reflected sunlight at night."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "چندر",
+        "چاند"
+      ],
+      "antonyms": [
+        "سورج"
+      ],
+      "related_terms": [
+        "رات",
+        "تارو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃənː/",
+        "phonetic": "chann",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_166",
+      "word": "تارو",
+      "word_devanagari": "तारो",
+      "word_roman": "tāro",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "star",
+      "meaning_hi": "तारा, नक्षत्र",
+      "meaning_ur": "تارا، ستارہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اسمان ماں تارے چمکے ہیں",
+        "text_devanagari": "असमान माँ तारे चमके हैं",
+        "text_roman": "asmān mā̃ tāre chamke haiñ",
+        "translation_en": "Stars twinkle in the sky.",
+        "translation_hi": "आसमान में तारे चमकते हैं।",
+        "translation_ur": "آسمان میں تارے چمکتے ہیں۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 124); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Plural: tāre.",
+      "alternative_spellings": [
+        "تارا",
+        "ستارو"
+      ],
+      "definitions": [
+        "Luminous celestial point visible in the night sky."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ستارو"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "اسمان",
+        "رات"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/t̪aː.roː/",
+        "phonetic": "taa-ro",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_167",
+      "word": "بدل",
+      "word_devanagari": "बद्दल",
+      "word_roman": "baddal",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "cloud",
+      "meaning_hi": "बादल, मेघ",
+      "meaning_ur": "بادل، ابر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کالے بدل گھیرے ہیں مینہہ وسے گو",
+        "text_devanagari": "काले बद्दल घेरे हैं मीँह वसे गो",
+        "text_roman": "kāle baddal ghere haiñ mī̃h vase go",
+        "translation_en": "Dark clouds have gathered, it will rain.",
+        "translation_hi": "काले बादल घिर आए हैं, बारिश होगी।",
+        "translation_ur": "کالے بادل گھر آئے ہیں، بارش ہوگی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 125); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Atmospheric moisture mass.",
+      "alternative_spellings": [
+        "بادل",
+        "ابر"
+      ],
+      "definitions": [
+        "Visible mass of condensed watery vapor floating in the atmosphere."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ابر",
+        "میگھ"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "مِینہہ",
+        "اسمان"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/bəd̪.d̪əl/",
+        "phonetic": "bad-dal",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_168",
+      "word": "بجلی",
+      "word_devanagari": "बिजली",
+      "word_roman": "bijḷī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "lightning, electricity, thunderbolt",
+      "meaning_hi": "बिजली, तड़ित",
+      "meaning_ur": "بجلی، کوندہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "بدلاں ماں بجلی چمکی",
+        "text_devanagari": "बद्दलाँ माँ बिजली चमकी",
+        "text_roman": "baddalā̃ mā̃ bijḷī chamkī",
+        "translation_en": "Lightning flashed among the clouds.",
+        "translation_hi": "बादलों में बिजली चमकी।",
+        "translation_ur": "بادلوں میں بجلی چمکی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 125); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Atmospheric electrostatic discharge.",
+      "alternative_spellings": [
+        "بجݪی"
+      ],
+      "definitions": [
+        "Visible flash of electricity produced by a thunderstorm."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کوندہ"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "بدل",
+        "مِینہہ"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/bɪd͡ʒ.ɭiː/",
+        "phonetic": "bij-li",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_169",
+      "word": "دھرتی",
+      "word_devanagari": "धरती",
+      "word_roman": "dharat",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "earth, ground, soil, homeland",
+      "meaning_hi": "धरती, पृथ्वी, जमीन",
+      "meaning_ur": "زمین، دھرتی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ایہہ ساہڈی پرکھی دھرتی ہے",
+        "text_devanagari": "एह साहडी परखी धरती है",
+        "text_roman": "eh sāhḍī parkhī dharat hai",
+        "translation_en": "This is our ancestral earth/homeland.",
+        "translation_hi": "यह हमारी पैतृक धरती है।",
+        "translation_ur": "یہ ہماری آبائی دھرتی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 125); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Solid terrestrial ground.",
+      "alternative_spellings": [
+        "زمین",
+        "دھرت"
+      ],
+      "definitions": [
+        "The land surface of the world; soil or homeland."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "زمین",
+        "بھومی"
+      ],
+      "antonyms": [
+        "اسمان"
+      ],
+      "related_terms": [
+        "اسمان",
+        "پہاڑ"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/d̪ʱəɾ.t̪iː/",
+        "phonetic": "dhar-tee",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_170",
+      "word": "اسمان",
+      "word_devanagari": "असमान",
+      "word_roman": "asmān",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "sky, heavens, firmament",
+      "meaning_hi": "आसमान, आकाश, गगन",
+      "meaning_ur": "آسمان، فلک",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اسمان صاف ہے دھوپ کھلی ہے",
+        "text_devanagari": "असमान साफ़ है धूप खिली है",
+        "text_roman": "asmān sāf hai dhūp khilī hai",
+        "translation_en": "The sky is clear and sun is shining.",
+        "translation_hi": "आसमान साफ है और धूप खिली है।",
+        "translation_ur": "آسمان صاف ہے اور دھوپ کھلی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 125); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Atmospheric vault overhead.",
+      "alternative_spellings": [
+        "آسمان",
+        "اکاش"
+      ],
+      "definitions": [
+        "The region of the atmosphere and outer space seen from the earth."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "اکاش",
+        "فلک"
+      ],
+      "antonyms": [
+        "دھرتی"
+      ],
+      "related_terms": [
+        "چن",
+        "سورج",
+        "تارو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/əs.maːn/",
+        "phonetic": "as-maan",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_171",
+      "word": "جھیل",
+      "word_devanagari": "झील",
+      "word_roman": "jhīl",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "lake, alpine tarn",
+      "meaning_hi": "झील, सरोवर",
+      "meaning_ur": "جھیل، سر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پہاڑاں ماں نیلی جھیل ہے",
+        "text_devanagari": "पहाड़ाँ माँ नीली झील है",
+        "text_roman": "pahāṛā̃ mā̃ nīlī jhīl hai",
+        "translation_en": "There is a blue lake in the mountains.",
+        "translation_hi": "पहाड़ों में नीली झील है।",
+        "translation_ur": "پہاڑوں میں نیلی جھیل ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 127); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "High alpine glacial lakes (e.g. Kousar Nag, Gangabal) revered by Gujjars.",
+      "alternative_spellings": [
+        "سر"
+      ],
+      "definitions": [
+        "Large body of water surrounded by mountainous land."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سر",
+        "سروور"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "پاݨی",
+        "پہاڑ"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/d͡ʒʱiːl/",
+        "phonetic": "jheel",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_172",
+      "word": "چشمو",
+      "word_devanagari": "चश्मो",
+      "word_roman": "chashmo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "natural freshwater spring",
+      "meaning_hi": "प्राकृतिक जलस्रोत, झरना, चश्मा",
+      "meaning_ur": "چشمہ، قدرتی سوتا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چشمے رو پاݨی مِیٹھو تے ٹھنڈو ہوندو ہے",
+        "text_devanagari": "चश्मे रो पाणी मीठो ते ठंडो होंदो है",
+        "text_roman": "chashme ro pāṇi mīṭho te ṭhaṇḍo hondo hai",
+        "translation_en": "Water of the natural spring is sweet and cold.",
+        "translation_hi": "चश्मे का पानी मीठा और ठंडा होता है।",
+        "translation_ur": "چشمے کا پانی میٹھا اور ٹھنڈا ہوتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 127); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Fresh mountain groundwater emergence.",
+      "alternative_spellings": [
+        "چشمہ"
+      ],
+      "definitions": [
+        "Natural emergence of fresh groundwater at mountain slopes."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سوتا"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "پاݨی",
+        "ٹھنڈو"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃəʃ.moː/",
+        "phonetic": "chash-mo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_173",
+      "word": "نالو",
+      "word_devanagari": "नाळो",
+      "word_roman": "nāḷo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "mountain brook, stream torrent, ravine",
+      "meaning_hi": "पहाड़ी नाला, जलधारा",
+      "meaning_ur": "پہاڑی نالہ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "برسات ماں نالو اچھلے ہے",
+        "text_devanagari": "बरसात माँ नाळो उछले है",
+        "text_roman": "barsāt mā̃ nāḷo uchhle hai",
+        "translation_en": "During rains the mountain torrent surges.",
+        "translation_hi": "बरसात में नाला उफनता है।",
+        "translation_ur": "برسات میں نالہ ابلتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 127); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Swift rocky stream. Plural: nāḷe.",
+      "alternative_spellings": [
+        "نالہ",
+        "نالا"
+      ],
+      "definitions": [
+        "Narrow watercourse or seasonal torrent cutting through mountain ravines."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ندی"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "ندی",
+        "پاݨی"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/naː.ɭoː/",
+        "phonetic": "naa-lo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_174",
+      "word": "مکی",
+      "word_devanagari": "मक्की",
+      "word_roman": "makkī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "maize, corn",
+      "meaning_hi": "मक्का, मकई",
+      "meaning_ur": "مکئی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "مکی دی روٹی تے ساگ ساہڈو کھاݨو ہے",
+        "text_devanagari": "मक्की दी रोटी ते साग साहडो खाणो है",
+        "text_roman": "makkī dī roṭī te sāg sāhḍo khāṇo hai",
+        "translation_en": "Maize bread and cooked greens is our traditional staple meal.",
+        "translation_hi": "मक्की की रोटी और साग हमारा पारंपरिक भोजन है।",
+        "translation_ur": "مکئی کی روٹی اور ساگ ہمارا روایتی کھانا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 120); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Primary staple grain grown and ground by Gujjars in hill slopes.",
+      "alternative_spellings": [
+        "مکئی"
+      ],
+      "definitions": [
+        "Cereal plant yielding large grains on a cob, staple food of Gujjars."
+      ],
+      "contextual_usage": "Staple food consumed with butter and lassi.",
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "روٹی",
+        "ساگ",
+        "مکھن"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/mək.kiː/",
+        "phonetic": "mak-ki",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_175",
+      "word": "چاول",
+      "word_devanagari": "चावल",
+      "word_roman": "chāwal",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "rice, cooked or husked grains",
+      "meaning_hi": "चावल, भात",
+      "meaning_ur": "چاول",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اج چاول تے دال پکی ہے",
+        "text_devanagari": "अज्ज चावल ते दाल पकी है",
+        "text_roman": "ajj chāwal te dāl pakī hai",
+        "translation_en": "Today rice and lentils are cooked.",
+        "translation_hi": "आज चावल और दाल पकी है।",
+        "translation_ur": "آج چاول اور دال پکی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 120); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Cereal grain (Oryza sativa).",
+      "alternative_spellings": [
+        "دھان"
+      ],
+      "definitions": [
+        "Grains of the marsh grass Oryza sativa used as warm food."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "بھات"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "دال",
+        "روٹی"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃaː.ʋəl/",
+        "phonetic": "chaa-wal",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_176",
+      "word": "دال",
+      "word_devanagari": "दाल",
+      "word_roman": "dāl",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "lentils, split pulses",
+      "meaning_hi": "दाल",
+      "meaning_ur": "دال",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "دال ماں لوݨ گھٹ ہے",
+        "text_devanagari": "दाल माँ लूँण घट है",
+        "text_roman": "dāl mā̃ lūṇ ghaṭṭ hai",
+        "translation_en": "There is less salt in the lentils.",
+        "translation_hi": "दाल में नमक कम है।",
+        "translation_ur": "دال میں نمک کم ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 120); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Leguminous pulse dish.",
+      "alternative_spellings": [],
+      "definitions": [
+        "Split pulses cooked into soup or stew."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "لوݨ",
+        "چاول"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/d̪aːl/",
+        "phonetic": "daal",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_177",
+      "word": "لوݨ",
+      "word_devanagari": "लूँण",
+      "word_roman": "lūṇ",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "salt",
+      "meaning_hi": "नमक, लवण",
+      "meaning_ur": "نمک، لون",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "روٹی ماں لوݨ پاؤ",
+        "text_devanagari": "रोटी माँ लूँण पाओ",
+        "text_roman": "roṭī mā̃ lūṇ pāv",
+        "translation_en": "Add salt to the dough/bread.",
+        "translation_hi": "रोटी में नमक डालो।",
+        "translation_ur": "روٹی میں نمک ڈالو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 120); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Attested with retroflex nasal /ṇ/; also nūṇ in southern dialect.",
+      "alternative_spellings": [
+        "نُوں",
+        "نمک"
+      ],
+      "definitions": [
+        "Sodium chloride mineral used to season and preserve food and livestock feed."
+      ],
+      "contextual_usage": "Given regularly to herds (bheḍā̃ na loṇ chatan).",
+      "synonyms": [
+        "نمک",
+        "نون"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "کھاݨو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/luːɳ/",
+        "phonetic": "loon",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_178",
+      "word": "کھنڈ",
+      "word_devanagari": "खंड",
+      "word_roman": "khaṇḍ",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "sugar, sweetener",
+      "meaning_hi": "चीनी, शक्कर, खाँड",
+      "meaning_ur": "شکر، چینی، کھانڈ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چاہ ماں کھنڈ رلاؤ",
+        "text_devanagari": "चाह माँ खंड रलाओ",
+        "text_roman": "chāh mā̃ khaṇḍ ralāv",
+        "translation_en": "Mix sugar in the tea.",
+        "translation_hi": "चाय में चीनी मिलाओ।",
+        "translation_ur": "چائے میں چینی ملاؤ۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 120); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Granulated cane sugar or raw jaggery (shakkar).",
+      "alternative_spellings": [
+        "شکر",
+        "چینی"
+      ],
+      "definitions": [
+        "Sweet crystalline substance obtained from sugarcane."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "شکر",
+        "چینی"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "چاہ",
+        "مِیٹھو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/kʰəɳɖ/",
+        "phonetic": "khand",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_179",
+      "word": "تیل",
+      "word_devanagari": "तेल",
+      "word_roman": "tēḷ",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "oil, cooking or lamp oil",
+      "meaning_hi": "तेल",
+      "meaning_ur": "تیل",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "دیوے ماں تیل پاؤ",
+        "text_devanagari": "दीवे माँ तेल पाओ",
+        "text_roman": "dīve mā̃ tēḷ pāv",
+        "translation_en": "Pour oil into the lamp.",
+        "translation_hi": "दीये में तेल डालो।",
+        "translation_ur": "دیئے میں تیل ڈالو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 121); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Mustard or seed oil.",
+      "alternative_spellings": [
+        "تیل"
+      ],
+      "definitions": [
+        "Viscous liquid of vegetable origin used in cooking and lighting."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "دیوو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/t̪eːɭ/",
+        "phonetic": "tel",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_180",
+      "word": "ساگ",
+      "word_devanagari": "साग",
+      "word_roman": "sāg",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "cooked greens, leafy vegetable stew",
+      "meaning_hi": "साग, हरी भाजी",
+      "meaning_ur": "ساگ",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اج جنگلی ساگ پکیو ہے",
+        "text_devanagari": "अज्ज जंगली साग पक्यो है",
+        "text_roman": "ajj jaṅglī sāg pakyo hai",
+        "translation_en": "Today wild mountain greens have been cooked.",
+        "translation_hi": "आज जंगली साग पका है।",
+        "translation_ur": "آج جنگلی ساگ پکا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 121); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Wild herbs (kundru, bathua, mustard) gathered and stewed.",
+      "alternative_spellings": [
+        "سبزی"
+      ],
+      "definitions": [
+        "Dish of stewed green leafy vegetables eaten with maize bread."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سبزی"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "مکی",
+        "روٹی"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_masculine"
+      },
+      "pronunciation": {
+        "ipa": "/saːɡ/",
+        "phonetic": "saag",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_181",
+      "word": "کوٹھو",
+      "word_devanagari": "कोठो",
+      "word_roman": "kōṭho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "flat-roofed mud-stone dwelling, permanent rural house",
+      "meaning_hi": "कोठा, मिट्टी-पत्थर का कच्चा मकान",
+      "meaning_ur": "کوٹھا، مٹی پتھر کا کچا گھر",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کوٹھے دی چھت پر گھاہ اگیو ہے",
+        "text_devanagari": "कोठे दी छत पर घाह उग्यो है",
+        "text_roman": "kōṭhe dī chhat par ghāh ugyo hai",
+        "translation_en": "Grass has grown on the earthen roof of the house.",
+        "translation_hi": "कोठे की छत पर घास उगी है।",
+        "translation_ur": "کوٹھے کی چھت پر گھاس اگی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 122); RAHI_FOLKLORE_DICT",
+      "verification_status": "verified",
+      "notes": "Traditional flat-topped mud-timber dwelling characteristic of Gujjar villages.",
+      "alternative_spellings": [
+        "کوٹھا"
+      ],
+      "definitions": [
+        "Traditional pastoral dwelling built of stone masonry with heavy cedar logs and earth cover."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "گھر"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "گھر",
+        "ڈھوک"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/koː.ʈʰoː/",
+        "phonetic": "ko-tho",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_182",
+      "word": "بوہو",
+      "word_devanagari": "बूहो",
+      "word_roman": "būho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "door, entrance, doorway",
+      "meaning_hi": "दरवाजा, द्वार, बूहा",
+      "meaning_ur": "دروازہ، بوہا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کوٹھے رو بوہو بند کرو",
+        "text_devanagari": "कोठे रो बूहो बंद करो",
+        "text_roman": "kōṭhe ro būho band karo",
+        "translation_en": "Shut the door of the house.",
+        "translation_hi": "कोठे का दरवाजा बंद करो।",
+        "translation_ur": "کوٹھے کا دروازہ بند کرو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 123); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Doorway.",
+      "alternative_spellings": [
+        "دروازو",
+        "بوہا"
+      ],
+      "definitions": [
+        "Hinged barrier or entrance opening into a room or shelter."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "دروازو"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "کوٹھو",
+        "باری"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/buː.ɦoː/",
+        "phonetic": "boo-ho",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_183",
+      "word": "باری",
+      "word_devanagari": "बारी",
+      "word_roman": "bārī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "window",
+      "meaning_hi": "खिड़की, बारी",
+      "meaning_ur": "کھڑکی، باری",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "باری تھوں ہوا آوے ہے",
+        "text_devanagari": "बारी थूँ हवा आवे है",
+        "text_roman": "bārī thū̃ havā āve hai",
+        "translation_en": "Breeze comes through the window.",
+        "translation_hi": "खिड़की से हवा आती है।",
+        "translation_ur": "کھڑکی سے ہوا آتی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 123); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Aperture in wall.",
+      "alternative_spellings": [
+        "کھڑکی"
+      ],
+      "definitions": [
+        "Opening in wall to admit light or air."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "کھڑکی"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "بوہو",
+        "ہوا"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/baː.riː/",
+        "phonetic": "baa-ree",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_184",
+      "word": "چولہو",
+      "word_devanagari": "चूल्हो",
+      "word_roman": "chūlho",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "hearth, traditional clay cooking stove",
+      "meaning_hi": "चूल्हा, भट्ठी",
+      "meaning_ur": "چولہا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "چولہے ماں لکڑیاں بالو",
+        "text_devanagari": "चूल्हे माँ लकड़ियाँ बालो",
+        "text_roman": "chūlhe mā̃ lakṛiyā̃ bālo",
+        "translation_en": "Burn firewood in the cooking hearth.",
+        "translation_hi": "चूल्हे में लकड़ियाँ जलाओ।",
+        "translation_ur": "چولہے میں لکڑیاں جلاؤ۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 123); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Central fireplace inside nomadic shelters and houses.",
+      "alternative_spellings": [
+        "چولہا"
+      ],
+      "definitions": [
+        "Traditional mud hearth built on floor for wood firing and food baking."
+      ],
+      "contextual_usage": "Symbolic center of household domestic warmth.",
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "بھاھ",
+        "باہݨ",
+        "روٹی"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃuːl.ɦoː/",
+        "phonetic": "chool-ho",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_185",
+      "word": "کھٹ",
+      "word_devanagari": "खट्ट",
+      "word_roman": "khaṭṭ",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "charpai, woven rope bedstead, cot",
+      "meaning_hi": "खाट, चारपाई",
+      "meaning_ur": "کھاٹ، چارپائی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "کھٹ پر لوئی وچھاؤ",
+        "text_devanagari": "खट्ट पर लोई विछाओ",
+        "text_roman": "khaṭṭ par loī vichhāv",
+        "translation_en": "Spread the woollen blanket on the cot.",
+        "translation_hi": "चारपाई पर लोई बिछाओ।",
+        "translation_ur": "چارپائی پر کمبل بچھاؤ۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 123); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Light wooden bedstead with woven natural fiber webbing.",
+      "alternative_spellings": [
+        "منجی",
+        "چارپائی"
+      ],
+      "definitions": [
+        "Traditional light bedstead consisting of a wooden frame strung with knotted cords."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "منجی",
+        "چارپائی"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "لوئی",
+        "سوݨو"
+      ],
+      "grammatical_info": {
+        "noun_class": "consonant_feminine"
+      },
+      "pronunciation": {
+        "ipa": "/kʰəʈː/",
+        "phonetic": "khatt",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_186",
+      "word": "ڈنگو",
+      "word_devanagari": "डंगो",
+      "word_roman": "ḍaṅgo",
+      "pos": "noun",
+      "gender": "masculine",
+      "meaning_en": "shepherd staff, stout wooden walking stick",
+      "meaning_hi": "लाठी, डंडा",
+      "meaning_ur": "ڈنڈا، لاٹھی، عصا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "آجوڑی دے ہتھ ماں ڈنگو ہے",
+        "text_devanagari": "आजोड़ी दे हथ माँ डंगो है",
+        "text_roman": "ājoṛī de hatth mā̃ ḍaṅgo hai",
+        "translation_en": "In the shepherd hand is a sturdy staff.",
+        "translation_hi": "चरवाहे के हाथ में लाठी है।",
+        "translation_ur": "چرواہے کے ہاتھ میں لاٹھی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 124); RAHI_FOLKLORE_DICT",
+      "verification_status": "verified",
+      "notes": "Indispensable tool of mountain shepherds.",
+      "alternative_spellings": [
+        "ڈنڈو",
+        "لاٹھی"
+      ],
+      "definitions": [
+        "Stout carved timber stick carried by mountain herdsmen for support and defense."
+      ],
+      "contextual_usage": "Referenced in folk sayings (Dahdhe ro lathi ro do saron).",
+      "synonyms": [
+        "لاٹھی",
+        "سونٹا"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "ہتھ",
+        "بھیڈ"
+      ],
+      "grammatical_info": {
+        "noun_class": "marked_masculine_o"
+      },
+      "pronunciation": {
+        "ipa": "/ɖəŋ.ɡoː/",
+        "phonetic": "dan-go",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_187",
+      "word": "بانسلی",
+      "word_devanagari": "बाँसली",
+      "word_roman": "bāñslī",
+      "pos": "noun",
+      "gender": "feminine",
+      "meaning_en": "pastoral reed/wood flute",
+      "meaning_hi": "बाँसुरी, वंशी",
+      "meaning_ur": "بانسری",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پہاڑ پر بانسلی دی آواز سُوݨی ہے",
+        "text_devanagari": "पहाड़ पर बाँसली दी आवाज़ सूणी है",
+        "text_roman": "pahāṛ par bāñslī dī āwāz sūṇī hai",
+        "translation_en": "The sound of flute is heard across the mountain.",
+        "translation_hi": "पहाड़ पर बाँसुरी की आवाज सुनाई देती है।",
+        "translation_ur": "پہاڑ پر بانسری کی آواز سنائی دیتی ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 124); RAHI_FOLKLORE_DICT",
+      "verification_status": "verified",
+      "notes": "Classic musical instrument of Gujjar shepherds played on high pastures.",
+      "alternative_spellings": [
+        "بانسری"
+      ],
+      "definitions": [
+        "Side-blown or end-blown pastoral wooden flute."
+      ],
+      "contextual_usage": "Played while singing quatrains (Bait).",
+      "synonyms": [
+        "بانسری"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "بیت",
+        "بہک"
+      ],
+      "grammatical_info": {
+        "noun_class": "feminine_i"
+      },
+      "pronunciation": {
+        "ipa": "/baː̃s.liː/",
+        "phonetic": "baans-li",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_188",
+      "word": "چراوݨو",
+      "word_devanagari": "चरावणो",
+      "word_roman": "charāvṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to graze, pasture, herd livestock",
+      "meaning_hi": "चराना",
+      "meaning_ur": "چرانا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "مال ڈنگر چراوݨ رو ویلو ہو گیو",
+        "text_devanagari": "माल डंगर चरावण रो वेलो हो ग्यो",
+        "text_roman": "māl ḍaṅgar charāvaṇ ro velo ho gyo",
+        "translation_en": "It is time to graze the cattle and flocks.",
+        "translation_hi": "मवेशी चराने का समय हो गया।",
+        "translation_ur": "مویشی چرانے کا وقت ہو گیا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 137); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Causative/transitive verb from charṇo (to feed on grass).",
+      "alternative_spellings": [
+        "چرانا"
+      ],
+      "definitions": [
+        "To drive livestock to pasture and supervise grazing."
+      ],
+      "contextual_usage": "Central activity of Gujjar pastoral economy.",
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "گھاہ",
+        "بھیڈ",
+        "بہک"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive_causative",
+        "stem": "charā"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃə.ɾaːʋ.ɳoː/",
+        "phonetic": "cha-raav-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_189",
+      "word": "دوہݨو",
+      "word_devanagari": "दोहणो",
+      "word_roman": "dohṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to milk a cow, buffalo, or goat",
+      "meaning_hi": "दुहना",
+      "meaning_ur": "دھونا، دوہنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "سویرے گاں دوہو",
+        "text_devanagari": "सवेरे गाँ दोहो",
+        "text_roman": "sawere gā̃ doho",
+        "translation_en": "Milk the cow in the morning.",
+        "translation_hi": "सुबह गाय दुहो।",
+        "translation_ur": "صبح گائے دوہو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 137); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Transitive pastoral verb.",
+      "alternative_spellings": [
+        "دھونا"
+      ],
+      "definitions": [
+        "To extract milk from the udder of a female animal."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [],
+      "related_terms": [
+        "دودھ",
+        "گاں",
+        "مہیِش"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive",
+        "stem": "doh"
+      },
+      "pronunciation": {
+        "ipa": "/d̪oːɦ.ɳoː/",
+        "phonetic": "doh-no",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_190",
+      "word": "ٹُرݨو",
+      "word_devanagari": "टुरणो",
+      "word_roman": "ṭurno",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to walk, set out, start marching, depart",
+      "meaning_hi": "चलना, रवाना होना, प्रस्थान करना",
+      "meaning_ur": "چلنا، روانہ ہونا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "قافلہ سویرے ٹرے گو",
+        "text_devanagari": "क़ाफ़िला सवेरे टरे गो",
+        "text_roman": "qāfilo sawere ṭare go",
+        "translation_en": "The caravan will march in the morning.",
+        "translation_hi": "काफ़िला सुबह रवाना होगा।",
+        "translation_ur": "قافلہ صبح روانہ ہوگا۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 137); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Locomotion and migration verb.",
+      "alternative_spellings": [
+        "ٹرنا",
+        "چلݨو"
+      ],
+      "definitions": [
+        "To start moving on foot or commence journey."
+      ],
+      "contextual_usage": "Denotes commencement of semi-annual migration.",
+      "synonyms": [
+        "چلݨو",
+        "روانہ ہووݨو"
+      ],
+      "antonyms": [
+        "کھلوݨو",
+        "بہݨو"
+      ],
+      "related_terms": [
+        "قافلہ",
+        "رستو"
+      ],
+      "grammatical_info": {
+        "verb_class": "intransitive",
+        "stem": "ṭur"
+      },
+      "pronunciation": {
+        "ipa": "/ʈʊɾ.ɳoː/",
+        "phonetic": "tur-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_191",
+      "word": "پُجّݨو",
+      "word_devanagari": "पुज्जणो",
+      "word_roman": "pujjaṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to arrive, reach, attain",
+      "meaning_hi": "पहुँचना",
+      "meaning_ur": "پہنچنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اسی شام تک ڈھوک پجساں",
+        "text_devanagari": "असी शाम तक ढोक पुजसाँ",
+        "text_roman": "asī̃ shām tak ḍhok pujsā̃",
+        "translation_en": "We will reach the highland hut by evening.",
+        "translation_hi": "हम शाम तक ढोक पहुँच जाएँगे।",
+        "translation_ur": "ہم شام تک ڈھوک پہنچ جائیں گے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 138); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Arrival verb. Seen in proverb 'Hath na pujje thu kori'.",
+      "alternative_spellings": [
+        "پہنچݨو"
+      ],
+      "definitions": [
+        "To arrive at a designated location or attain a goal."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "پہنچݨو"
+      ],
+      "antonyms": [
+        "ٹُرݨو"
+      ],
+      "related_terms": [
+        "ڈھوک",
+        "شام"
+      ],
+      "grammatical_info": {
+        "verb_class": "intransitive",
+        "stem": "pujj"
+      },
+      "pronunciation": {
+        "ipa": "/pʊd͡ʒ.d͡ʒə.ɳoː/",
+        "phonetic": "puj-ja-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_192",
+      "word": "رکھݨو",
+      "word_devanagari": "रखणो",
+      "word_roman": "rakhṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to keep, place, put, preserve",
+      "meaning_hi": "रखना",
+      "meaning_ur": "رکھنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "سامان ٹانڈے پر رکھو",
+        "text_devanagari": "सामान टांडे पर रखो",
+        "text_roman": "sāmān tāṇḍe par rakho",
+        "translation_en": "Keep the goods on the raised wooden rack.",
+        "translation_hi": "सामान मचान पर रखो।",
+        "translation_ur": "سامان مچان پر رکھو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 138); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Transitive placement verb.",
+      "alternative_spellings": [
+        "راکھݨو"
+      ],
+      "definitions": [
+        "To place something in a specified location or retain possession."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "دھرݨو"
+      ],
+      "antonyms": [
+        "چکݨو"
+      ],
+      "related_terms": [
+        "ٹانڈہ"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive",
+        "stem": "rakh"
+      },
+      "pronunciation": {
+        "ipa": "/rəkʰ.ɳoː/",
+        "phonetic": "rakh-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_193",
+      "word": "چھوڑݨو",
+      "word_devanagari": "छोड़णो",
+      "word_roman": "chhoṛṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to leave, release, let go, abandon",
+      "meaning_hi": "छोड़ना, त्यागना",
+      "meaning_ur": "چھوڑنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "بکریاں ناں چراگاہ ماں چھوڑ دیو",
+        "text_devanagari": "बकरियाँ नाँ चारागाह माँ छोड़ देवो",
+        "text_roman": "bakriyā̃ nā̃ charāgāh mā̃ chhoṛ devo",
+        "translation_en": "Release the goats into the pasture.",
+        "translation_hi": "बकरियों को चारागाह में छोड़ दो।",
+        "translation_ur": "بکریوں کو چراگاہ میں چھوڑ دو۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 139); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Transitive release verb.",
+      "alternative_spellings": [
+        "چھوڑنا"
+      ],
+      "definitions": [
+        "To allow to go free; cease to hold."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "مکت کرݨو"
+      ],
+      "antonyms": [
+        "پکڑݨو",
+        "بَنھݨو"
+      ],
+      "related_terms": [
+        "بکری"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive",
+        "stem": "chhoṛ"
+      },
+      "pronunciation": {
+        "ipa": "/t͡ʃʰoːɽ.ɳoː/",
+        "phonetic": "chhor-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_194",
+      "word": "لبھݨو",
+      "word_devanagari": "लभणो",
+      "word_roman": "labhṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to find, discover, obtain",
+      "meaning_hi": "पाना, मिलना, ढूँढना",
+      "meaning_ur": "پانا، ملنا، تلاش کرنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "گمی ہوئی بھیڈ لبھ گئی",
+        "text_devanagari": "गुमी हुई भीड लभ गई",
+        "text_roman": "gumī huī bheḍ labh gaī",
+        "translation_en": "The lost sheep was found.",
+        "translation_hi": "खोई हुई भेड़ मिल गई।",
+        "translation_ur": "کھوئی ہوئی بھیڑ مل گئی۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 139); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Discovery verb, from Sanskrit labh-.",
+      "alternative_spellings": [
+        "ملݨو"
+      ],
+      "definitions": [
+        "To discover or locate by search or effort."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "ملݨو"
+      ],
+      "antonyms": [
+        "کھووݨو"
+      ],
+      "related_terms": [
+        "بھیڈ"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive",
+        "stem": "labh"
+      },
+      "pronunciation": {
+        "ipa": "/ləbʱ.ɳoː/",
+        "phonetic": "labh-no",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_195",
+      "word": "سکھݨو",
+      "word_devanagari": "सिखणो",
+      "word_roman": "sikhṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to learn, acquire knowledge or skill",
+      "meaning_hi": "सीखना",
+      "meaning_ur": "سیکھنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "اسی گوجری زبان سکھاں گا",
+        "text_devanagari": "असी गोजरी ज़बान सिखाँ गा",
+        "text_roman": "asī̃ gojrī zabān sikhā̃ gā",
+        "translation_en": "We will learn the Gojri language.",
+        "translation_hi": "हम गोजरी भाषा सीखेंगे।",
+        "translation_ur": "ہم گوجری زبان سیکھیں گے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 140); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Cognitive acquisition verb.",
+      "alternative_spellings": [
+        "سیکھنا"
+      ],
+      "definitions": [
+        "To acquire knowledge of or skill in through study or experience."
+      ],
+      "contextual_usage": null,
+      "synonyms": [],
+      "antonyms": [
+        "بھُلݨو"
+      ],
+      "related_terms": [
+        "سمجھݨو",
+        "پڑھݨو"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive",
+        "stem": "sikh"
+      },
+      "pronunciation": {
+        "ipa": "/sɪkʰ.ɳoː/",
+        "phonetic": "sikh-no",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_196",
+      "word": "سمجھݨو",
+      "word_devanagari": "समझणो",
+      "word_roman": "samajhṇo",
+      "pos": "verb",
+      "gender": null,
+      "meaning_en": "to understand, comprehend",
+      "meaning_hi": "समझना",
+      "meaning_ur": "سمجھنا",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "او ہر گل سمجھ جاوے ہے",
+        "text_devanagari": "उह हर गल समझ जावे है",
+        "text_roman": "oh har gal samajh jāve hai",
+        "translation_en": "He understands every matter.",
+        "translation_hi": "वह हर बात समझ जाता है।",
+        "translation_ur": "وہ ہر بات سمجھ جاتا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 140); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Comprehension verb.",
+      "alternative_spellings": [
+        "سمجھنا"
+      ],
+      "definitions": [
+        "To perceive the intended meaning of words or circumstances."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "جانݨو"
+      ],
+      "antonyms": [],
+      "related_terms": [
+        "گل",
+        "سکھݨو"
+      ],
+      "grammatical_info": {
+        "verb_class": "transitive",
+        "stem": "samajh"
+      },
+      "pronunciation": {
+        "ipa": "/sə.məd͡ʒʱ.ɳoː/",
+        "phonetic": "sa-majh-no",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_197",
+      "word": "لمبو",
+      "word_devanagari": "लम्बो",
+      "word_roman": "lambo",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "tall, long, lengthy",
+      "meaning_hi": "लंबा, दीर्घ",
+      "meaning_ur": "لمبا، دراز",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ایہہ بہوں لمبو رستو ہے",
+        "text_devanagari": "एह बहूँ लम्बो रस्तो है",
+        "text_roman": "eh bahū̃ lambo rasto hai",
+        "translation_en": "This is a very long road.",
+        "translation_hi": "यह बहुत लंबा रास्ता है।",
+        "translation_ur": "یہ بہت لمبا راستہ ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 142); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Spatial dimension adjective.",
+      "alternative_spellings": [
+        "لمبا"
+      ],
+      "definitions": [
+        "Measuring a great distance from end to end or bottom to top."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "دراز"
+      ],
+      "antonyms": [
+        "چھوٹو",
+        "نکو"
+      ],
+      "related_terms": [
+        "رستو"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/ləm.boː/",
+        "phonetic": "lam-bo",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_198",
+      "word": "اُوچو",
+      "word_devanagari": "उँचो",
+      "word_roman": "ū̃cho",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "high, elevated, lofty",
+      "meaning_hi": "ऊँचा, उच्च",
+      "meaning_ur": "اونچا، بلند",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "پیر پنجال رو پہاڑ بہوں اوچو ہے",
+        "text_devanagari": "पीर पंजाल रो पहाड़ बहूँ उँचो है",
+        "text_roman": "Pīr Panjāl ro pahāṛ bahū̃ ū̃cho hai",
+        "translation_en": "The Pir Panjal mountain is very lofty.",
+        "translation_hi": "पीर पंजाल का पहाड़ बहुत ऊँचा है।",
+        "translation_ur": "پیر پنجال کا پہاڑ بہت اونچا ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 143); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Elevation adjective.",
+      "alternative_spellings": [
+        "اونچا",
+        "اوچا"
+      ],
+      "definitions": [
+        "Extending upwards a great distance."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "بلند"
+      ],
+      "antonyms": [
+        "نیواں"
+      ],
+      "related_terms": [
+        "پہاڑ",
+        "دھار"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/uː̃.t͡ʃoː/",
+        "phonetic": "oon-cho",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_199",
+      "word": "بھاری",
+      "word_devanagari": "भारी",
+      "word_roman": "bhārī",
+      "pos": "adjective",
+      "gender": null,
+      "meaning_en": "heavy, weighty, onerous",
+      "meaning_hi": "भारी, वजनी, गुरु",
+      "meaning_ur": "بھاری، وزنی",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ایہہ پتھر بہوں بھاری ہے",
+        "text_devanagari": "एह पत्थर बहूँ भारी है",
+        "text_roman": "eh patthar bahū̃ bhārī hai",
+        "translation_en": "This stone is very heavy.",
+        "translation_hi": "यह पत्थर बहुत भारी है।",
+        "translation_ur": "یہ پتھر بہت بھاری ہے۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 143); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Weight adjective.",
+      "alternative_spellings": [
+        "وزنی"
+      ],
+      "definitions": [
+        "Of great weight; difficult to lift or carry."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "وزنی"
+      ],
+      "antonyms": [
+        "ہلکو"
+      ],
+      "related_terms": [
+        "بھار"
+      ],
+      "grammatical_info": {
+        "agreement": "uninflecting"
+      },
+      "pronunciation": {
+        "ipa": "/bʱaː.riː/",
+        "phonetic": "bhaa-ree",
+        "tone": "rising"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_200",
+      "word": "ہلکو",
+      "word_devanagari": "हलको",
+      "word_roman": "halko",
+      "pos": "adjective",
+      "gender": "masculine",
+      "meaning_en": "light, lightweight, not heavy",
+      "meaning_hi": "हल्का, लघु",
+      "meaning_ur": "ہلکا، سبک",
+      "dialect": "general",
+      "example_sentence": {
+        "text": "ایہہ بھار ہلکو ہے آسانی نال چکو",
+        "text_devanagari": "एह भार हलको है आसानी नाल चक्को",
+        "text_roman": "eh bhār halko hai āsānī nāl chakko",
+        "translation_en": "This baggage is light, lift it easily.",
+        "translation_hi": "यह बोझ हल्का है आसानी से उठाओ।",
+        "translation_ur": "یہ بوجھ ہلکا ہے آسانی سے اٹھاؤ۔"
+      },
+      "script": "perso-arabic",
+      "source": "SHARMA_1982 (p. 143); RAHI_DICTIONARY",
+      "verification_status": "verified",
+      "notes": "Weight adjective inflecting in -o / -i.",
+      "alternative_spellings": [
+        "ہلکا"
+      ],
+      "definitions": [
+        "Of little weight; not heavy."
+      ],
+      "contextual_usage": null,
+      "synonyms": [
+        "سبک"
+      ],
+      "antonyms": [
+        "بھاری"
+      ],
+      "related_terms": [
+        "بھاری",
+        "بھار"
+      ],
+      "grammatical_info": {
+        "agreement": "inflecting_in_o"
+      },
+      "pronunciation": {
+        "ipa": "/ɦəl.koː/",
+        "phonetic": "hal-ko",
+        "tone": "neutral"
+      },
+      "license": "CC-BY-4.0",
+      "contributor": "Scholarly Fieldwork Compilation"
     }
   ]
 }

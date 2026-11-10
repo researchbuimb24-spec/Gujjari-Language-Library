@@ -43,3 +43,18 @@ def test_empty_search_returns_empty_list() -> None:
     assert search("") == []
     assert search("   ") == []
     assert search("xyz_non_existent_term_404") == []
+
+
+def test_search_expanded_vocabulary() -> None:
+    winter_res = search("winter", language="english")
+    assert len(winter_res) >= 1
+    assert any(r.word == "سیالو" for r in winter_res)
+
+    flute_res = search("बाँसुरी", language="hindi")
+    assert len(flute_res) >= 1
+    assert any(r.word == "بانسلی" for r in flute_res)
+
+    bear_res = search("ریچھ", language="urdu")
+    assert len(bear_res) >= 1
+    assert any(r.word == "ریچھ" for r in bear_res)
+

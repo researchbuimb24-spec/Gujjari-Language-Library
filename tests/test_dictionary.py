@@ -113,4 +113,58 @@ def test_new_lexical_items_lookup() -> None:
     assert sohno.pos == "adjective"
 
 
+def test_colors_kinship_pastoral_vocabulary() -> None:
+    # Colors
+    kalo = lookup("کالو")
+    assert kalo is not None
+    assert "black" in kalo.meaning_en.lower()
+
+    dhauro = lookup("धौरो")
+    assert dhauro is not None
+    assert "white" in dhauro.meaning_en.lower()
+
+    # Kinship
+    dado = lookup("dādo")
+    assert dado is not None
+    assert "grandfather" in dado.meaning_en.lower()
+
+    beli = lookup("بیلی")
+    assert beli is not None
+    assert "friend" in beli.meaning_en.lower()
+
+    # Livestock & Fauna
+    lelo = lookup("لیلو")
+    assert lelo is not None
+    assert "lamb" in lelo.meaning_en.lower()
+
+    rinchh = lookup("रींछ")
+    assert rinchh is not None
+    assert "bear" in rinchh.meaning_en.lower()
+
+    # Seasons & Celestial
+    siyalo = lookup("سیالو")
+    assert siyalo is not None
+    assert "winter" in siyalo.meaning_en.lower()
+
+    suraj = lookup("सूरज")
+    assert suraj is not None
+    assert "sun" in suraj.meaning_en.lower()
+
+    # Food & Pastoral Tools
+    makki = lookup("مکی")
+    assert makki is not None
+    assert "maize" in makki.meaning_en.lower()
+
+    chulho = lookup("chūlho")
+    assert chulho is not None
+    assert "hearth" in chulho.meaning_en.lower()
+
+    # Verbs
+    charavno = lookup("چراوݨو")
+    assert charavno is not None
+    assert "graze" in charavno.meaning_en.lower()
+    assert charavno.pos == "verb"
+
+
+
 
