@@ -122,6 +122,22 @@ def test_cli_culture_list() -> None:
     assert "جیسی کرنی" in out
 
 
+def test_cli_culture_songs() -> None:
+    code, out, _ = run_cli("culture", "songs")
+    assert code == 0
+    assert "Chhaint" in out
+    assert "Mahya" in out
+
+
+def test_cli_culture_songs_json() -> None:
+    code, out, _ = run_cli("--json", "culture", "songs")
+    assert code == 0
+    import json
+    data = json.loads(out)
+    assert len(data) >= 7
+    assert any("Chhaint" in s["title"] for s in data)
+
+
 def test_cli_culture_search() -> None:
     code, out, _ = run_cli("culture", "search", "vessel")
     assert code == 0
@@ -170,6 +186,8 @@ def test_cli_books_list() -> None:
     code, out, _ = run_cli("books", "list")
     assert code == 0
     assert "grierson_1908_lsi" in out
+    assert "gojri_ramkatha_oral" in out
+    assert "gojri_pandav_katha_oral" in out
 
 
 def test_cli_books_show() -> None:

@@ -1,11 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "metadata": {
     "description": "Authenticated Gojri proverbs, oral wisdom, and pastoral terminology.",
     "references": [
       "Rahi, Javaid. Folk-Lore Dictionary of Gujjar Tribe (2 Volumes). J&K Academy of Art, Culture and Languages.",
       "Rahi, Javaid. Gujjar Shanakht Ka Safar & Gojr Lok Geet.",
-      "JKAACL (Jammu and Kashmir Academy of Art, Culture and Languages) Sheeraza Gojri editions."
+      "JKAACL (Jammu and Kashmir Academy of Art, Culture and Languages) Sheeraza Gojri editions.",
+      "Rahi, Javaid. Gojri Lok Geet (Anthology of 500 Gujjar Folk Songs). JKAACL."
     ]
   },
   "items": [
@@ -397,6 +398,111 @@
       "explanation": "A central emblem of Gujjar female material culture and handicraft, passed down as ancestral bridal heirloom.",
       "region": "Jammu & Kashmir / Pir Panjal",
       "source": "RAHI_FOLKLORE_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_01",
+      "category": "songs",
+      "title": "Chhaint: Pir Panjal Heroic Pastoral Ballad",
+      "text": "پیر پنجال دیاں اُچیاں دھاراں، ویر جواناں دی شان ہو! الڳوزہ وجے، سارنگی گائے!",
+      "text_devanagari": "पीर पंजाल दियाँ उस धाराँ, वीर जवानाँ दी शान हो! अलगोज़ा वजे, सारंगी गाए!",
+      "text_roman": "Pīr Panjāl diyā̃ uchīyā̃ dhārā̃, vīr jawānā̃ dī shān ho! Alġhozah vaje, sārangī gāye!",
+      "translation_en": "On the lofty ridges of the Pir Panjal, celebrate the glory of brave youths! The double-flute sounds and the sarangi sings!",
+      "translation_hi": "पीर पंजाल की ऊँची चोटियों पर, वीर जवानों की शान है! अलगोज़ा बज रहा है और सारंगी गा रही है!",
+      "translation_ur": "پیر پنجال کی اونچی دھاروں پر، بہادر جوانوں کی شان ہے! الگوزہ بجتا ہے اور سارنگی گاتی ہے!",
+      "explanation": "The Chhaint is the traditional heroic narrative ballad of the Gujjar tribe, historically sung by folk bards (Dhadhis) accompanied by the Sarangi and Alghoza during communal gatherings.",
+      "region": "Pir Panjal / Jammu & Kashmir",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_02",
+      "category": "songs",
+      "title": "Mahya: Alpine Meadow Song of Longing and Solitude",
+      "text": "دو پتّر اناراں دے! باہکاں تے بہہ کے روواں، دکھڑے پردیساں دے!",
+      "text_devanagari": "दो पत्तर अनाराँ दे! बाहकाँ ते बह के रोवाँ, दुखड़े परदेसाँ दे!",
+      "text_roman": "Do pattar anārā̃ de! Bāhakā̃ te bah ke rowā̃, dukhṛe pardesā̃ de!",
+      "translation_en": "Two leaves of the pomegranate tree! Sitting in high mountain huts, I weep over the sorrows of distant exile!",
+      "translation_hi": "अनार के दो पत्ते! ऊँचे चरागाह की झोपड़ी में बैठकर परदेस के दुखों को याद करता हूँ!",
+      "translation_ur": "انار کے دو پتے! بلند چراگاہ کی باہک پر بیٹھ کر پردیس کے دکھوں پر روتا ہوں!",
+      "explanation": "Mahya is a beloved two-line lyric folk song form among Gujjar shepherds, sung across mountain pastures to express longing, love, and transhumant solitude.",
+      "region": "Poonch / Rajouri / Anantnag",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_03",
+      "category": "songs",
+      "title": "Singran Ka Geet: Caravan Transhumance Movement Song",
+      "text": "چلو نِی سنگیو باہکاں نا چلیے، تاںڈو ٹر پیا اے۔ وڈیاں دھاراں مھاری منزل، رب سچے دی اوٹ اے۔",
+      "text_devanagari": "चलो नी संगियो बाहकाँ ना चल्ये, ताँडो टुर प्या ए। वड्डियाँ धाराँ म्हारी मंज़िल, रब सच्चे दी ओट ए।",
+      "text_roman": "Chalo nī sangiyo bāhakā̃ nā chalye, tā̃ḍo ṭur pyā e. Vaḍḍyā̃ dhārā̃ mhārī manzil, Rab sache dī oṭ e.",
+      "translation_en": "Come along, companions, let us ascend to the alpine pastures; the nomadic caravan has set out. Lofty mountain ridges are our goal, under the refuge of the True Lord.",
+      "translation_hi": "चलो साथियो, ऊँचे चरागाहों की ओर चलें, हमारा क़ाफ़िला चल पड़ा है। ऊँचे पहाड़ हमारी मंज़िल हैं और सच्चे ईश्वर का सहारा है।",
+      "translation_ur": "چلو ساتھیو چراگاہوں کی طرف چلیں، قافلہ چل پڑا ہے۔ اونچی دھاریں ہماری منزل ہیں اور سچے رب کا سہارا ہے۔",
+      "explanation": "Singran Ka Geet are communal transhumance chants sung by pastoral families as they pack their horses and herd cattle up mountain passes to summer meadows.",
+      "region": "Pir Panjal / Shivalik / Hazara",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_04",
+      "category": "songs",
+      "title": "Bait: Ethical and Spiritual Quatrain of Sain Qadir Bakhsh",
+      "text": "کبر غرور نہ کر بندیا، مٹی ما مل جاؤنگا! نیکی دی کر کمائی، سدا نام کماؤنگا!",
+      "text_devanagari": "किब्र ग़रूर न कर बन्देया, मिट्टी मा मिल जावंगा! नेकी दी कर कमाई, सदा नाम कमावंगा!",
+      "text_roman": "Kibr-ġhurūr na kar bandyā, miṭṭī mā mil jāvangā! Nekī dī kar kamāī, sadā nām kamāvangā!",
+      "translation_en": "Do not indulge in pride and conceit, O mortal, for into dust you shall return! Strive for the earnings of good deeds, and you shall earn an enduring name!",
+      "translation_hi": "घमण्ड और अहंकार मत कर ओ इंसान, मिट्टी में मिल जाओगे! भलाई और नेकी कमाओ, सदा नाम कमाओगे!",
+      "translation_ur": "تکبر اور غرور مت کر اے انسان، مٹی میں مل جائے گا! نیکی کی کمائی کر، ہمیشہ کا نام پائے گا!",
+      "explanation": "The Bait is the classical four-line poetic and philosophical song form of Gojri oral tradition, sung in spiritual gatherings and pastoral vigils.",
+      "region": "Wangat / Poonch / Jammu",
+      "source": "RAHI_FOLKLORE_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_05",
+      "category": "songs",
+      "title": "Gojri Lori: Traditional Gujjar Cradle Lullaby",
+      "text": "سون جا میرے لعل، چن مھارے سون جا! جنگلاں ما ٹھنڈی ہوا لگی، مٹھے سپنے ویکھ سون جا!",
+      "text_devanagari": "सौं जा मेरे लाल, चन म्हारे सौं जा! जंगलाँ मा ठण्डी हवा लगी, मिट्ठे सपने वेख सौं जा!",
+      "text_roman": "Sõ jā mere lāl, chan mhāre sõ jā! Janglā̃ mā ṭhaṇḍī hawā lagī, miṭṭhe sapne vekh sõ jā!",
+      "translation_en": "Sleep, my darling child, sleep my moon! Cool breezes rustle through the mountain forests; dream sweet dreams and sleep!",
+      "translation_hi": "सो जा मेरे लाल, मेरे चाँद सो जा! जंगलों में ठंडी हवा चल रही है, मीठे सपने देखकर सो जा!",
+      "translation_ur": "سو جا میرے لعل، میرے چاند سو جا! جنگلوں میں ٹھنڈی ہوا چل رہی ہے، میٹھے خواب دیکھ کر سو جا!",
+      "explanation": "Lori is the maternal cradle song in Gojri folklore, crooned by Gujjar mothers in pastoral stone kothas and tents to soothe sleeping infants.",
+      "region": "Western Himalayas / General Gojri",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_06",
+      "category": "songs",
+      "title": "Dholak De Geet: Gujjar Wedding Celebration Melody",
+      "text": "مہندی لاؤ نی گجری دی، پھلاں بھری بہار آئی! ڈھولک وجے، گھنگھرو چھنکن، سارا جگ خوشیاں منائی!",
+      "text_devanagari": "मेहन्दी लाओ नी गूजरी दी, फुल्लाँ भरी बहार आई! ढोलक वजे, घुँघरू छनकन, सारा जग खुशियाँ मनाई!",
+      "text_roman": "Mehndī lāo nī Gūjrī dī, phullā̃ bharī bahār āī! Ḍholak vaje, ghunghrū chhankan, sārā jag khushyā̃ manāī!",
+      "translation_en": "Apply the bridal henna to the Gujjar maiden, for a flower-laden spring has arrived! The dholak beats, ankle-bells chime, and the whole world rejoices!",
+      "translation_hi": "गूजरी को मेंहदी लगाओ, फूलों भरी बहार आई है! ढोलक बज रही है, घुँघरू छनक रहे हैं, सारा संसार ख़ुशियाँ मना रहा है!",
+      "translation_ur": "گوجری کو مہندی لگاؤ، پھولوں بھری بہار آئی ہے! ڈھولک بجتی ہے، گھنگھرو چھنکتے ہیں، سارا جہاں خوشیاں مناتا ہے!",
+      "explanation": "Dholak De Geet are festive celebratory songs sung by Gujjar women to the beat of the dholak drum during wedding rituals and festive henna ceremonies.",
+      "region": "Jammu & Kashmir / Punjab Hills",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "CULT_SONG_07",
+      "category": "songs",
+      "title": "Baranmah Song: Sawan (Monsoon in the High Pastures)",
+      "text": "ساوݨ برسیو رم جھم، مھاری باہک ہری ہوئی! کجلی بدلیاں گرجن، مکھݨ دی خوشبو پھیلی!",
+      "text_devanagari": "सावण बर्स्यो रिम झिम, म्हारी बाहक हरी होई! कजली बदलियाँ गर्जन, मक्खण दी खुशबू फैली!",
+      "text_roman": "Sāwaṇ barsyo rim-jhim, mhārī bāhak harī hoī! Kajlī badliyā̃ garjan, makkhaṇ dī khushbū phailī!",
+      "translation_en": "Sawan has rained down in gentle showers; our high alpine meadow has turned vibrant green! Dark clouds thunder softly, and the fragrance of fresh churned butter fills the air!",
+      "translation_hi": "सावन रिमझिम बरसा है, हमारा चरागाह हरा-भरा हो गया है! काले बादल गरज रहे हैं और ताज़े मक्खन की सुगंध फैल रही है!",
+      "translation_ur": "ساون رم جھم برسا ہے، ہماری چراگاہ ہری بھری ہو گئی ہے! سیاہ بادل گرجتے ہیں اور تازہ مکھن کی خوشبو پھیل گئی ہے!",
+      "explanation": "A pastoral verse from the Gojri Baranmah song cycle, celebrating the bounty and coolness of the monsoon month (Sawan) at alpine summer settlements.",
+      "region": "Pir Panjal / Rajouri / Poonch",
+      "source": "RAHI_LOK_GEET (JKAACL)",
       "verification_status": "verified"
     }
   ]

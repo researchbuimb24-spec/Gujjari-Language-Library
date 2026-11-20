@@ -85,6 +85,42 @@ def list_proverbs(dialect: Optional[str] = None) -> List[CulturalItem]:
     return proverbs
 
 
+def list_songs(dialect: Optional[str] = None) -> List[CulturalItem]:
+    """Return all verified Gojri traditional songs (Chhaint, Mahya, Singran Ka Geet, Bait, Lori, Dholak).
+
+    Args:
+        dialect: Optional regional filter.
+
+    Returns:
+        List of CulturalItem objects representing traditional songs.
+    """
+    items = _load_all_items()
+    songs = [i for i in items if i.category == "songs"]
+    if dialect:
+        dia_clean = dialect.strip().lower()
+        songs = [
+            s for s in songs
+            if dia_clean in s.region.lower() or "general" in s.region.lower()
+        ]
+    return songs
+
+
+def list_items(category: Optional[str] = None) -> List[CulturalItem]:
+    """Return all cultural items, optionally filtered by category.
+
+    Args:
+        category: Optional category filter (e.g. 'proverbs', 'pastoral_terms', 'folklore', 'songs').
+
+    Returns:
+        List of CulturalItem objects.
+    """
+    items = _load_all_items()
+    if category:
+        cat_clean = category.strip().lower()
+        items = [i for i in items if i.category.lower() == cat_clean]
+    return items
+
+
 def list_cultural_categories() -> List[str]:
     """Return all categories present in the cultural heritage dataset."""
     items = _load_all_items()

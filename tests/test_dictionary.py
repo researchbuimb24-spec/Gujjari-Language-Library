@@ -166,5 +166,37 @@ def test_colors_kinship_pastoral_vocabulary() -> None:
     assert charavno.pos == "verb"
 
 
+def test_literary_musical_and_epic_vocabulary() -> None:
+    # Musical Instruments
+    sarangi = lookup("سارنگی")
+    assert sarangi is not None
+    assert "sarangi" in sarangi.meaning_en.lower()
+    assert sarangi.pos == "noun"
+
+    alghoza = lookup("अलगोज़ा")
+    assert alghoza is not None
+    assert "flute" in alghoza.meaning_en.lower()
+
+    # Oral genres
+    chhaint = lookup("چھینٹ")
+    assert chhaint is not None
+    assert "ballad" in chhaint.meaning_en.lower()
+
+    bait = lookup("बैत")
+    assert bait is not None
+    assert "couplet" in bait.meaning_en.lower() or "quatrain" in bait.meaning_en.lower()
+
+    # Bards and Narrative
+    dhadhi = lookup("ڈھاڈھی")
+    assert dhadhi is not None
+    assert "bard" in dhadhi.meaning_en.lower() or "singer" in dhadhi.meaning_en.lower()
+
+    # Wisdom and Ethics
+    updesh = lookup("उपदेश")
+    assert updesh is not None
+    assert "counsel" in updesh.meaning_en.lower() or "teaching" in updesh.meaning_en.lower()
+
+
+
 
 

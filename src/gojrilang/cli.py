@@ -11,7 +11,7 @@ import sys
 from typing import List, Optional
 
 import gojrilang
-from gojrilang.culture import list_proverbs, search_culture
+from gojrilang.culture import list_proverbs, list_songs, search_culture
 from gojrilang.datasets import get_dataset_stats
 from gojrilang.dictionary import lookup, search
 from gojrilang.exceptions import GojriLangError
@@ -261,6 +261,23 @@ def cmd_culture_list(args: argparse.Namespace) -> int:
             print(f"   HI: {p.translation_hi}")
             print(f"   UR: {p.translation_ur}")
             print(f"   Region: {p.region} | Source: {p.source}\n")
+    return 0
+
+
+def cmd_culture_songs(args: argparse.Namespace) -> int:
+    songs = list_songs()
+    if args.json:
+        _print_json([s.to_dict() for s in songs])
+    else:
+        print(f"\nVerified Gojri Traditional Songs ({len(songs)}):\n")
+        for idx, s in enumerate(songs, 1):
+            rom = f" ({s.text_roman})" if s.text_roman else ""
+            print(f"{idx}. {s.title}")
+            print(f"   Text: {s.text}{rom}")
+            print(f"   EN:   {s.translation_en}")
+            print(f"   HI:   {s.translation_hi}")
+            print(f"   UR:   {s.translation_ur}")
+            print(f"   Region: {s.region} | Source: {s.source}\n")
     return 0
 
 
@@ -718,6 +735,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_cult = subparsers.add_parser("culture", help="Browse and search Gojri cultural heritage and proverbs.")
     c_subs = p_cult.add_subparsers(dest="culture_cmd", help="Culture actions")
     p_c_list = c_subs.add_parser("list", help="List verified proverbs.")
+    p_c_songs = c_subs.add_parser("songs", help="List verified traditional Gojri songs and ballads.")
     p_c_search = c_subs.add_parser("search", help="Search cultural terms and proverbs.")
     p_c_search.add_argument("term", help="Search keyword.")
     p_c_search.add_argument("--category", help="Category filter (proverbs, pastoral_terms).")
@@ -844,6 +862,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     elif args.subcommand == "culture":
         if args.culture_cmd == "list":
             return cmd_culture_list(args)
+        elif args.culture_cmd == "songs":
+            return cmd_culture_songs(args)
         elif args.culture_cmd == "search":
             return cmd_culture_search(args)
         else:

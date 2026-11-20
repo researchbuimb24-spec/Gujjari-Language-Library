@@ -9,7 +9,8 @@ from __future__ import annotations
 import json
 from dataclasses import asdict, dataclass
 from importlib import resources
-from typing import Any, Dict, Iterator, List, Optional
+from pathlib import Path
+from typing import Any, Dict, Iterator, List, Optional, Union
 
 from gojrilang.exceptions import BookNotFoundError
 from gojrilang.normalize import normalize_for_search
@@ -217,9 +218,67 @@ def _get_registry() -> Dict[str, Book]:
     return _BOOKS_REGISTRY
 
 
-def list_books() -> List[BookMetadata]:
-    """List metadata for all documented Gojri literature collections."""
-    return [b.metadata for b in _get_registry().values()]
+def list_books(category: Optional[str] = None) -> List[BookMetadata]:
+    """List metadata for all documented Gojri literature collections.
+
+    Args:
+        category: Optional search term or category filter across id, title, dialect, or description.
+    """
+    books = [b.metadata for b in _get_registry().values()]
+    if category:
+        cat_clean = category.strip().lower()
+        books = [
+            b for b in books
+            if cat_clean in b.title.lower()
+            or cat_clean in b.dialect.lower()
+            or cat_clean in b.description.lower()
+            or cat_clean in b.id.lower()
+        ]
+    return books
+
+
+def register_book(book: Union[Book, Dict[str, Any]]) -> Book:
+    """Register a new or custom Gojri literature book in the active registry.
+
+    Args:
+        book: A Book instance or a dictionary conforming to the book schema.
+
+    Returns:
+        The registered Book instance.
+    """
+    if isinstance(book, dict):
+        book_obj = Book.from_dict(book)
+    elif isinstance(book, Book):
+        book_obj = book
+    else:
+        raise TypeError(f"Expected Book or dict, got {type(book).__name__}")
+
+    reg = _get_registry()
+    reg[book_obj.id] = book_obj
+    return book_obj
+
+
+def import_book_file(filepath: Union[str, Path]) -> Book:
+    """Load and register a Gojri literature book from a JSON file.
+
+    Args:
+        filepath: Path to the JSON book file.
+
+    Returns:
+        The loaded and registered Book instance.
+    """
+    p = Path(filepath)
+    if not p.is_file():
+        raise FileNotFoundError(f"Book file '{p}' does not exist.")
+    with open(p, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return register_book(data)
+
+
+def reset_registry() -> None:
+    """Reset the cached book registry so it reloads from packaged data on next access."""
+    global _BOOKS_REGISTRY
+    _BOOKS_REGISTRY = None
 
 
 def get_book(book_id: str) -> Book:

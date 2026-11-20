@@ -8,7 +8,9 @@ import gojrilang
 from gojrilang.culture import (
     get_cultural_item,
     list_cultural_categories,
+    list_items,
     list_proverbs,
+    list_songs,
     search_culture,
 )
 
@@ -21,6 +23,38 @@ def test_list_proverbs() -> None:
         assert p.text != ""
         assert p.translation_en != ""
         assert p.verification_status == "verified"
+
+
+def test_list_songs() -> None:
+    songs = list_songs()
+    assert len(songs) >= 7
+    for s in songs:
+        assert s.category == "songs"
+        assert s.verification_status == "verified"
+    titles = [s.title for s in songs]
+    assert any("Chhaint" in t for t in titles)
+    assert any("Mahya" in t for t in titles)
+    assert any("Singran" in t for t in titles)
+    assert any("Lori" in t for t in titles)
+    assert any("Dholak" in t for t in titles)
+
+
+def test_list_items_category_filter() -> None:
+    all_items = list_items()
+    assert len(all_items) >= 30
+    songs_only = list_items("songs")
+    assert len(songs_only) >= 7
+    assert all(i.category == "songs" for i in songs_only)
+
+
+def test_search_songs() -> None:
+    res = search_culture("alghoza", category="songs")
+    assert len(res) >= 1
+    assert "CULT_SONG_01" in [r.id for r in res]
+
+    res_lori = search_culture("lullaby", category="songs")
+    assert len(res_lori) >= 1
+    assert any("lori" in r.title.lower() or "cradle" in r.explanation.lower() for r in res_lori)
 
 
 def test_search_culture_by_english() -> None:

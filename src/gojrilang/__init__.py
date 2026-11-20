@@ -20,14 +20,19 @@ from gojrilang.books import (
     BookSearchResult,
     get_book,
     get_page,
+    import_book_file,
     list_books,
+    register_book,
+    reset_registry,
     search_books,
 )
 from gojrilang.culture import (
     CulturalItem,
     get_cultural_item,
     list_cultural_categories,
+    list_items,
     list_proverbs,
+    list_songs,
     search_culture,
 )
 from gojrilang.datasets import (
@@ -158,6 +163,9 @@ __all__ = [
     "get_book",
     "get_page",
     "search_books",
+    "register_book",
+    "import_book_file",
+    "reset_registry",
     "Book",
     "BookMetadata",
     "BookPage",
@@ -173,6 +181,8 @@ __all__ = [
     "AudioReference",
     # Culture
     "list_proverbs",
+    "list_songs",
+    "list_items",
     "search_culture",
     "get_cultural_item",
     "list_cultural_categories",

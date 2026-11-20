@@ -9467,6 +9467,862 @@
       },
       "license": "CC-BY-4.0",
       "contributor": "Scholarly Fieldwork Compilation"
+    },
+    {
+      "id": "word_201",
+      "word": "سارنگی",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "सारंगी",
+        "sārangī"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "sarangi, traditional bowed string musical instrument",
+      "meaning_hi": "सारंगी (पारंपरिक तार वाद्य)",
+      "meaning_ur": "سارنگی (تار والا روایتی ساز)",
+      "definitions": {
+        "primary": "A bowed string musical instrument carved from wood, prominently played by Gujjar bards while singing Chhaint ballads and folk epics."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "ڈھاڈھی سارنگی بجا کے چھینٹ سُݨاوے ہے۔",
+          "sentence_devanagari": "ढाढी सारंगी बजा के छींट सुणावे है।",
+          "sentence_roman": "Ḍhāḍhī sārangī bajā ke chhaint suṇāve hai.",
+          "translation_en": "The bard plays the sarangi and recites the heroic ballad."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/saː.ɾəŋ.ɡiː/",
+        "syllables": 3,
+        "stress_pattern": "sā-raṅ-gī"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_202",
+      "word": "الڳوزہ",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "अलगोज़ा",
+        "alġhozah",
+        "alghoza"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "alghoza, paired wooden shepherd flutes",
+      "meaning_hi": "अलगोज़ा (जोड़ीदार बाँसुरी वाद्य)",
+      "meaning_ur": "الگوزہ (دو بانسریوں کا جوڑا)",
+      "definitions": {
+        "primary": "A paired double-flute instrument played simultaneously by pastoral shepherds across the Himalayan mountains."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "پہاڑاں ما چرواہو الڳوزہ وجاوے ہے۔",
+          "sentence_devanagari": "पहाड़ाँ मा चरवाहो अलगोज़ा बजावे है।",
+          "sentence_roman": "Pahāṛā̃ mā charwāho alġhozah bajāve hai.",
+          "translation_en": "In the mountains, the shepherd plays the double-flute."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/əl.ɣoː.zaː/",
+        "syllables": 3,
+        "stress_pattern": "al-ġho-zah"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_203",
+      "word": "چھینٹ",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "छींट",
+        "chhaint",
+        "chhent"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "Chhaint, traditional heroic narrative ballad",
+      "meaning_hi": "छींट (वीर रस की लोक गाथा / महाकाव्य)",
+      "meaning_ur": "چھینٹ (گوجری روایتی رزمیہ لوک گیت)",
+      "definitions": {
+        "primary": "The traditional heroic poetic narrative ballad of the Gujjar tribe, commemorating ancestors, martyrs, and legendary lore."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "بزرگاں دی چھینٹ سُݨ کے خون گرماوے ہے۔",
+          "sentence_devanagari": "बुज़ुर्गाँ दी छींट सुण के ख़ून गरमावे है।",
+          "sentence_roman": "Buzurgā̃ dī chhaint suṇ ke khūn garmāve hai.",
+          "translation_en": "Hearing the heroic ballad of the elders stirs the blood."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/t͡ʃʰɛ̃ːʈ/",
+        "syllables": 1,
+        "stress_pattern": "chhaint"
+      },
+      "dialect": "Pir Panjal Gojri",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_204",
+      "word": "بیت",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "बैत",
+        "bait"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "bait, poetic couplet or mystical quatrain",
+      "meaning_hi": "बैत (काव्य दोहा या चौपाई)",
+      "meaning_ur": "بیت (شعر یا صوفیانہ دوہا)",
+      "definitions": {
+        "primary": "A traditional poetic couplet or four-line verse form in Gojri expressing spiritual truth, philosophical insight, or pastoral romance."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "میاں نظام الدین رو بیت سچائی دسّے ہے۔",
+          "sentence_devanagari": "मियाँ निज़ामुद्दीन रो बैत सच्चाई दस्से है।",
+          "sentence_roman": "Miyā̃ Nizām-ud-Dīn ro bait sachāī dasse hai.",
+          "translation_en": "The verse of Mian Nizam-ud-Din reveals moral truth."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/bɛːt̪/",
+        "syllables": 1,
+        "stress_pattern": "bait"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_205",
+      "word": "لوری",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "लोरी",
+        "lorī"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "lullaby, cradle song",
+      "meaning_hi": "लोरी (शिशु को सुलाने का गीत)",
+      "meaning_ur": "لوری (بچے کو سلانے کا گیت)",
+      "definitions": {
+        "primary": "A soothing cradle melody sung by mothers to put infants and young children to sleep in highland homes."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "ماں بالک نا لوری دے کے سواوے ہے۔",
+          "sentence_devanagari": "माँ बालक ना लोरी दे के सुवावे है।",
+          "sentence_roman": "Mā̃ bālak nā lorī de ke suwāve hai.",
+          "translation_en": "The mother sings a lullaby to put the child to sleep."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/loː.ɾiː/",
+        "syllables": 2,
+        "stress_pattern": "lo-rī"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_206",
+      "word": "ماہیا",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "माहिया",
+        "māhyā"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "mahya, pastoral folk couplet of separation and love",
+      "meaning_hi": "माहिया (लोक प्रेम और विरह गीत)",
+      "meaning_ur": "ماہیا (فراق اور محبت کا روایتی دو سطرہ گیت)",
+      "definitions": {
+        "primary": "A popular two-line pastoral lyrical folk song genre expressing romantic longing, emotional distance, and alpine solitude."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "باہک تے بہہ کے اوہ ماہیا گاؤ تو سی۔",
+          "sentence_devanagari": "बाहक ते बह के ओह माहिया गावतो सी।",
+          "sentence_roman": "Bāhak te bah ke oh māhyā gāvto sī.",
+          "translation_en": "Sitting at the high pasture hut, he used to sing mahya verses."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/maːh.jaː/",
+        "syllables": 2,
+        "stress_pattern": "māh-yā"
+      },
+      "dialect": "Pir Panjal Gojri",
+      "source": "RAHI_LOK_GEET (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_207",
+      "word": "بارہ ماہ",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "बारहमाह",
+        "bārā̃māh",
+        "barahmah"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "Baranmah, twelve-month seasonal poetry cycle",
+      "meaning_hi": "बारहमाह (बारह महीनों का ऋतु काव्य)",
+      "meaning_ur": "بارہ ماہ (بارہ مہینوں کا موسمی منظوم چکر)",
+      "definitions": {
+        "primary": "A classical pastoral poetic form structured across the twelve months of the calendar, depicting seasonal migration, climate, and emotion."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "بارہ ماہ ما گجر موسم دی ریت دَسدے نیں۔",
+          "sentence_devanagari": "बारहमाह मा गुज्जर मौसम दी रीत दस्सदे ने।",
+          "sentence_roman": "Bārā̃māh mā Gujjar mausam dī rīt dassde ne.",
+          "translation_en": "In the twelve-month cycle, Gujjars portray the customs of the seasons."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/baː.ɾãː.maːh/",
+        "syllables": 3,
+        "stress_pattern": "bā-rā̃-māh"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_208",
+      "word": "داستان",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "दास्तान",
+        "dāstān"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "epic tale, legend, long narrative",
+      "meaning_hi": "दास्तान (कथा, महाकाव्यीय आख्यान)",
+      "meaning_ur": "داستان (طویل قصہ، رزمیہ یا عشقیہ کہانی)",
+      "definitions": {
+        "primary": "An extended narrative tale or legend celebrating heroic quests, romance, or historical folklore."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "سوہنی ماہیوال دی داستان سارا گجر جاݨدے نیں۔",
+          "sentence_devanagari": "सोहणी माहीवाल दी दास्तान सारा गुज्जर जाणदे ने।",
+          "sentence_roman": "Sohnī Māhīwāl dī dāstān sārā Gujjar jāṇde ne.",
+          "translation_en": "All Gujjars know the epic tale of Sohni and Mahiwal."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/d̪aːs.t̪aːn/",
+        "syllables": 2,
+        "stress_pattern": "dās-tān"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_209",
+      "word": "کتھا",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "कथा",
+        "kathā"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "katha, sacred narrative, traditional lore, story",
+      "meaning_hi": "कथा (पारंपरिक कथा या आख्यान)",
+      "meaning_ur": "کتھا (روایتی یا مذہبی قصہ)",
+      "definitions": {
+        "primary": "A traditional oral narrative, historical lore, or sacred legend recited in mountain gatherings."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "بزرگ پانڈواں دی کتھا سُݨاوے ہن۔",
+          "sentence_devanagari": "बुज़ुर्ग पाण्डवाँ दी कथा सुणावे हन।",
+          "sentence_roman": "Buzurg Pāṇḍavā̃ dī kathā suṇāve han.",
+          "translation_en": "The elder recites the lore of the Pandavas."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/kə.t̪ʰaː/",
+        "syllables": 2,
+        "stress_pattern": "ka-thā"
+      },
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (CIIL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_210",
+      "word": "ڈھاڈھی",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "ढाढी",
+        "ḍhāḍhī"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "dhadhi, traditional folk bard, ballad singer",
+      "meaning_hi": "ढाढी (लोक गायक, गाथाकार)",
+      "meaning_ur": "ڈھاڈھی (رزمیہ و روایتی لوک گلوکار)",
+      "definitions": {
+        "primary": "A traditional hereditary folk minstrel or bard who sings epic ballads and historical poetry to traditional instruments."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "ڈھاڈھی میلے ما اڳوزہ تے ساز وجاوے ہے۔",
+          "sentence_devanagari": "ढाढी मेले मा अगोज़ा ते साज़ बजावे है।",
+          "sentence_roman": "Ḍhāḍhī mele mā alġhozah te sāz bajāve hai.",
+          "translation_en": "The bard plays the flute and instruments at the fair."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ɖʰaː.ɖʱiː/",
+        "syllables": 2,
+        "stress_pattern": "ḍhā-ḍhī"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_211",
+      "word": "ڈھولک",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "ढोलक",
+        "ḍholak"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "dholak, two-headed folk hand drum",
+      "meaning_hi": "ढोलक (पारंपरिक ढोल)",
+      "meaning_ur": "ڈھولک (چھوٹا روایتی ڈھول)",
+      "definitions": {
+        "primary": "A two-headed wooden barrel drum beaten with hands, central to Gujjar wedding melodies and festive gatherings."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "ویاہ تے عورتاں ڈھولک وجا کے گیت گاویں نیں۔",
+          "sentence_devanagari": "व्याह ते औरताँ ढोलक बजा के गीत गावें ने।",
+          "sentence_roman": "Vyāh te auratā̃ ḍholak bajā ke geet gāvẽ ne.",
+          "translation_en": "At weddings, women play the dholak drum and sing songs."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ɖʰoː.lək/",
+        "syllables": 2,
+        "stress_pattern": "ḍho-lak"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_212",
+      "word": "چمٹا",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "चिमटा",
+        "chimṭā"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "chimta, musical percussion tongs with jingles",
+      "meaning_hi": "चिमटा (झाँझ वाला वाद्य)",
+      "meaning_ur": "چمٹا (گھنگھروؤں والا ساز)",
+      "definitions": {
+        "primary": "A metallic percussion instrument shaped like tongs with attached brass jingles, used in spiritual folk singing."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "فقیر چمٹا کھڑکائی کے کلام سُݨاوے ہے۔",
+          "sentence_devanagari": "फ़क़ीर चिमटा खड़काइ के कलाम सुणावे है।",
+          "sentence_roman": "Faqīr chimṭā khaṛkāī ke kalām suṇāve hai.",
+          "translation_en": "The mystic clacks the chimta tongs and recites spiritual poetry."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/t͡ʃɪm.ʈaː/",
+        "syllables": 2,
+        "stress_pattern": "chim-ṭā"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_213",
+      "word": "بانسری",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "बाँसुरी",
+        "bā̃surī",
+        "vanjhli"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "bansuri, shepherd's bamboo flute",
+      "meaning_hi": "बाँसुरी (वेणु, मुरली)",
+      "meaning_ur": "بانسری (بانس کی مرلی)",
+      "definitions": {
+        "primary": "A side-blown bamboo flute played by mountain herders to guide their flocks and pass the solitary hours."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "شام ویلے بانسری دی مٹھی دُھن سُݨائی دیوے۔",
+          "sentence_devanagari": "शाम वेले बाँसुरी दी मिट्ठी धुन सुणाई देवे।",
+          "sentence_roman": "Shām vele bā̃surī dī miṭṭhī dhun suṇāī dewe.",
+          "translation_en": "At eventide, the sweet melody of the bamboo flute is heard."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/bãːs.ɾiː/",
+        "syllables": 2,
+        "stress_pattern": "bā̃s-rī"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_214",
+      "word": "سُر",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "सुर",
+        "sur"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "sur, musical note, tone, melodic pitch",
+      "meaning_hi": "सुर (संगीत स्वर या तान)",
+      "meaning_ur": "سُر (موسیقی کا سُر، لے)",
+      "definitions": {
+        "primary": "A musical pitch, harmonic note, or vocal tone in pastoral and folk music."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "اوہدی آواز ما مٹھو سُر ہے۔",
+          "sentence_devanagari": "ओहदी आवाज़ मा मिठ्ठो सुर है।",
+          "sentence_roman": "Ohdī āwāz mā miṭṭho sur hai.",
+          "translation_en": "There is a sweet melodic tone in their voice."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/sʊɾ/",
+        "syllables": 1,
+        "stress_pattern": "sur"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_215",
+      "word": "راگ",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "राग",
+        "rāg"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "rag, melodic framework, tune, musical melody",
+      "meaning_hi": "राग (संगीत राग, धुन)",
+      "meaning_ur": "راگ (موسیقی کا راگ، نغمہ)",
+      "definitions": {
+        "primary": "A traditional melodic mode or song tune sung during folk festivals and narrative recitation."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "گوجری راگ سن کے دل خوش ہو جاوے ہے۔",
+          "sentence_devanagari": "गोजरी राग सुण के दिल खुश हो जावे है।",
+          "sentence_roman": "Gojrī rāg suṇ ke dil khush ho jāve hai.",
+          "translation_en": "Hearing the Gojri tune, the heart gladdens."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ɾaːɡ/",
+        "syllables": 1,
+        "stress_pattern": "rāg"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_216",
+      "word": "شاعری",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "शायरी",
+        "shā'irī",
+        "kavita"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "poetry, verse composition",
+      "meaning_hi": "शायरी (कविता, पद्य रचना)",
+      "meaning_ur": "شاعری (منظوم کلام)",
+      "definitions": {
+        "primary": "The art or practice of composing poetry, verses, and rhymed literary expression in Gojri."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "گوجری زبان ما وڈی شاعری لکھی گئی ہے۔",
+          "sentence_devanagari": "गोजरी ज़बान मा वड्डी शायरी लिखी गई है।",
+          "sentence_roman": "Gojrī zabān mā vaḍḍī shā'irī likhī gaī hai.",
+          "translation_en": "Extensive poetry has been composed in the Gojri language."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ʃaː.ʔɪ.ɾiː/",
+        "syllables": 3,
+        "stress_pattern": "shā-i-rī"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_217",
+      "word": "دوہرا",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "दोहरा",
+        "dohrā"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "dohra, rhyming couplet of wisdom",
+      "meaning_hi": "दोहरा (दोहा, दो पंक्तियों का पद्य)",
+      "meaning_ur": "دوہرا (دو سطروں پر مشتمل شعر)",
+      "definitions": {
+        "primary": "A two-line rhymed couplet conveying moral aphorisms, folk philosophy, or emotional insights."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "سائیں قادر بخش رو دوہرا ساریاں نا یاد ہے۔",
+          "sentence_devanagari": "साईं क़ादिर बख़्श रो दोहरा सारियाँ ना याद है।",
+          "sentence_roman": "Sāī̃ Qādir Bakhsh ro dohrā sāriyā̃ nā yād hai.",
+          "translation_en": "The couplet of Sain Qadir Bakhsh is remembered by all."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/d̪oːh.ɾaː/",
+        "syllables": 2,
+        "stress_pattern": "doh-rā"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_218",
+      "word": "ٹپہ",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "टप्पा",
+        "ṭappā"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "tappa, short fast folk verse or lyrical stanza",
+      "meaning_hi": "टप्पा (छोटा लोक छंद)",
+      "meaning_ur": "ٹپہ (مختصر لوک گیت یا مصرع)",
+      "definitions": {
+        "primary": "A brief semi-folk rhythm verse or lyric stanza sung in swift cadence, often alternating between singers."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "چھوکرے ٹپے گاندے پہاڑاں وال جاؤندے نیں۔",
+          "sentence_devanagari": "छोकरे टप्पे गान्दे पहाड़ाँ वाल जावन्दे ने।",
+          "sentence_roman": "Chhokre ṭappe gānde pahāṛā̃ vāl jāvande ne.",
+          "translation_en": "Singing tappa verses, the youths head toward the mountains."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ʈəp.paː/",
+        "syllables": 2,
+        "stress_pattern": "ṭap-pā"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_219",
+      "word": "گوالی",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "ग्वाली",
+        "gwālī"
+      ],
+      "pos": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "meaning_en": "gwali, pastoral cowherd song, pasture call",
+      "meaning_hi": "ग्वाली (ग्वालों का गीत या आवाज़)",
+      "meaning_ur": "گوالی (چرواہوں کا مخصوص گیت یا پکار)",
+      "definitions": {
+        "primary": "A distinct pastoral song or vocal call uttered by herdsmen across ravines and meadows to communicate with fellow shepherds and herd animals."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "دھار تے چرواہے دی گوالی گونجدی ہے۔",
+          "sentence_devanagari": "धार ते चरवाहे दी ग्वाली गूँजदी है।",
+          "sentence_roman": "Dhār te charwāhe dī gwālī gūnjdī hai.",
+          "translation_en": "On the mountain ridge, the herdsman's pastoral song echoes."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ɡwaː.liː/",
+        "syllables": 2,
+        "stress_pattern": "gwā-lī"
+      },
+      "dialect": "Pir Panjal Gojri",
+      "source": "RAHI_FOLKLORE_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_220",
+      "word": "بول",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "बोल",
+        "bol"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "word, song lyric, spoken utterance, solemn promise",
+      "meaning_hi": "बोल (वचन, शब्द, गीत के बोल)",
+      "meaning_ur": "بول (بات، وعدہ، گیت کے الفاظ)",
+      "definitions": {
+        "primary": "A spoken utterance, verbal promise, or lyrical line in a folk song."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "اپݨے بول رو پکا رہݨو چنگے آدمی دی نشانی ہے۔",
+          "sentence_devanagari": "अपणे बोल रो पक्का रहणो चंगे आदमी दी निशानी है।",
+          "sentence_roman": "Apṇe bol ro pakkā rahaṇo change ādmī dī nishānī hai.",
+          "translation_en": "Keeping steadfast to one's word is the mark of a noble person."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/boːl/",
+        "syllables": 1,
+        "stress_pattern": "bol"
+      },
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (CIIL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_221",
+      "word": "جھومر",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "झूमर",
+        "jhūmar"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "jhumar, traditional swaying circle dance",
+      "meaning_hi": "झूमर (घेरे में किया जाने वाला लोक नृत्य)",
+      "meaning_ur": "جھومر (روایتی گول دائرے کا لوک رقص)",
+      "definitions": {
+        "primary": "A rhythmic communal circle dance accompanied by singing and clapping performed during pastoral celebrations and fairs."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "میلے ما جواناں جھومر پا کے خوشی منائی۔",
+          "sentence_devanagari": "मेले मा जवानाँ झूमर पा के ख़ुशी मनाई।",
+          "sentence_roman": "Mele mā jawānā̃ jhūmar pā ke khushī manāī.",
+          "translation_en": "At the fair, the youths danced the jhumar and celebrated with joy."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/d͡ʒʱuː.məɾ/",
+        "syllables": 2,
+        "stress_pattern": "jhū-mar"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_FOLKLORE_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_222",
+      "word": "کلام",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "कलाम",
+        "kalām"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "kalam, mystical devotional poetry, sacred verse",
+      "meaning_hi": "कलाम (सूफ़ी काव्य, आध्यात्मिक वाणी)",
+      "meaning_ur": "کلام (صوفیانہ و روحانی شاعری)",
+      "definitions": {
+        "primary": "The collected devotional, mystical, or spiritual poetry composed by venerable sages, saints, and masters."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "لاروی صاحب رو کلام دل نا سکون بخشے ہے۔",
+          "sentence_devanagari": "लारवी साहिब रो कलाम दिल ना सुकून बख़्शे है।",
+          "sentence_roman": "Lārvī Sāhib ro kalām dil nā sukūn bakhshe hai.",
+          "translation_en": "The spiritual verses of Larvi Sahib bestow peace upon the heart."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/kə.laːm/",
+        "syllables": 2,
+        "stress_pattern": "ka-lām"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_223",
+      "word": "دھرمی",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "धर्मी",
+        "dharmī"
+      ],
+      "pos": "adjective",
+      "gender": "both",
+      "number": "both",
+      "meaning_en": "righteous, virtuous, dutiful, pious",
+      "meaning_hi": "धर्मी (सदाचारी, कर्तव्यनिष्ठ)",
+      "meaning_ur": "دھرمی (راست باز، نیک خو، دیندار)",
+      "definitions": {
+        "primary": "Possessing moral integrity, righteousness, and commitment to moral duty and truth."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "دھرمی آدمی کدی کسے دا بُرا نہیں چاہوے۔",
+          "sentence_devanagari": "धर्मी आदमी कदी किसे दा बुरा नहीं चाहवे।",
+          "sentence_roman": "Dharmī ādmī kadī kise dā burā nahī̃ chāhve.",
+          "translation_en": "A righteous person never wishes ill on anyone."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/d̪ʱəɾ.miː/",
+        "syllables": 2,
+        "stress_pattern": "dhar-mī"
+      },
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (CIIL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_224",
+      "word": "بانس",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "बाँस",
+        "bā̃s"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "bamboo, cane, material for flutes and pastoral walking sticks",
+      "meaning_hi": "बाँस (वेणु का वृक्ष, डंडा)",
+      "meaning_ur": "بانس (بانسری اور لاٹھی کی لکڑی)",
+      "definitions": {
+        "primary": "The hollow woody stem of the bamboo plant, used for making shepherd flutes, pens, and walking staves."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "بانس دی لکڑی نال بانسری بݨائی جاوے ہے۔",
+          "sentence_devanagari": "बाँस दी लकड़ी नाल बाँसुरी बणाई जावे है।",
+          "sentence_roman": "Bā̃s dī lakṛī nāl bā̃surī baṇāī jāve hai.",
+          "translation_en": "A flute is crafted from bamboo wood."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/bãːs/",
+        "syllables": 1,
+        "stress_pattern": "bā̃s"
+      },
+      "dialect": "General Gojri",
+      "source": "RAHI_GOJRI_DICT (JKAACL)",
+      "verification_status": "verified"
+    },
+    {
+      "id": "word_225",
+      "word": "اپدیش",
+      "script": "perso-arabic",
+      "alternative_spellings": [
+        "उपदेश",
+        "updesh",
+        "nasihat"
+      ],
+      "pos": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "meaning_en": "counsel, moral teaching, sermon, spiritual advice",
+      "meaning_hi": "उपदेश (शिक्षा, नैतिक परामर्श)",
+      "meaning_ur": "اپدیش / نصیحت (اخلاقی و روحانی تعلیم)",
+      "definitions": {
+        "primary": "Wise moral instruction, spiritual discourse, or ethical counsel given by elders and spiritual teachers."
+      },
+      "example_sentences": [
+        {
+          "sentence_gojri": "بزرگاں رو اپدیش جیون ما روشنی لیانو ہے۔",
+          "sentence_devanagari": "बुज़ुर्गाँ रो उपदेश जीवन मा रोशनी ल्यावे है।",
+          "sentence_roman": "Buzurgā̃ ro updesh jīvan mā roshnī lyāve hai.",
+          "translation_en": "The wise counsel of elders brings light into life."
+        }
+      ],
+      "phonetic": {
+        "ipa": "/ʊp.d̪eːʃ/",
+        "syllables": 2,
+        "stress_pattern": "up-desh"
+      },
+      "dialect": "General Gojri",
+      "source": "SHARMA_1982 (CIIL)",
+      "verification_status": "verified"
     }
   ]
 }
