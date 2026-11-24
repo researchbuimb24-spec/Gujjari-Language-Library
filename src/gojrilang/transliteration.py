@@ -136,6 +136,8 @@ def transliterate(
     text: str,
     source: str | None = None,
     target: str = "roman",
+    source_script: str | None = None,
+    target_script: str | None = None,
 ) -> str:
     """Transliterate Gojri text between validated scripts.
 
@@ -145,6 +147,8 @@ def transliterate(
         text: Input text string.
         source: Source script name. If None, auto-detected.
         target: Target script name ('perso-arabic', 'devanagari', 'roman').
+        source_script: Optional alias for source.
+        target_script: Optional alias for target.
 
     Returns:
         Transliterated string.
@@ -156,17 +160,20 @@ def transliterate(
     if not text:
         return ""
 
-    if source is None:
+    effective_source = source_script or source
+    effective_target = target_script or target
+
+    if effective_source is None:
         detected = detect_script(text)
         if detected in ("unknown", "mixed"):
             raise UnsupportedScriptError(
                 detected,
                 supported=sorted(list(SUPPORTED_CANONICAL_SCRIPTS)),
             )
-        source = detected
+        effective_source = detected
 
-    src_can = _normalize_script_name(source)
-    tgt_can = _normalize_script_name(target)
+    src_can = _normalize_script_name(effective_source)
+    tgt_can = _normalize_script_name(effective_target)
 
     if src_can == tgt_can:
         return normalize(text)

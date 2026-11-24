@@ -127,6 +127,7 @@ def strip_diacritics(text: str, script: str | None = None) -> str:
 
 
 UnicodeNormalizationForm = Literal["NFC", "NFD", "NFKC", "NFKD"]
+UnicodeForm = Union[UnicodeNormalizationForm, str]
 
 
 @overload
@@ -134,7 +135,7 @@ def normalize(
     text: str,
     remove_diacritics: bool = False,
     preserve_original: Literal[False] = False,
-    normalize_unicode: UnicodeNormalizationForm = "NFC",
+    normalize_unicode: UnicodeForm = "NFC",
 ) -> str:
     ...
 
@@ -144,7 +145,7 @@ def normalize(
     text: str,
     remove_diacritics: bool = False,
     preserve_original: Literal[True] = True,
-    normalize_unicode: UnicodeNormalizationForm = "NFC",
+    normalize_unicode: UnicodeForm = "NFC",
 ) -> Tuple[str, str]:
     ...
 
@@ -154,7 +155,7 @@ def normalize(
     text: str,
     remove_diacritics: bool = False,
     preserve_original: bool = False,
-    normalize_unicode: UnicodeNormalizationForm = "NFC",
+    normalize_unicode: UnicodeForm = "NFC",
 ) -> Union[str, Tuple[str, str]]:
     ...
 
@@ -163,7 +164,7 @@ def normalize(
     text: str,
     remove_diacritics: bool = False,
     preserve_original: bool = False,
-    normalize_unicode: UnicodeNormalizationForm = "NFC",
+    normalize_unicode: UnicodeForm = "NFC",
 ) -> Union[str, Tuple[str, str]]:
     """Normalize Gojri text across script variations, whitespace, and Unicode forms.
 

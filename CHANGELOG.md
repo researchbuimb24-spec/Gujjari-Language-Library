@@ -7,6 +7,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.3.0] - Complete Modular Architecture & Digital Heritage Infrastructure
+
+### Added
+- **Epic Literature Subsystem (`gojrilang.epics`)**:
+  - Structured support for Gojri oral epic traditions: *Gojri Ramayana* (7 Kandas: Bal, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, Uttara) and *Gojri Mahabharata* (5 Parvas: Adi, Vana, Virata, Bhishma, Shanti).
+  - Verse-level multiscript transcriptions (Perso-Arabic, Devanagari, Academic Roman), English/Hindi/Urdu translations, vocabulary extraction, and cultural notes.
+  - Epic APIs: `list_epics()`, `get_epic()`, `get_epic_chapter()`, `get_epic_verse()`, `search_epics()`, `register_epic()`.
+- **Music & Oral Songs Archive (`gojrilang.songs`, `gojrilang.lyrics`)**:
+  - Musicological catalog covering 8 documented genres: Chhaint, Mahya, Singran Ka Geet (caravan chants), Bait, Lori (lullabies), Dholak De Geet (wedding melodies), Baranmah (calendar verses), and Gwali (highland shepherd calls).
+  - Multiscript lyrics alignment, musical instrument documentation (alghoza, bansuri, dholak, chimta, sarangi), rhythm and raga associations.
+  - APIs: `list_songs()`, `get_song()`, `search_songs()`, `list_song_categories()`, `get_song_lyrics()`, `format_multiscript_lyrics()`, `search_lyrics()`.
+- **Classical & Sufi Poetry Subsystem (`gojrilang.poetry`)**:
+  - Documented Gojri poetic forms: Bait, Si-Harfi, Kafi, Ghazal, Dohra, and Nazm.
+  - Featured poets: Hazrat Mian Nizam-ud-Din Larvi, Sain Qadir Bakhsh, Khuda Bakhsh Zaar.
+  - APIs: `list_poems()`, `get_poem()`, `search_poetry()`, `list_poetic_forms()`.
+- **Folktales & Oral Dastans (`gojrilang.folk_stories`)**:
+  - Dastan-e-Sohni Mahiwal (pastoral Chenab legend), Charwaho te Sher (shepherd courage), Kissa Roop Basant (fraternal devotion).
+  - APIs: `list_stories()`, `get_story()`, `search_stories()`.
+- **Unified Digital Literature Archive (`gojrilang.literature`)**:
+  - Unified entry point consolidating books, epics, poetry, and folktales.
+  - APIs: `get_literature_overview()`, `search_all_literature()`.
+- **Folklore, Riddles & Pastoral Traditions (`gojrilang.folklore`, `gojrilang.proverbs`)**:
+  - Traditional riddles (*Pahaṇḍi* / *Bujhārat*) and seasonal transhumance customs (*Bahak Chal*, *Dhooni Baal*).
+  - Dedicated proverb interface: `list_proverbs()`, `get_proverb()`, `search_proverbs()`.
+  - APIs: `list_riddles()`, `get_riddle()`, `list_customs()`, `search_folklore()`.
+- **Historical Knowledge & Clans (`gojrilang.historical_knowledge`)**:
+  - Documented historical settlements and tribal clans (Khatana, Poswal, Chauhan, Bajran, Chechi, Awana).
+  - APIs: `list_historical_places()`, `list_tribal_clans()`, `search_historical_knowledge()`.
+- **Computational NLP Subsystem (`gojrilang.nlp`)**:
+  - Multiscript tokenization (`tokenize()`) and sentence segmentation (`sent_tokenize()`).
+  - Rule-assisted baseline part-of-speech tagger (`pos_tag()`).
+  - N-gram generator (`get_ngrams()`).
+  - Spell checking with Levenshtein-candidate ranking (`spell_check()`).
+  - Jaccard and Levenshtein text similarity metrics (`text_similarity()`).
+  - Gojri language identification with diagnostic marker detection (`detect_language()`).
+  - Rule-based stemmer (`stem()`).
+- **Corpus Analytics & KWIC Concordances (`gojrilang.corpus`)**:
+  - Full-corpus quantitative metrics: tokens, unique types, sentences, type-token ratio (TTR), hapax legomena count, frequency distribution.
+  - Key-Word-In-Context (KWIC) concordance tables with configurable context windows.
+  - APIs: `get_corpus()`, `get_corpus_statistics()`, `concordance()`.
+- **Audio & Speech Infrastructure (`gojrilang.audio`)**:
+  - Metadata models for speech recordings: speaker demographics, recording permissions, audio quality tiers, dialectal regions.
+  - APIs: `get_audio_recording()`, `list_audio_recordings()`, `register_audio_recording()`.
+- **Verification Workflow & Contributor Registry (`gojrilang.verification`, `gojrilang.contributors`)**:
+  - Five-stage verification lifecycle: `community_submitted` -> `needs_review` -> `under_review` -> `verified` / `rejected`.
+  - Role-based permissions preventing unauthorized self-verification.
+  - Immutable audit trail logging: `get_audit_history()`.
+  - Contributor registry with affiliation and dialect expertise.
+- **Unified Object-Oriented Facade (`Gojri`)**:
+  - Comprehensive `from gojrilang import Gojri; gju = Gojri()` facade exposing all 13 sub-namespaces (`dictionary`, `grammar`, `scripts`, `dialects`, `literature`, `epics`, `songs`, `folklore`, `corpus`, `nlp`, `audio`, `verification`, `vocabulary`).
+- **Enhanced Dual CLI (`gojri` and `gojrilang`)**:
+  - Added CLI subcommands: `epics`, `songs`, `folklore`, `corpus`, `nlp`, `literature`, `dictionary`.
+  - Direct workflow commands: `validate-data`, `import-data`, `verify-data`, `export-corpus`.
+- **Testing & Quality Assurance**:
+  - Expanded test suite from 145 to 206 automated unit tests with 100% pass rate.
+  - Validated packaging distribution: `.whl` and `.tar.gz`.
+
+---
+
 ## [0.2.0] - Advanced NLP, Literature, Dialects & Developer Ecosystem
 
 ### Added

@@ -85,7 +85,7 @@ def test_sufi_and_pastoral_tales() -> None:
     assert "Baranmah" in bm.title
 
 
-def test_dynamic_register_book(tmp_path: pytest.TempPathFactory) -> None:
+def test_dynamic_register_book() -> None:
     custom_book = {
         "id": "test_custom_manuscript",
         "title": "Custom Gojri Manuscript",

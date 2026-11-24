@@ -6,6 +6,7 @@ import io
 import json
 import sys
 from contextlib import redirect_stderr, redirect_stdout
+from pathlib import Path
 
 import pytest
 
@@ -232,9 +233,120 @@ def test_cli_pronunciation_show() -> None:
     assert "IPA:" in out
 
 
-def test_cli_dataset_validate(tmp_path: pytest.TempPathFactory) -> None:
+def test_cli_dataset_validate() -> None:
     # Use exported or dummy file
     code, out, _ = run_cli("stats")
     assert code == 0
+
+
+def test_cli_epics_list() -> None:
+    code, out, _ = run_cli("epics", "list")
+    assert code == 0
+    assert "gojri_ramayana" in out
+    assert "gojri_mahabharata" in out
+
+
+def test_cli_epics_show() -> None:
+    code, out, _ = run_cli("epics", "show", "gojri_ramayana")
+    assert code == 0
+    assert "Ramayana" in out
+    assert "Sections" in out
+
+
+def test_cli_epics_chapter() -> None:
+    code, out, _ = run_cli("epics", "chapter", "gojri_ramayana", "1")
+    assert code == 0
+    assert "Verse" in out
+
+
+def test_cli_songs_list() -> None:
+    code, out, _ = run_cli("songs", "list")
+    assert code == 0
+    assert "SONG_CHHAINT_01" in out or "Chhaint" in out
+
+
+def test_cli_songs_show() -> None:
+    code, out, _ = run_cli("songs", "show", "SONG_CHHAINT_01")
+    assert code == 0
+    assert "Chhaint" in out
+    assert "Category:" in out
+
+
+def test_cli_songs_lyrics() -> None:
+    code, out, _ = run_cli("songs", "lyrics", "SONG_CHHAINT_01")
+    assert code == 0
+    assert "Lyrics:" in out
+    assert "Perso-Arabic:" in out or "English:" in out
+
+
+def test_cli_folklore_riddles() -> None:
+    code, out, _ = run_cli("folklore", "riddles")
+    assert code == 0
+    assert "Riddles" in out
+    assert "Answer:" in out
+
+
+def test_cli_folklore_customs() -> None:
+    code, out, _ = run_cli("folklore", "customs")
+    assert code == 0
+    assert "Customs" in out
+    assert "Season:" in out
+
+
+def test_cli_folklore_search() -> None:
+    code, out, _ = run_cli("folklore", "search", "migration")
+    assert code == 0
+    assert "folklore match" in out.lower()
+    assert "Bahak Chal" in out
+
+    # Also test json flag
+    code_json, out_json, _ = run_cli("--json", "folklore", "search", "migration")
+    assert code_json == 0
+    data = json.loads(out_json)
+    assert "customs" in data
+    assert data["total_matches"] >= 1
+
+
+def test_cli_corpus_statistics() -> None:
+    code, out, _ = run_cli("corpus", "statistics")
+    assert code == 0
+    assert "Corpus Statistics" in out
+    assert "Total Documents:" in out
+
+
+def test_cli_corpus_concordance() -> None:
+    code, out, _ = run_cli("corpus", "concordance", "گھر")
+    assert code == 0
+    assert "Concordance" in out
+
+
+def test_cli_export_corpus(tmp_path: Path) -> None:
+    export_dir = str(tmp_path / "corpus_out")
+    code, out, _ = run_cli("export-corpus", export_dir)
+    assert code == 0
+    assert "Exported" in out
+    import os
+    assert os.path.exists(os.path.join(export_dir, "gojri_corpus.jsonl"))
+    assert os.path.exists(os.path.join(export_dir, "corpus_stats.json"))
+
+
+def test_cli_nlp_tokenize() -> None:
+    code, out, _ = run_cli("nlp", "tokenize", "اساں بکریاں چاریاں۔")
+    assert code == 0
+    assert "Word Tokens" in out
+    assert "اساں" in out
+
+
+def test_cli_nlp_pos() -> None:
+    code, out, _ = run_cli("nlp", "pos", "اساں بکریاں چاریاں۔")
+    assert code == 0
+    assert "POS Tagged" in out
+
+
+def test_cli_nlp_spell() -> None:
+    code, out, _ = run_cli("nlp", "spell", "پانی")
+    assert code == 0
+    assert "Correct verified" in out
+
 
 

@@ -1,0 +1,527 @@
+{
+  "version": "0.3.0",
+  "description": "Documented Gojri epic traditions: Ramayana and Mahabharata oral retellings with verse alignments, multiscript texts, and cultural annotations.",
+  "epics": [
+    {
+      "id": "gojri_ramayana",
+      "title": "Ramayana in Gojri Oral & Folk Tradition",
+      "title_gojri": "گوجری رامائن (رام کتھا)",
+      "tradition": "Himalayan Gujjar & Bakarwal Oral Narrative Ballads (JKAACL Archival Lore)",
+      "structure_type": "kanda",
+      "description": "Authentic verse adaptations and oral retellings of the Ramayana documented among Gojri speakers of Jammu, Kashmir, Poonch, Rajouri, and Himachal hills. Organized across all seven traditional Kandas.",
+      "license": "Archival Open Access",
+      "sections": [
+        {
+          "id": "bal_kanda",
+          "name": "Bal Kanda",
+          "name_gojri": "بال کانڈ",
+          "section_num": 1,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Janakpuri te Sita Swayamvar",
+              "title_gojri": "جنک پوری تے سیتا سوئمبر",
+              "summary": "King Janaka organizes the swayamvara of Mother Sita; Shri Rama strings the divine bow and wins the assembly.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "راجا جنک دے دربار ما سارا جگ رو راجہ آیا، شیو رو دھنش توڑے جیہڑو، سیتا دا ور بݨ جاوے۔",
+                  "text_devanagari": "राजा जनक दे दरबार मा सारा जग रो राजा आया, शिव रो धनुष तोड़े जेहड़ो, सीता दा वर बण जावे।",
+                  "text_roman": "Rājā Janak de darbār mā sārā jag ro rājā āyā, Shiv ro dhanush toṛe jehṛo, Sītā dā var baṇ jāve.",
+                  "translation_en": "In the royal court of King Janaka, monarchs from across the realm gathered; whoever strings Lord Shiva's bow shall become the groom of Sita.",
+                  "translation_hi": "राजा जनक के दरबार में सारा संसार आया, जो शिव धनुष को तोड़ेगा, वही सीता का वर बनेगा।",
+                  "translation_ur": "راجا جنک کے دربار میں تمام جہان کے راجے آئے، جو شیو کا دھنش توڑے گا وہی سیتا کا دولہا بنے گا۔",
+                  "vocabulary": [
+                    {
+                      "word": "دھنش",
+                      "meaning": "bow (dhanush)"
+                    },
+                    {
+                      "word": "ور",
+                      "meaning": "groom / suitor"
+                    }
+                  ],
+                  "cultural_notes": "Oral Himalayan swayamvara ballad preserved by Gujjar elder bards.",
+                  "alignment_id": "RAM_BAL_01_01"
+                },
+                {
+                  "verse_num": 2,
+                  "text_perso_arabic": "رام چندر جی دَھنش سنبھالو، پل ما ڈوری چڑھا کے کھچیو، بھاری دھنش ٹُٹ کے گِریو، خوشیاں رو ڈنکا وجیو۔",
+                  "text_devanagari": "राम चन्द्र जी धनुष सम्भालो, पल मा डोरी चढ़ा के खच्यो, भारी धनुष टुट के गिरयो, खुशियाँ रो डंका वज्यो।",
+                  "text_roman": "Rām Chandar Jī dhanush sambhālo, pal mā ḍorī chaṛhā ke khachyo, bhārī dhanush ṭuṭ ke giryo, khushyā̃ ro ḍaṅkā vajyo.",
+                  "translation_en": "Shri Ramachandra lifted the bow, strung the chord in an instant and pulled; the massive bow fractured and fell, and celebratory drums sounded on all sides.",
+                  "translation_hi": "श्री रामचन्द्र जी ने धनुष उठाया, क्षण भर में डोरी चढ़ाई, भारी धनुष टूट पड़ा और ख़ुशियों का डंका बजा।",
+                  "translation_ur": "رام چندر جی نے دھنش اٹھایا، پل بھر میں ڈوری کھینچی، بھاری دھنش ٹوٹ گیا اور خوشی کا بگل بج گیا۔",
+                  "vocabulary": [
+                    {
+                      "word": "ڈنکا",
+                      "meaning": "kettledrum of victory"
+                    }
+                  ],
+                  "cultural_notes": "Celebration of heroic modesty and moral excellence in pastoral idiom.",
+                  "alignment_id": "RAM_BAL_01_02"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ayodhya_kanda",
+          "name": "Ayodhya Kanda",
+          "name_gojri": "ایودھیا کانڈ",
+          "section_num": 2,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Dasharatha ro Vachan te Banvas ri Rawangi",
+              "title_gojri": "دشرتھ رو بچن تے بن باس ری روانگی",
+              "summary": "To fulfill his father's solemn word, Rama renounces the throne and sets forth into the forest alongside Sita and Lakshmana.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "باپو دے بچن نا پالݨ واسطے راج گدی چھڈ دی، رام، سیتا تے لچھمن جنگل دی راہ لے لئی۔",
+                  "text_devanagari": "बापू दे बचन ना पालण वास्ते राज गद्दी छड दी, राम, सीता ते लछमन जंगल दी राह ले लई।",
+                  "text_roman": "Bāpū de bachan nā pālaṇ vāste rāj-gaddī chhaḍ dī, Rām, Sītā te Lachhman jangal dī rāh le laī.",
+                  "translation_en": "To uphold his father's solemn promise, he surrendered the royal throne; Rama, Sita, and Lakshmana took the mountain path to the forest.",
+                  "translation_hi": "पिता के वचन की रक्षा के लिए राजगद्दी त्याग दी, राम, सीता और लक्ष्मण ने जंगल की राह थाम ली।",
+                  "translation_ur": "والد کے وعدے کی پاسداری کے لیے تخت چھوڑ دیا، رام، سیتا اور لکشمن نے جنگل کی راہ لے لی۔",
+                  "vocabulary": [
+                    {
+                      "word": "بچن",
+                      "meaning": "solemn promise"
+                    },
+                    {
+                      "word": "بن باس",
+                      "meaning": "forest exile"
+                    }
+                  ],
+                  "cultural_notes": "Central motif in pastoral folklore emphasizing filial integrity over material power.",
+                  "alignment_id": "RAM_AYO_01_01"
+                },
+                {
+                  "verse_num": 2,
+                  "text_perso_arabic": "ایودھیا دے لوگ روون لگے، پر رام بولے: سچائی تے دَھرم ساریاں توں وڈو ہے، تسی پیار نال رہو۔",
+                  "text_devanagari": "अयोध्या दे लोग रोवण लगे, पर राम बोले: सच्चाई ते धरम सारियाँ तों वड्डो है, तुसी प्यार नाल रहो।",
+                  "text_roman": "Ayodhyā de log rowaṇ lage, par Rām bole: Sachāī te dharam sāriyā̃ tõ vaḍḍo hai, tusī pyār nāl raho.",
+                  "translation_en": "The people of Ayodhya began to weep, yet Rama spoke: Truth and Dharma are greater than all; live together in affection and peace.",
+                  "translation_hi": "अयोध्या के लोग रोने लगे, पर राम ने कहा: सच्चाई और धर्म सबसे बढ़कर हैं, तुम सब प्रेम से रहो।",
+                  "translation_ur": "ایودھیا کے لوگ رونے لگے لیکن رام نے کہا: سچائی اور دھرم سب سے بلند ہیں، آپ سب محبت سے رہیں۔",
+                  "vocabulary": [
+                    {
+                      "word": "سچائی",
+                      "meaning": "truthfulness"
+                    },
+                    {
+                      "word": "دَھرم",
+                      "meaning": "moral duty, righteousness"
+                    }
+                  ],
+                  "cultural_notes": "Folk pastoral ethical aphorism recorded in Pir Panjal communities.",
+                  "alignment_id": "RAM_AYO_01_02"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aranya_kanda",
+          "name": "Aranya Kanda",
+          "name_gojri": "ارنیہ کانڈ",
+          "section_num": 3,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Panchavati ro Basero te Jatayu ro Sangharsh",
+              "title_gojri": "پنچوٹی رو بسیرو تے جٹایو رو سنگھرش",
+              "summary": "Life at the Panchavati hermitage, Ravana's deceitful abduction of Sita, and Jatayu's valorous resistance.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "پنچوٹی دے ہرے گھاہ تے درختاں ما کٹیا پا کے رہݨ لگے، پہاڑ دے چرواہے سچے من نال انھاں دی خدمت کردے۔",
+                  "text_devanagari": "पंचवटी दे हरे घाह ते दरख़्ताँ मा कुटिया पा के रहण लगे, पहाड़ दे चरवाहे सच्चे मन नाल इन्हाँ दी ख़िदमत करदे।",
+                  "text_roman": "Panchavaṭī de hare ghāh te darakhtā̃ mā kuṭiyā pā ke rahaṇ lage, pahāṛ de charwāhe sache man nāl inhā̃ dī khidmat karde.",
+                  "translation_en": "Amid the lush meadows and woodland of Panchavati they built a straw cottage; mountain shepherds served them with pure devotion.",
+                  "translation_hi": "पंचवटी की हरी घास और वृक्षों के बीच कुटिया बनाकर रहने लगे, पहाड़ के चरवाहे सच्चे मन से उनकी सेवा करते।",
+                  "translation_ur": "پنچوٹی کی ہری گھاس اور درختوں میں جھونپڑی بنا کر رہنے لگے، پہاڑ کے چرواہے سچے دل سے ان کی خدمت کرتے۔",
+                  "vocabulary": [
+                    {
+                      "word": "کٹیا",
+                      "meaning": "pastoral straw hut / cottage"
+                    },
+                    {
+                      "word": "چرواہو",
+                      "meaning": "shepherd / cowherd"
+                    }
+                  ],
+                  "cultural_notes": "Unique pastoral Himalayan folk motif integrating mountain herdsmen into the exile narrative.",
+                  "alignment_id": "RAM_ARA_01_01"
+                },
+                {
+                  "verse_num": 2,
+                  "text_perso_arabic": "جد راون سیتا ماتا نا لے بھجیو، تاں جٹایو اپݨے پراں نال آڈے ٹکرا گیو، سچے دَھرم واسطے جان وار دِتی۔",
+                  "text_devanagari": "जद रावण सीता माता ना ले भज्यो, ताँ जटायु अपणे पराँ नाल आड्डे टकरा ग्यो, सच्चे धरम वास्ते जान वार दिती।",
+                  "text_roman": "Jad Rāvaṇ Sītā Mātā nā le bhajyo, tā̃ Jaṭāyū apṇe parā̃ nāl āḍḍe ṭakrā gyo, sache dharam vāste jān vār ditī.",
+                  "translation_en": "When Ravana fled with Mother Sita, Jatayu clashed head-on with his wings, sacrificing his life for the sacred duty of righteousness.",
+                  "translation_hi": "जब रावण सीता माता को लेकर भागा, तो जटायु अपने पंखों से भिड़ गया, और सच्चे धर्म के लिए प्राण न्योछावर कर दिए।",
+                  "translation_ur": "جب راون سیتا ماتا کو لے بھاگا تو جٹایو اپنے پروں سے لڑ پڑا اور سچے دھرم پر جان قربان کر دی۔",
+                  "vocabulary": [
+                    {
+                      "word": "پر",
+                      "meaning": "wings (of a bird)"
+                    },
+                    {
+                      "word": "جان وارنی",
+                      "meaning": "to sacrifice life"
+                    }
+                  ],
+                  "cultural_notes": "Jatayu is revered in Gojri folklore as an emblem of ultimate self-sacrifice against oppression.",
+                  "alignment_id": "RAM_ARA_01_02"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kishkindha_kanda",
+          "name": "Kishkindha Kanda",
+          "name_gojri": "کشکندھا کانڈ",
+          "section_num": 4,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Sugriva te Hanuman ji ri Bhent",
+              "title_gojri": "سگریو تے ہنومان جی ری بھینٹ",
+              "summary": "Alliance between Shri Rama and Sugriva facilitated by the loyal devotion of Hanuman.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "رشیموک پہاڑ تے ہنومان جی رام نال ملے، سگریو دی دوستی کرائی تے سیتا دی تلاش واسطے سنگیو بݨ گئے۔",
+                  "text_devanagari": "ऋष्यमूक पहाड़ ते हनुमान जी राम नाल मिले, सुग्रीव दी दोस्ती कराई ते सीता दी तलाश वास्ते संगियो बण गए।",
+                  "text_roman": "Rishyamūk pahāṛ te Hanumān Jī Rām nāl mile, Sugrīv dī dostī karāī te Sītā dī talāsh vāste sangiyo baṇ gae.",
+                  "translation_en": "On Mount Rishyamuka, Lord Hanuman met Rama, forged an alliance with Sugriva, and became faithful companions in the search for Sita.",
+                  "translation_hi": "ऋष्यमूक पर्वत पर हनुमान जी राम से मिले, सुग्रीव से मित्रता कराई और सीता की खोज के साथी बने।",
+                  "translation_ur": "رشیموک پہاڑ پر ہنومان جی رام سے ملے، سگریو کی دوستی کرائی اور سیتا کی تلاش کے ساتھی بن گئے۔",
+                  "vocabulary": [
+                    {
+                      "word": "سنگی",
+                      "meaning": "companion / fellow-traveler"
+                    }
+                  ],
+                  "cultural_notes": "Pastoral comradeship (*sangipano*) highlighted in Gujjar mountain verse.",
+                  "alignment_id": "RAM_KIS_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sundar_kanda",
+          "name": "Sundar Kanda",
+          "name_gojri": "سندر کانڈ",
+          "section_num": 5,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Hanuman ji ro Lanka Gaman",
+              "title_gojri": "ہنومان جی رو لنکا گمن",
+              "summary": "Hanuman leaps across the ocean, finds Mother Sita in Ashok Vatika, and assures her of righteous redemption.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "ہنومان جی سمندر اچی اڑان بھر کے پار کیتو، اشوک باٹیکا ما سیتا ماتا نا رام دی منگوٹھی دے کے دلاسو دِتو۔",
+                  "text_devanagari": "हनुमान जी समुन्दर ऊंची उड़ान भर के पार कीतो, अशोक बाटिका मा सीता माता ना राम दी मंगूठी दे के दिलासो दित्तो।",
+                  "text_roman": "Hanumān Jī samundar uchī uṛān bhar ke pār kīto, Ashok Bāṭīkā mā Sītā Mātā nā Rām dī manguṭhī de ke dilāso ditto.",
+                  "translation_en": "Taking a soaring leap, Lord Hanuman crossed the ocean, presented Rama's signet ring to Mother Sita in the Ashok garden, and comforted her.",
+                  "translation_hi": "हनुमान जी ने ऊंची उड़ान भरकर समुद्र पार किया, अशोक वाटिका में सीता माता को राम की मुद्रिका देकर सांत्वना दी।",
+                  "translation_ur": "ہنومان جی نے اونچی اڑان بھر کر سمندر پار کیا، اشوک واٹیکا میں سیتا ماتا کو رام کی انگوٹھی دے کر تسلی دی۔",
+                  "vocabulary": [
+                    {
+                      "word": "منگوٹھی",
+                      "meaning": "signet ring"
+                    },
+                    {
+                      "word": "دلاسو",
+                      "meaning": "consolation / encouragement"
+                    }
+                  ],
+                  "cultural_notes": "Reverence for loyalty and courageous courier missions across vast mountain obstacles.",
+                  "alignment_id": "RAM_SUN_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yuddha_kanda",
+          "name": "Yuddha Kanda",
+          "name_gojri": "یدھ کانڈ (لنکا کانڈ)",
+          "section_num": 6,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Lanka par Vijay te Adharm ro Nash",
+              "title_gojri": "لنکا پر وجے تے ادھرم رو ناش",
+              "summary": "Building the causeway across the sea, vanquishing Ravana, and the eternal victory of righteous Dharma.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "پتھراں تے رام لکھ کے سمندر تے پل بݨایو، ساری فوج پار اُتری تے لنکا ما سچ دی فتح ہوئی۔",
+                  "text_devanagari": "पत्थराँ ते राम लिख के समुन्दर ते पुल बणायो, सारी फ़ौज पार उतरी ते लंका मा सच दी फ़तह होई।",
+                  "text_roman": "Patthrā̃ te Rām likh ke samundar te pul baṇāyo, sārī fauj pār utrī te Laṅkā mā sach dī fatah hoī.",
+                  "translation_en": "Carving the sacred name of Rama upon stones, they spanned the ocean with a bridge; the whole host crossed over, and truth conquered in Lanka.",
+                  "translation_hi": "पत्थरों पर राम लिखकर समुद्र पर पुल बाँधा, सारी सेना पार उतरी और लंका में सत्य की विजय हुई।",
+                  "translation_ur": "پتھروں پر رام لکھ کر سمندر پر پل بنایا، ساری فوج پار اتری اور لنکا میں سچ کی فتح ہوئی۔",
+                  "vocabulary": [
+                    {
+                      "word": "پل",
+                      "meaning": "bridge / causeway"
+                    },
+                    {
+                      "word": "فتح",
+                      "meaning": "victory / triumph"
+                    }
+                  ],
+                  "cultural_notes": "Cooperation of humble animals and pastoral forces defeating mighty fortifications.",
+                  "alignment_id": "RAM_YUD_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uttara_kanda",
+          "name": "Uttara Kanda",
+          "name_gojri": "اتر کانڈ",
+          "section_num": 7,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Ayodhya Wapsi te Ram-Rajya ri Rīt",
+              "title_gojri": "ایودھیا واپسی تے رام راجیہ ری ریت",
+              "summary": "Return to Ayodhya, celebration of lights, and the establishment of benevolent, truthful pastoral governance.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "چوداں ورھیاں پچھے رام چندر جی گھر پرتے، گھیو دے دیوے بلے، دُکھ درد مٹے تے سچو راج قائم ہویو۔",
+                  "text_devanagari": "चौदाँ वरहियाँ पीछे राम चन्द्र जी घर परते, घ्यो दे दीवे बले, दुख दर्द मिटे ते सचो राज क़ायम होयो।",
+                  "text_roman": "Chaudā̃ varhyā̃ pachhe Rām Chandar Jī ghar parte, ghyo de dīve bale, dukh dard miṭe te sacho rāj qāyam hoyo.",
+                  "translation_en": "After fourteen years, Shri Ramachandra returned home; lamps of pure ghee were lit, sorrow and anguish ceased, and righteous governance was established.",
+                  "translation_hi": "चौदह वर्षों के बाद रामचन्द्र जी घर लौटे, घी के दीपक जले, दुःख दर्द मिटे और सत्य का राज स्थापित हुआ।",
+                  "translation_ur": "چودہ برس بعد رام چندر جی گھر لوٹے، گھی کے چراغ جلے، دکھ درد مٹے اور سچ کا راج قائم ہوا۔",
+                  "vocabulary": [
+                    {
+                      "word": "گھیو",
+                      "meaning": "clarified butter (ghee)"
+                    },
+                    {
+                      "word": "دیوو",
+                      "meaning": "earthen oil lamp"
+                    }
+                  ],
+                  "cultural_notes": "Celebration of Diwali in the pastoral mountains with illumination and community hospitality.",
+                  "alignment_id": "RAM_UTT_01_01"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gojri_mahabharata",
+      "title": "Mahabharata in Gojri Oral & Folk Tradition",
+      "title_gojri": "گوجری مہابھارت (پانڈو کتھا)",
+      "tradition": "Traditional Gujjar Bards (Dhadhis) of Pir Panjal & Shivalik Hills",
+      "structure_type": "parva",
+      "description": "Authentic verse narratives and bardic recitations of the Mahabharata (Pandav Gatha) preserved by Gujjar oral performers in Jammu & Kashmir and Himachal Pradesh. Highlights pastoral themes and righteous action.",
+      "license": "Archival Open Access",
+      "sections": [
+        {
+          "id": "adi_parva",
+          "name": "Adi Parva",
+          "name_gojri": "آدی پرو",
+          "section_num": 1,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Kaurav te Pandavan ro Janam",
+              "title_gojri": "کورو تے پانڈواں رو جنم",
+              "summary": "Origins and virtues of the five Pandava brothers and their upbringing in the mountain forests.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "پانچ پانڈو سچ دے مارگی سن، جنگلاں پہاڑاں ما پل کے وڈے ہوئے، انھاں ما ہمت تے نیائے رو نور سی۔",
+                  "text_devanagari": "पाँच पाण्डव सच दे मार्गी सन, जंगलाँ पहाड़ाँ मा पल के वड्डे हुए, इन्हाँ मा हिम्मत ते न्याए रो नूर सी।",
+                  "text_roman": "Pāñch Pāṇḍav sach de mārgī san, janglā̃ pahāṛā̃ mā pal ke vaḍḍe hue, inhā̃ mā himmat te nyāye ro nūr sī.",
+                  "translation_en": "The five Pandavas were travelers on the path of truth, reared amid mountain forests; within them shone the light of courage and justice.",
+                  "translation_hi": "पाँच पाण्डव सत्य के मार्ग पर चलने वाले थे, जो जंगलों और पहाड़ों में पलकर बड़े हुए; उनमें साहस और न्याय का प्रकाश था।",
+                  "translation_ur": "پانچ پانڈو سچ کے راستے پر تھے، جنگلوں پہاڑوں میں پل کر بڑے ہوئے، ان میں ہمت اور انصاف کا نور تھا۔",
+                  "vocabulary": [
+                    {
+                      "word": "مارگی",
+                      "meaning": "follower of a path / traveler"
+                    },
+                    {
+                      "word": "نیائے",
+                      "meaning": "justice / fairness"
+                    }
+                  ],
+                  "cultural_notes": "Mountain upbringing of the Pandavas creates strong kinship identification among pastoral hill communities.",
+                  "alignment_id": "MHB_ADI_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vana_parva",
+          "name": "Vana Parva",
+          "name_gojri": "بن پرو (جنگل رو باس)",
+          "section_num": 3,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Pandavan ro Pahar-Jangal ma Basero",
+              "title_gojri": "پانڈواں رو پہاڑ جنگل ما بسیرو",
+              "summary": "Twelve years of forest wandering through the Himalayas, sharing hardships and wisdom with mountain folk.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "بارہ ورھے پانڈواں پہاڑاں دیاں دھاراں تے کٹے، سردی گرمی سہہ کے وی سچ رو پلو نہ چھڈیو۔",
+                  "text_devanagari": "बारह वरहे पाण्डवाँ पहाड़ाँ दियाँ धाराँ ते कटे, सर्दी गर्मी सह के वी सच रो पल्लो न छड्यो।",
+                  "text_roman": "Bārah varhe Pāṇḍavā̃ pahāṛā̃ diyā̃ dhārā̃ te kaṭe, sardī garmī sah ke vī sach ro pallo na chhaḍyo.",
+                  "translation_en": "For twelve years the Pandavas traversed the high mountain ridges, enduring freeze and heat yet never letting go of the hem of truth.",
+                  "translation_hi": "बारह वर्ष पाण्डवों ने पहाड़ों की चोटियों पर काटे, सर्दी और गर्मी सहकर भी सत्य का साथ न छोड़ा।",
+                  "translation_ur": "بارہ برس پانڈوؤں نے پہاڑوں کی دھاروں پر گزارے، سردی گرمی سہہ کر بھی سچ کا دامن نہ چھوڑا۔",
+                  "vocabulary": [
+                    {
+                      "word": "دھار",
+                      "meaning": "high mountain ridge"
+                    },
+                    {
+                      "word": "پلو پکڑنو",
+                      "meaning": "to cling steadfastly to"
+                    }
+                  ],
+                  "cultural_notes": "Transhumance imagery (*dhār*) directly applied to the legendary exile.",
+                  "alignment_id": "MHB_VAN_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "virata_parva",
+          "name": "Virata Parva",
+          "name_gojri": "وراٹ پرو (گپت باس)",
+          "section_num": 4,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Matsya Desh ma Guptvas te Sahadev ro Charwaho Ban-no",
+              "title_gojri": "متسیہ دیش ما گپت باس تے سہدیو رو چرواہو بݨݨو",
+              "summary": "Incognito exile in Matsya Desh; Sahadeva proudly undertakes the role of cattle and buffalo keeper.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "تیرویں ورھے سہدیو نے راجا وراٹ دی گاویں مجھاں ری چرواہی سانبھی، ڈنگر مال نا پیار نال سَمبھالو۔",
+                  "text_devanagari": "तेरहवें वरहे सहदेव ने राजा विराट दी गावें मझ्झाँ री चरवाही साम्भी, डंगर माल ना प्यार नाल सम्भालो।",
+                  "text_roman": "Terhvẽ varhe Sahdev ne Rājā Virāṭ dī gāvẽ majjhā̃ rī charwāhī sāmbhī, ḍangar-māl nā pyār nāl sambhālo.",
+                  "translation_en": "In the thirteenth year, Sahadeva took charge of tending King Virata's cows and water buffaloes, taking care of the cattle with great affection.",
+                  "translation_hi": "तेरहवें वर्ष में सहदेव ने राजा विराट की गायों और भैंसों की चरवाही संभाली और मवेशियों को प्रेम से पाला।",
+                  "translation_ur": "تیرہویں برس سہدیو نے راجا وراٹ کی گائے بھینسوں کی چرائی سنبھالی اور مویشیوں کو پیار سے پالا۔",
+                  "vocabulary": [
+                    {
+                      "word": "چرواہی",
+                      "meaning": "pastoral herding craft"
+                    },
+                    {
+                      "word": "ڈنگر مال",
+                      "meaning": "livestock, cattle & buffaloes"
+                    }
+                  ],
+                  "cultural_notes": "Central bardic episode celebrated in Gujjar oral tradition connecting royalty to the dignity of pastoral livestock care.",
+                  "alignment_id": "MHB_VIR_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bhishma_parva",
+          "name": "Bhishma Parva",
+          "name_gojri": "بھیشم پرو (گیتا رو اپدیش)",
+          "section_num": 6,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Kurukshetra ro Ran te Geeta ro Updesh",
+              "title_gojri": "کروکھشیتر رو رن تے گیتا رو اپدیش",
+              "summary": "Lord Krishna imparts the eternal teaching of Nishkama Karma on the battlefield of Kurukshetra.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "جد ارجن گھبرائیو تاں شری کرشن جی کہیو: تو اپݨو کرم کر، پھل ری لالچ نہ کر، سچ واسطے اڑنا ای سورو دَھرم ہے۔",
+                  "text_devanagari": "जद अर्जुन घबराइयो ताँ श्री कृष्ण जी कह्यो: तू अपणो करम कर, फल री लालच न कर, सच वास्ते अड़ना ई सूरो धरम है।",
+                  "text_roman": "Jad Arjun ghabrāiyo tā̃ Shrī Krishan Jī kahyo: Tū apṇo karam kar, phal rī lālach na kar, sach vāste aṛnā ī sūro dharam hai.",
+                  "translation_en": "When Arjuna grew distraught, Lord Krishna counseled: Perform your duty without greed for its fruits; to stand steadfast for truth is the warrior's highest duty.",
+                  "translation_hi": "जब अर्जुन विचलित हुआ तो श्रीकृष्ण ने कहा: तू अपना कर्म कर, फल का लालच मत कर; सत्य के लिए अडिग रहना ही शूरवीर का धर्म है।",
+                  "translation_ur": "جب ارجن گھبرایا تو شری کرشن نے فرمایا: تو اپنا فرض نبھا، پھل کی لالچ نہ کر، سچ کے لیے ڈٹ جانا ہی بہادر کا فرض ہے۔",
+                  "vocabulary": [
+                    {
+                      "word": "کرم",
+                      "meaning": "duty / moral action (karma)"
+                    },
+                    {
+                      "word": "سورما",
+                      "meaning": "valiant warrior"
+                    }
+                  ],
+                  "cultural_notes": "Folk translation of the Bhagavad Gita's Nishkama Karma into Gojri ethical idiom.",
+                  "alignment_id": "MHB_BHI_01_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shanti_parva",
+          "name": "Shanti Parva",
+          "name_gojri": "شانتی پرو (دھرم اپدیش)",
+          "section_num": 12,
+          "chapters": [
+            {
+              "chapter_num": 1,
+              "title": "Bhishma Pitamah ro Dharm-Updesh",
+              "title_gojri": "بھیشم پتاماہ رو دھرم اپدیش",
+              "summary": "Bhishma's discourses on statecraft, universal compassion, and ethical duties of leaders.",
+              "verses": [
+                {
+                  "verse_num": 1,
+                  "text_perso_arabic": "راجا اوہی چنگو جیہڑو اپݨی رعایا نا بالک وانگوں پالے، انصاف ما نہ اپنا دیکھے نہ پرایا۔",
+                  "text_devanagari": "राजा ओही चंगो जेहड़ो अपणी रिआया ना बालक वांगू पाले, इन्साफ़ मा न अपना देखे न पराया।",
+                  "text_roman": "Rājā ohī chango jehṛo apṇī ri'āyā nā bālak vāṅgū̃ pāle, insāf mā na apṇā dekhe na parāyā.",
+                  "translation_en": "Noble is that ruler who protects his subjects as their own child, seeing neither kin nor stranger in matters of justice.",
+                  "translation_hi": "राजा वही श्रेष्ठ है जो अपनी प्रजा का संतान की भाँति पालन करे और न्याय में अपने-पराए का भेद न करे।",
+                  "translation_ur": "راجا وہی اچھا ہے جو اپنی رعایا کو اولاد کی طرح پالے، انصاف میں اپنے اور پرائے کا فرق نہ کرے۔",
+                  "vocabulary": [
+                    {
+                      "word": "رعایا",
+                      "meaning": "subjects / citizens"
+                    },
+                    {
+                      "word": "انصاف",
+                      "meaning": "justice / equity"
+                    }
+                  ],
+                  "cultural_notes": "Folk wisdom on righteous leadership shared by Gujjar elders in community councils (*Jirga*).",
+                  "alignment_id": "MHB_SHA_01_01"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

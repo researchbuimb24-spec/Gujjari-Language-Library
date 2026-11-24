@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gojrilang"
-version = "0.2.0"
+version = "0.3.0"
 description = "A Python NLP and digital language preservation toolkit for Gujari / Gojri."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -48,6 +48,7 @@ dev = [
 
 [project.scripts]
 gojri = "gojrilang.cli:main"
+gojrilang = "gojrilang.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/gojrilang/gojrilang"

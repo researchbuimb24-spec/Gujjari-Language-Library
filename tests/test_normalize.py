@@ -50,3 +50,16 @@ def test_normalize_for_search() -> None:
     assert normalize_for_search("GHOṚO!") == "ghoro"
     assert normalize_for_search("گھوڑو،") == "گھوڑو"
 
+
+def test_unicode_normalization_forms() -> None:
+    text = "پانی"
+    nfc = normalize(text, normalize_unicode="NFC")
+    nfd = normalize(text, normalize_unicode="NFD")
+    nfkc = normalize(text, normalize_unicode="NFKC")
+    nfkd = normalize(text, normalize_unicode="NFKD")
+    assert nfc is not None
+    assert nfd is not None
+    assert nfkc is not None
+    assert nfkd is not None
+
+

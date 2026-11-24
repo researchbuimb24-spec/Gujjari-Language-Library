@@ -1,15 +1,17 @@
 # GojriLang (گوجری لینگ / गोजरी लैंग)
 
-**A Python NLP and Digital Language Preservation Toolkit for Gujari / Gojri**
+**A Python NLP, Literature, Cultural Heritage & Digital Language Preservation Infrastructure for Gujari / Gojri**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-brightgreen.svg)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/Tests-145%20passed-success.svg)](tests/)
-[![Version](https://img.shields.io/badge/Version-0.2.0-orange.svg)](pyproject.toml)
+[![Tests](https://img.shields.io/badge/Tests-206%20passed-success.svg)](tests/)
+[![Version](https://img.shields.io/badge/Version-0.3.0-orange.svg)](pyproject.toml)
+
+> **"GojriLang — Preserving Words. Protecting Heritage. Connecting Generations."**
 
 `gojrilang` is an open-source Python library and command-line toolkit designed for computational linguistic work, natural language processing, and digital preservation of **Gujari / Gojri** (ISO 639-3: `gju`, Glottolog: `gujr1244`).
 
-Gojri is an Indo-Aryan language spoken by the Gujjar and Bakerwal pastoralist and agricultural communities across Jammu & Kashmir, Himachal Pradesh, parts of Punjab, Rajasthan, Uttarakhand, and adjoining northwestern regions of South Asia.
+Gojri is an ancient Indo-Aryan language spoken by the Gujjar and Bakerwal pastoralist, agricultural, and highland communities across Jammu & Kashmir, Himachal Pradesh, Punjab, Rajasthan, Uttarakhand, and adjoining Himalayan and sub-Himalayan valleys of South Asia.
 
 ---
 
@@ -19,45 +21,44 @@ Gojri is an Indo-Aryan language spoken by the Gujjar and Bakerwal pastoralist an
 - [Key Features & Implementation Status](#key-features--implementation-status)
 - [Installation](#installation)
 - [Quick-Start Guide](#quick-start-guide)
-- [API Reference](#api-reference)
-  - [1. Multilingual Dictionary & Fuzzy Search](#1-multilingual-dictionary--fuzzy-search)
-  - [2. Text Normalization & Script Detection](#2-text-normalization--script-detection)
-  - [3. Script Transliteration & Romanization](#3-script-transliteration--romanization)
-  - [4. Grammar Rules & Sentence Diagnostics](#4-grammar-rules--sentence-diagnostics)
-  - [5. Morphology, Lemmatization & Paradigm Generation](#5-morphology-lemmatization--paradigm-generation)
-  - [6. Dialects & Regional Variation Engine](#6-dialects--regional-variation-engine)
-  - [7. Literature & Historical Corpus Collection](#7-literature--historical-corpus-collection)
-  - [8. Numerical Counting & Ordinals (0–100)](#8-numerical-counting--ordinals-0100)
-  - [9. Phonetics, Pronunciation & Audio Reference](#9-phonetics-pronunciation--audio-reference)
-  - [10. Cultural Heritage & Proverbs](#10-cultural-heritage--proverbs)
-  - [11. Verified Translation](#11-verified-translation)
-  - [12. Dataset Validation, Import & Export](#12-dataset-validation-import--export)
-  - [13. Scalable Indexed Lexicon Storage (SQLite & FTS5)](#13-scalable-indexed-lexicon-storage-sqlite--fts5)
-- [Command-Line Interface (`gojri`)](#command-line-interface-gojri)
+  - [Unified Object-Oriented Interface (`Gojri`)](#unified-object-oriented-interface-gojri)
+  - [Classical Functional API](#classical-functional-api)
+- [Subsystem Architecture & Capabilities](#subsystem-architecture--capabilities)
+  - [1. Epics Subsystem (Ramayana & Mahabharata)](#1-epics-subsystem-ramayana--mahabharata)
+  - [2. Songs & Musicological Archive](#2-songs--musicological-archive)
+  - [3. Poetry & Folktale Dastans](#3-poetry--folktale-dastans)
+  - [4. Computational Linguistics & NLP Toolkit](#4-computational-linguistics--nlp-toolkit)
+  - [5. Corpus Analytics & Concordances](#5-corpus-analytics--concordances)
+  - [6. Multi-Stage Verification & Contributor Engine](#6-multi-stage-verification--contributor-engine)
+  - [7. Multilingual Lexicon & Scalable SQLite Storage](#7-multilingual-lexicon--scalable-sqlite-storage)
+  - [8. Grammar & Morphology](#8-grammar--morphology)
+  - [9. Multiscript Transliteration & Romanization](#9-multiscript-transliteration--romanization)
+- [Command-Line Interface (`gojri` / `gojrilang`)](#command-line-interface-gojri--gojrilang)
 - [Supported Scripts & Orthographic Standards](#supported-scripts--orthographic-standards)
 - [Linguistic Evidence & Scholarly Sources](#linguistic-evidence--scholarly-sources)
 - [Contributing](#contributing)
 - [Testing](#testing)
-- [Roadmap](#roadmap)
 - [License](#license)
-
----
-
-## Language & Dialect Scope
-
-Because Gojri-speaking communities are distributed across varied geographical terrains, the language demonstrates rich regional variation. `gojrilang` is designed from the ground up to accommodate dialectal variation rather than imposing a single normative dialect:
-
-- **Jammu & Kashmir / Pir Panjal Gojri** (`jk_poonchi`): Characterized by traditional masculine endings in `-o` (e.g., *ghoṛo*, *bakro*) and genitive postpositions *ro / rā / rī / re*.
-- **Western / Hazara / Swat Gojri** (`western_hazara`): Marked by masculine endings in `-ā` (*ghoṛā*), genitive *dā / dī*, and proximity to Swat/Kohistan.
-- **Himachal / Eastern Gojri** (`himachal`): Closely aligned with Western Pahari and Kangra-Chamba historical connections.
-- **Southern / Rajasthani Gojri** (`southern_rajasthani`): Preserves Marwari-Gojri archaisms and retroflex lateral elements.
 
 ---
 
 ## Key Features & Implementation Status
 
-| Feature | Description | Status |
+| Feature / Subsystem | Description | Status |
 | :--- | :--- | :--- |
+| **Unified Facade (`Gojri`)** | Complete object-oriented facade (`from gojrilang import Gojri`) with 13 sub-namespaces | **Implemented** |
+| **Epic Traditions** | Gojri Ramayana (7 Kandas) and Mahabharata (5 Parvas) with verse multiscript & cultural notes | **Implemented** |
+| **Music & Songs Archive** | 8 genres (Chhaint, Mahya, Singran Ka Geet, Bait, Lori, Dholak, Baranmah, Gwali) with instruments & raga | **Implemented** |
+| **Poetry & Folktales** | Classical forms (Si-Harfi, Kafi, Bait) and dastans (Sohni Mahiwal, Charwaho te Sher, Roop Basant) | **Implemented** |
+| **Computational NLP** | Multiscript tokenization, sentence segmentation, POS tagging, spell check, language ID, stemmer | **Implemented** |
+| **Corpus Analytics** | Quantitative metrics (TTR, hapax legomena, frequency distribution) and KWIC concordances | **Implemented** |
+| **Verification Engine** | 5-stage community verification lifecycle with role-based permissions and immutable audit trail | **Implemented** |
+| **Multilingual Lexicon** | Evidence-based dictionary with English, Hindi, Urdu glosses, fuzzy search, and FTS5 SQLite backend | **Implemented** |
+| **Dialect Engine** | Regional profiles (`jk_poonchi`, `western_hazara`, `himachal`, `southern_rajasthani`) and comparison | **Implemented** |
+| **Grammar & Morphology** | 20 documented linguistic rules, sentence diagnostics, affix analyzer, and paradigm generator | **Implemented** |
+| **Multiscript Engine** | Transliteration between Perso-Arabic, Devanagari, and Academic Roman, diacritic normalization | **Implemented** |
+| **Numerical System** | 0–100 cardinal numbers, parsing, and gendered ordinals across 3 scripts | **Implemented** |
+| **Dual CLI** | Dual `gojri` and `gojrilang` entry points with subcommands for all 28 modules | **Implemented** |
 | **Multilingual Lexicon** | Verified dictionary with English, Hindi, and Urdu glosses, POS tags, and attested sentences | **Implemented** |
 | **Fuzzy & Multi-Field Search** | Levenshtein-distance fuzzy matching, prefix lookup, and multi-lingual gloss search | **Implemented** |
 | **Dialect Engine** | Regional linguistic profiles (`jk_poonchi`, `western_hazara`, etc.) and variant comparison | **Implemented** |
@@ -106,6 +107,47 @@ gojri info
 ---
 
 ## Quick-Start Guide
+
+### Unified Object-Oriented Interface (`Gojri`)
+
+The `Gojri` facade provides intuitive dot-notation access to all 13 sub-namespaces:
+
+```python
+from gojrilang import Gojri
+
+gju = Gojri()
+
+# 1. Dictionary & Vocabulary
+entry = gju.dictionary.lookup("پاݨی")
+print(f"Meaning: {entry.meaning_en}")  # water
+
+# 2. Epics & Classical Lore
+chapter = gju.epics.get_chapter(book="ramayana", chapter=1)
+print(f"Chapter: {chapter.title} ({len(chapter.verses)} verses)")
+
+# 3. Traditional Songs Archive
+songs = gju.songs.list(category="lori")
+lyrics = gju.songs.lyrics(songs[0].id, script="perso-arabic")
+print(f"Song: {songs[0].title}\nVerse 1: {lyrics[0]}")
+
+# 4. Computational NLP Tools
+tokens = gju.nlp.tokenize("اساں بکریاں چاریاں۔")
+print(f"Tokens: {tokens}")
+tagged = gju.nlp.pos_tag("اساں بکریاں چاریاں۔")
+print(f"POS Tags: {tagged}")
+
+# 5. Corpus Analytics & Concordance
+stats = gju.corpus.statistics()
+print(f"Corpus: {stats.total_tokens} tokens across {stats.total_documents} documents (TTR: {stats.type_token_ratio})")
+
+# 6. Multiscript Transliteration & Script Detection
+roman = gju.scripts.transliterate("گھوڑو", target="roman")
+print(f"Transliterated: {roman}")  # ghoṛo
+```
+
+### Classical Functional API
+
+All top-level functions remain 100% backward-compatible:
 
 ```python
 import gojrilang

@@ -14,10 +14,20 @@ import gojrilang
 from gojrilang.culture import list_proverbs, list_songs, search_culture
 from gojrilang.datasets import get_dataset_stats
 from gojrilang.dictionary import lookup, search
+from gojrilang.epics import get_epic, get_epic_chapter, list_epics, search_epics
 from gojrilang.exceptions import GojriLangError
+from gojrilang.folklore import list_customs, list_riddles, search_folklore
+from gojrilang.corpus import concordance, get_corpus, get_corpus_statistics
 from gojrilang.grammar import get_grammar_engine
 from gojrilang.morphology import analyze_word, generate_forms
+from gojrilang.nlp import pos_tag as nlp_pos_tag, sent_tokenize as nlp_sent_tokenize, spell_check as nlp_spell_check, tokenize as nlp_tokenize
 from gojrilang.normalize import detect_script, normalize
+from gojrilang.songs import (
+    get_song as get_song_archive,
+    get_song_lyrics,
+    list_songs as list_songs_archive,
+    search_songs as search_songs_archive,
+)
 from gojrilang.storage import GojriLexiconDB
 from gojrilang.translation import translate
 from gojrilang.transliteration import transliterate
@@ -596,6 +606,358 @@ def cmd_db_stats(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_epics_list(args: argparse.Namespace) -> int:
+    epics = list_epics()
+    if args.json:
+        _print_json(epics)
+    else:
+        print(f"\nDocumented Gojri Epic Traditions ({len(epics)}):\n")
+        for ep in epics:
+            print(f"• [{ep['id']}] {ep['title']} ({ep['title_gojri']})")
+            print(f"    Tradition: {ep['tradition']} | Sections: {ep['total_sections']} | Verses: {ep['total_verses']}")
+            print(f"    Source: {ep['source']}")
+            print(f"    {ep['description']}\n")
+    return 0
+
+
+def cmd_epics_show(args: argparse.Namespace) -> int:
+    try:
+        epic = get_epic(args.epic_id)
+        if args.json:
+            _print_json(epic.to_dict())
+        else:
+            print(f"\n--- Epic: {epic.title} ({epic.title_gojri}) ---")
+            print(f"ID:          {epic.id}")
+            print(f"Tradition:   {epic.tradition}")
+            print(f"Source:      {epic.source}")
+            print(f"License:     {epic.license}")
+            print(f"Description: {epic.description}")
+            print(f"\nSections ({len(epic.sections)}):")
+            for sec in epic.sections:
+                print(f"  • {sec.title} ({len(sec.chapters)} chapter(s))")
+                for ch in sec.chapters:
+                    print(f"      - Ch.{ch.chapter_num}: {ch.title} ({len(ch.verses)} verse(s))")
+            print()
+        return 0
+    except GojriLangError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+
+
+def cmd_epics_chapter(args: argparse.Namespace) -> int:
+    try:
+        ch = get_epic_chapter(args.epic_id, args.chapter_num)
+        if args.json:
+            _print_json(ch.to_dict())
+        else:
+            print(f"\n--- {args.epic_id.upper()} Chapter {ch.chapter_num}: {ch.title} ---")
+            for v in ch.verses:
+                print(f"\n[Verse {v.verse_num}]")
+                print(f"Perso-Arabic: {v.text_perso_arabic}")
+                if v.text_devanagari:
+                    print(f"Devanagari:   {v.text_devanagari}")
+                if v.text_roman:
+                    print(f"Roman:        {v.text_roman}")
+                print(f"English:      {v.translation_en}")
+                if v.cultural_notes:
+                    print(f"Notes:        {v.cultural_notes}")
+            print()
+        return 0
+    except GojriLangError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+
+
+def cmd_epics_search(args: argparse.Namespace) -> int:
+    results = search_epics(args.query)
+    if args.json:
+        _print_json(results)
+    else:
+        print(f"\nFound {len(results)} match(es) in Gojri epics for '{args.query}':\n")
+        for idx, r in enumerate(results, 1):
+            print(f"{idx}. [{r['epic_id']} / {r['section_id']} / Ch.{r['chapter_num']} V.{r['verse_num']}]")
+            print(f"   Match: {r['matched_field']}")
+            print(f"   Text:  {r['snippet']}\n")
+    return 0
+
+
+def cmd_songs_archive_list(args: argparse.Namespace) -> int:
+    songs = list_songs_archive(category=args.category)
+    if args.json:
+        _print_json([s.to_dict() for s in songs])
+    else:
+        print(f"\nDocumented Gojri Oral Songs Archive ({len(songs)}):\n")
+        for s in songs:
+            print(f"• [{s.id}] {s.title} ({s.title_gojri})")
+            print(f"    Genre: {s.category} | Region: {s.region} | Informant: {s.singer_informant}")
+            if s.musical_metadata:
+                raga = s.musical_metadata.get('raga_association') or 'Folk'
+                print(f"    Raga: {raga} | Verses: {len(s.verses)}")
+            print()
+    return 0
+
+
+def cmd_songs_archive_show(args: argparse.Namespace) -> int:
+    try:
+        s = get_song_archive(args.song_id)
+        if args.json:
+            _print_json(s.to_dict())
+        else:
+            print(f"\n--- Song: {s.title} ({s.title_gojri}) ---")
+            print(f"ID:          {s.id}")
+            print(f"Category:    {s.category}")
+            print(f"Region:      {s.region}")
+            print(f"Informant:   {s.singer_informant}")
+            print(f"Source:      {s.source}")
+            print(f"Theme:       {s.theme}")
+            if s.musical_metadata:
+                print(f"Musical:     Raga: {s.musical_metadata.get('raga_association')}, Tempo: {s.musical_metadata.get('tempo')}")
+            print(f"Verses:      {len(s.verses)}")
+            print()
+        return 0
+    except GojriLangError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+
+
+def cmd_songs_archive_search(args: argparse.Namespace) -> int:
+    songs = search_songs_archive(args.query)
+    if args.json:
+        _print_json([s.to_dict() for s in songs])
+    else:
+        print(f"\nFound {len(songs)} song(s) matching '{args.query}':\n")
+        for idx, s in enumerate(songs, 1):
+            print(f"{idx}. [{s.id}] {s.title} [{s.category}] - {s.region}")
+            print(f"   Theme: {s.theme}")
+            if s.verses:
+                print(f"   Opening: {s.verses[0].text_perso_arabic} ({s.verses[0].translation_en})")
+            print()
+    return 0
+
+
+def cmd_songs_archive_lyrics(args: argparse.Namespace) -> int:
+    try:
+        song = get_song_archive(args.song_id)
+        if args.json:
+            _print_json([v.to_dict() for v in song.verses])
+        else:
+            print(f"\n--- Lyrics: {song.title} ({song.title_gojri}) [{song.category}] ---\n")
+            for idx, v in enumerate(song.verses, 1):
+                print(f"[{idx}]")
+                if args.script in ("all", "perso-arabic") and v.text_perso_arabic:
+                    print(f"  Perso-Arabic: {v.text_perso_arabic}")
+                if args.script in ("all", "devanagari") and v.text_devanagari:
+                    print(f"  Devanagari:   {v.text_devanagari}")
+                if args.script in ("all", "roman") and v.text_roman:
+                    print(f"  Roman:        {v.text_roman}")
+                if v.translation_en:
+                    print(f"  English:      {v.translation_en}")
+                print()
+        return 0
+    except GojriLangError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+
+
+def cmd_folklore_list(args: argparse.Namespace) -> int:
+    riddles = list_riddles()
+    customs = list_customs()
+    data = {
+        "total_riddles": len(riddles),
+        "total_customs": len(customs),
+        "riddles": [r.to_dict() for r in riddles],
+        "customs": [c.to_dict() for c in customs],
+    }
+    if args.json:
+        _print_json(data)
+    else:
+        print(f"\n=== Gojri Folklore Archive ===")
+        print(f"Riddles (Pahaṇḍi): {len(riddles)}")
+        print(f"Pastoral Customs:  {len(customs)}")
+        print("\nUse 'gojri folklore riddles' or 'gojri folklore customs' to explore.\n")
+    return 0
+
+
+def cmd_folklore_riddles(args: argparse.Namespace) -> int:
+    riddles = list_riddles()
+    if args.json:
+        _print_json([r.to_dict() for r in riddles])
+    else:
+        print(f"\nDocumented Gojri Riddles (Pahaṇḍi) ({len(riddles)}):\n")
+        for idx, r in enumerate(riddles, 1):
+            print(f"{idx}. [{r.id}] {r.question_perso_arabic}")
+            if r.question_roman:
+                print(f"    Roman:  {r.question_roman}")
+            print(f"    Answer: {r.answer_gojri} ({r.answer_english})")
+            if r.cultural_clue:
+                print(f"    Clue:   {r.cultural_clue}")
+            print(f"    Region: {r.region} | Source: {r.source}\n")
+    return 0
+
+
+def cmd_folklore_customs(args: argparse.Namespace) -> int:
+    customs = list_customs()
+    if args.json:
+        _print_json([c.to_dict() for c in customs])
+    else:
+        print(f"\nDocumented Gojri Pastoral Customs ({len(customs)}):\n")
+        for idx, c in enumerate(customs, 1):
+            print(f"{idx}. [{c.id}] {c.name_gojri} ({c.name_english})")
+            print(f"    Season:       {c.season}")
+            print(f"    Significance: {c.significance}")
+            print(f"    Description:  {c.description}")
+            print(f"    Source:       {c.source}\n")
+    return 0
+
+
+def cmd_folklore_search(args: argparse.Namespace) -> int:
+    res = search_folklore(args.query)
+    if args.json:
+        _print_json(res)
+    else:
+        total = res.get("total_matches", 0)
+        print(f"\nFound {total} folklore match(es) for '{args.query}':\n")
+        riddles = res.get("riddles", [])
+        if riddles:
+            print("--- Riddles (Pahaṇḍi) ---")
+            for idx, r in enumerate(riddles, 1):
+                print(f"{idx}. [{r.get('id', '')}] {r.get('question_perso_arabic', '')}")
+                print(f"   Answer: {r.get('answer_gojri', '')} ({r.get('answer_en', '')})\n")
+
+        customs = res.get("customs", [])
+        if customs:
+            print("--- Pastoral Customs ---")
+            for idx, c in enumerate(customs, 1):
+                print(f"{idx}. [{c.get('id', '')}] {c.get('title', '')}")
+                print(f"   Description: {c.get('description_en', '')}\n")
+
+        cultural = res.get("cultural_folklore", [])
+        if cultural:
+            print("--- Cultural Folklore ---")
+            for idx, item in enumerate(cultural, 1):
+                print(f"{idx}. [{item.get('category', 'folklore').upper()}] {item.get('title', '')}")
+                print(f"   EN: {item.get('translation_en', '')}\n")
+    return 0
+
+
+def cmd_corpus_statistics(args: argparse.Namespace) -> int:
+    stats = get_corpus_statistics()
+    if args.json:
+        _print_json(stats.to_dict())
+    else:
+        print(f"\n=== Gojri Corpus Statistics ===")
+        print(f"Total Documents:     {stats.total_documents}")
+        print(f"Total Sentences:     {stats.total_sentences}")
+        print(f"Total Tokens:        {stats.total_tokens}")
+        print(f"Total Unique Types:  {stats.total_unique_types}")
+        print(f"Type-Token Ratio:    {stats.type_token_ratio:.4f}")
+        print(f"Hapax Legomena:      {stats.hapax_legomena_count}")
+        print("\nTop Frequent Words:")
+        for w, c in stats.top_words[:10]:
+            print(f"  • {w:15}: {c}")
+        print("===============================\n")
+    return 0
+
+
+def cmd_corpus_concordance(args: argparse.Namespace) -> int:
+    results = concordance(args.word, window=args.window)
+    if args.json:
+        _print_json(results)
+    else:
+        print(f"\nKWIC Concordance for '{args.word}' ({len(results)} occurrences):\n")
+        for idx, r in enumerate(results, 1):
+            left = " ".join(r["left"]).rjust(30)
+            kw = f"[{r['keyword']}]".center(16)
+            right = " ".join(r["right"]).ljust(30)
+            print(f"{idx:3}. {left} {kw} {right} ({r['doc_id']})")
+        print()
+    return 0
+
+
+def cmd_nlp_tokenize(args: argparse.Namespace) -> int:
+    tokens = nlp_tokenize(args.text, preserve_punctuation=not args.no_punct)
+    sents = nlp_sent_tokenize(args.text)
+    if args.json:
+        _print_json({"sentences": sents, "tokens": tokens})
+    else:
+        print(f"\nSentence Segmentation ({len(sents)}):")
+        for idx, s in enumerate(sents, 1):
+            print(f"  {idx}. {s}")
+        print(f"\nWord Tokens ({len(tokens)}):")
+        print(f"  {', '.join(tokens)}\n")
+    return 0
+
+
+def cmd_nlp_pos(args: argparse.Namespace) -> int:
+    tagged = nlp_pos_tag(args.text)
+    if args.json:
+        _print_json([{"token": t, "pos": p} for t, p in tagged])
+    else:
+        print(f"\nPOS Tagged Gojri Text:")
+        for t, p in tagged:
+            print(f"  {t:15} -> {p}")
+        print()
+    return 0
+
+
+def cmd_nlp_spell(args: argparse.Namespace) -> int:
+    res = nlp_spell_check(args.word)
+    if args.json:
+        _print_json(res)
+    else:
+        print(f"\nSpell Check for '{args.word}':")
+        if res["is_correct"]:
+            print("  Status: Correct verified Gojri word.")
+        else:
+            print("  Status: Word not found in verified dictionary.")
+            if res["suggestions"]:
+                print(f"  Suggestions: {', '.join(res['suggestions'])}")
+            else:
+                print("  No close suggestions found within edit distance 2.")
+        print()
+    return 0
+
+
+def cmd_verify_data(args: argparse.Namespace) -> int:
+    report = gojrilang.validate(args.file, dataset_type="dictionary")
+    if args.json:
+        _print_json({
+            "validation_report": report.to_dict(),
+            "verification_status": "PASSED" if report.is_valid else "FAILED",
+        })
+    else:
+        print(f"\n=== Data Verification Report for '{args.file}' ===")
+        print(f"Status:   {'VERIFIED' if report.is_valid else 'FAILED VERIFICATION'}")
+        print(f"Records:  {report.total_records}")
+        print(f"Errors:   {len(report.errors)}")
+        print(f"Warnings: {len(report.warnings)}")
+        if report.errors:
+            print("\nVerification Errors:")
+            for e in report.errors[:10]:
+                print(f"  • {e}")
+        if report.warnings:
+            print("\nWarnings:")
+            for w in report.warnings[:5]:
+                print(f"  • {w}")
+        print("===================================================\n")
+    return 0 if report.is_valid else 1
+
+
+def cmd_export_corpus(args: argparse.Namespace) -> int:
+    import os
+    out_dir = os.path.abspath(args.output_dir)
+    os.makedirs(out_dir, exist_ok=True)
+    c = get_corpus()
+    stats = c.get_statistics()
+    with open(os.path.join(out_dir, "gojri_corpus.jsonl"), "w", encoding="utf-8") as f:
+        for doc in c.documents:
+            f.write(json.dumps(doc, ensure_ascii=False) + "\n")
+    with open(os.path.join(out_dir, "corpus_stats.json"), "w", encoding="utf-8") as f:
+        json.dump(stats.to_dict(), f, ensure_ascii=False, indent=2)
+    print(f"Exported {len(c.documents)} corpus documents and statistics to '{out_dir}'.")
+    return 0
+
+
 def cmd_info(args: argparse.Namespace) -> int:
     print(f"""
 GojriLang Toolkit v{gojrilang.__version__}
@@ -658,6 +1020,8 @@ def build_parser() -> argparse.ArgumentParser:
     p_g_list.add_argument("--status", help="Status filter (verified, experimental).")
     p_g_show = g_subs.add_parser("show", help="Display details of a specific grammar rule.")
     p_g_show.add_argument("rule_id", help="Rule ID (e.g. RULE_POSTPOS_01).")
+    p_g_rule = g_subs.add_parser("rule", help="Display details of a specific grammar rule (alias for show).")
+    p_g_rule.add_argument("rule_id", help="Rule ID (e.g. RULE_POSTPOS_01).")
     p_g_exp = g_subs.add_parser("explain", help="Display educational explanation of a rule.")
     p_g_exp.add_argument("rule_id", help="Rule ID.")
     p_g_ana = g_subs.add_parser("analyze", help="Perform rule-assisted structural analysis on a sentence.")
@@ -761,6 +1125,100 @@ def build_parser() -> argparse.ArgumentParser:
     p_db_stats = db_subs.add_parser("stats", help="Show database record counts and status.")
     p_db_stats.add_argument("--db-path", default="gojri_lexicon.db", help="Path to database file.")
 
+    # epics
+    p_epics = subparsers.add_parser("epics", help="Explore Gojri epic traditions (Ramayana, Mahabharata).")
+    ep_subs = p_epics.add_subparsers(dest="epics_cmd", help="Epics actions")
+    ep_subs.add_parser("list", help="List documented Gojri epics.")
+    p_ep_show = ep_subs.add_parser("show", help="Display epic structure and metadata.")
+    p_ep_show.add_argument("epic_id", help="Epic ID (e.g. gojri_ramayana, gojri_mahabharata).")
+    p_ep_ch = ep_subs.add_parser("chapter", help="Display verses of an epic chapter.")
+    p_ep_ch.add_argument("epic_id", help="Epic ID.")
+    p_ep_ch.add_argument("chapter_num", type=int, help="Chapter number.")
+    p_ep_s = ep_subs.add_parser("search", help="Search verses in Gojri epics.")
+    p_ep_s.add_argument("query", help="Keyword or search phrase.")
+
+    # songs
+    p_songs = subparsers.add_parser("songs", help="Browse, search, and view Gojri oral songs and ballads archive.")
+    so_subs = p_songs.add_subparsers(dest="songs_cmd", help="Songs actions")
+    p_so_list = so_subs.add_parser("list", help="List documented Gojri songs.")
+    p_so_list.add_argument("--category", help="Filter by genre/category (e.g. chhaint, mahya, bait, lori).")
+    p_so_show = so_subs.add_parser("show", help="Show song metadata and musicological context.")
+    p_so_show.add_argument("song_id", help="Song ID.")
+    p_so_s = so_subs.add_parser("search", help="Search oral songs by theme or keyword.")
+    p_so_s.add_argument("query", help="Search keyword.")
+    p_so_lyr = so_subs.add_parser("lyrics", help="Display multiscript lyrics with translations.")
+    p_so_lyr.add_argument("song_id", help="Song ID.")
+    p_so_lyr.add_argument("--script", default="all", choices=["all", "perso-arabic", "devanagari", "roman"], help="Script filter.")
+
+    # folklore
+    p_folk = subparsers.add_parser("folklore", help="Browse Gojri oral folklore, riddles (pahaṇḍi), and pastoral customs.")
+    fo_subs = p_folk.add_subparsers(dest="folklore_cmd", help="Folklore actions")
+    fo_subs.add_parser("list", help="Overview of folklore archive.")
+    fo_subs.add_parser("riddles", help="List documented Gojri riddles (pahaṇḍi).")
+    fo_subs.add_parser("customs", help="List documented pastoral customs.")
+    p_fo_s = fo_subs.add_parser("search", help="Search across Gojri folklore.")
+    p_fo_s.add_argument("query", help="Search keyword.")
+
+    # corpus
+    p_corp = subparsers.add_parser("corpus", help="Corpus analytics, frequency, and KWIC concordance exploration.")
+    co_subs = p_corp.add_subparsers(dest="corpus_cmd", help="Corpus actions")
+    co_subs.add_parser("statistics", help="Display corpus linguistic statistics.")
+    p_co_conc = co_subs.add_parser("concordance", help="Display Key-Word-In-Context (KWIC) concordance table.")
+    p_co_conc.add_argument("word", help="Keyword to search in context.")
+    p_co_conc.add_argument("--window", type=int, default=4, help="Context word window width.")
+
+    # nlp
+    p_nlp = subparsers.add_parser("nlp", help="NLP processing (tokenization, POS tagging, spell check).")
+    nlp_subs = p_nlp.add_subparsers(dest="nlp_cmd", help="NLP actions")
+    p_nlp_tok = nlp_subs.add_parser("tokenize", help="Tokenize text into words and sentences.")
+    p_nlp_tok.add_argument("text", help="Input text.")
+    p_nlp_tok.add_argument("--no-punct", action="store_true", help="Exclude punctuation tokens.")
+    p_nlp_pos = nlp_subs.add_parser("pos", help="Part-of-speech tagging for Gojri text.")
+    p_nlp_pos.add_argument("text", help="Input text.")
+    p_nlp_sp = nlp_subs.add_parser("spell", help="Spell-checking and suggestions for Gojri word.")
+    p_nlp_sp.add_argument("word", help="Word to check.")
+
+    # literature (alias / unified interface to books)
+    p_lit = subparsers.add_parser("literature", help="Browse, read, and search historical Gojri literature.")
+    lit_subs = p_lit.add_subparsers(dest="literature_cmd", help="Literature actions")
+    lit_subs.add_parser("list", help="List literature collections.")
+    p_lit_show = lit_subs.add_parser("show", help="Show book metadata.")
+    p_lit_show.add_argument("book_id", help="Book identifier.")
+    p_lit_read = lit_subs.add_parser("read", help="Read a page from literature.")
+    p_lit_read.add_argument("book_id", help="Book identifier.")
+    p_lit_read.add_argument("page_number", type=int, help="Page number.")
+    p_lit_search = lit_subs.add_parser("search", help="Search within Gojri literature collections.")
+    p_lit_search.add_argument("term", help="Search keyword or phrase.")
+
+    # dictionary
+    p_dict = subparsers.add_parser("dictionary", help="Dictionary lookup and search.")
+    dict_subs = p_dict.add_subparsers(dest="dictionary_cmd", help="Dictionary actions")
+    p_d_lu = dict_subs.add_parser("lookup", help="Look up word in dictionary.")
+    p_d_lu.add_argument("word", help="Word to search.")
+    p_d_lu.add_argument("--dialect", help="Optional dialect filter.")
+    p_d_se = dict_subs.add_parser("search", help="Search dictionary entries.")
+    p_d_se.add_argument("query", help="Keyword or gloss.")
+    p_d_se.add_argument("--language", "-l", default="all", choices=["all", "english", "en", "hindi", "hi", "urdu", "ur", "gojri"])
+    p_d_se.add_argument("--pos", help="POS filter.")
+    p_d_se.add_argument("--dialect", help="Dialect filter.")
+    p_d_se.add_argument("--limit", type=int, default=None, help="Max results.")
+
+    # Direct / root workflow commands
+    p_val_d = subparsers.add_parser("validate-data", help="Validate a dataset file.")
+    p_val_d.add_argument("file", help="Path to dataset file.")
+    p_val_d.add_argument("--type", default="dictionary", help="Dataset type.")
+
+    p_imp_d = subparsers.add_parser("import-data", help="Import a dataset file.")
+    p_imp_d.add_argument("file", help="Path to input dataset file.")
+    p_imp_d.add_argument("--dataset", default="dictionary", help="Target dataset.")
+    p_imp_d.add_argument("--conflict", default="skip", choices=["skip", "overwrite", "fail"], help="Conflict resolution.")
+
+    p_ver_d = subparsers.add_parser("verify-data", help="Perform comprehensive linguistic verification on dataset file.")
+    p_ver_d.add_argument("file", help="Path to dataset file to verify.")
+
+    p_exp_c = subparsers.add_parser("export-corpus", help="Export literature, epics, and songs into corpus files.")
+    p_exp_c.add_argument("output_dir", help="Destination directory path.")
+
     # stats & info
     subparsers.add_parser("stats", help="Display verified corpus statistics.")
     subparsers.add_parser("info", help="Display library metadata and scholarly provenance.")
@@ -785,6 +1243,14 @@ def main(argv: Optional[List[str]] = None) -> int:
         return cmd_lookup(args)
     elif args.subcommand == "search":
         return cmd_search(args)
+    elif args.subcommand == "dictionary":
+        if args.dictionary_cmd == "lookup":
+            return cmd_lookup(args)
+        elif args.dictionary_cmd == "search":
+            return cmd_search(args)
+        else:
+            parser.parse_args(["dictionary", "--help"])
+            return 0
     elif args.subcommand == "normalize":
         return cmd_normalize(args)
     elif args.subcommand == "transliterate":
@@ -792,7 +1258,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     elif args.subcommand == "grammar":
         if args.grammar_cmd == "list":
             return cmd_grammar_list(args)
-        elif args.grammar_cmd == "show":
+        elif args.grammar_cmd in ("show", "rule"):
             return cmd_grammar_show(args)
         elif args.grammar_cmd == "explain":
             return cmd_grammar_explain(args)
@@ -821,18 +1287,82 @@ def main(argv: Optional[List[str]] = None) -> int:
         else:
             parser.parse_args(["dialects", "--help"])
             return 0
-    elif args.subcommand == "books":
-        if args.books_cmd == "list":
+    elif args.subcommand in ("books", "literature"):
+        cmd_attr = "books_cmd" if args.subcommand == "books" else "literature_cmd"
+        sub_action = getattr(args, cmd_attr, None)
+        if sub_action == "list":
             return cmd_books_list(args)
-        elif args.books_cmd == "show":
+        elif sub_action == "show":
             return cmd_books_show(args)
-        elif args.books_cmd == "read":
+        elif sub_action == "read":
             return cmd_books_read(args)
-        elif args.books_cmd == "search":
+        elif sub_action == "search":
             return cmd_books_search(args)
         else:
-            parser.parse_args(["books", "--help"])
+            parser.parse_args([args.subcommand, "--help"])
             return 0
+    elif args.subcommand == "epics":
+        if args.epics_cmd == "list":
+            return cmd_epics_list(args)
+        elif args.epics_cmd == "show":
+            return cmd_epics_show(args)
+        elif args.epics_cmd == "chapter":
+            return cmd_epics_chapter(args)
+        elif args.epics_cmd == "search":
+            return cmd_epics_search(args)
+        else:
+            parser.parse_args(["epics", "--help"])
+            return 0
+    elif args.subcommand == "songs":
+        if args.songs_cmd == "list":
+            return cmd_songs_archive_list(args)
+        elif args.songs_cmd == "show":
+            return cmd_songs_archive_show(args)
+        elif args.songs_cmd == "search":
+            return cmd_songs_archive_search(args)
+        elif args.songs_cmd == "lyrics":
+            return cmd_songs_archive_lyrics(args)
+        else:
+            parser.parse_args(["songs", "--help"])
+            return 0
+    elif args.subcommand == "folklore":
+        if args.folklore_cmd == "list":
+            return cmd_folklore_list(args)
+        elif args.folklore_cmd == "riddles":
+            return cmd_folklore_riddles(args)
+        elif args.folklore_cmd == "customs":
+            return cmd_folklore_customs(args)
+        elif args.folklore_cmd == "search":
+            return cmd_folklore_search(args)
+        else:
+            parser.parse_args(["folklore", "--help"])
+            return 0
+    elif args.subcommand == "corpus":
+        if args.corpus_cmd == "statistics":
+            return cmd_corpus_statistics(args)
+        elif args.corpus_cmd == "concordance":
+            return cmd_corpus_concordance(args)
+        else:
+            parser.parse_args(["corpus", "--help"])
+            return 0
+    elif args.subcommand == "nlp":
+        if args.nlp_cmd == "tokenize":
+            return cmd_nlp_tokenize(args)
+        elif args.nlp_cmd == "pos":
+            return cmd_nlp_pos(args)
+        elif args.nlp_cmd == "spell":
+            return cmd_nlp_spell(args)
+        else:
+            parser.parse_args(["nlp", "--help"])
+            return 0
+    elif args.subcommand == "validate-data":
+        return cmd_dataset_validate(args)
+    elif args.subcommand == "import-data":
+        return cmd_dataset_import(args)
+    elif args.subcommand == "verify-data":
+        return cmd_verify_data(args)
+    elif args.subcommand == "export-corpus":
+        return cmd_export_corpus(args)
     elif args.subcommand == "numbers":
         if args.numbers_cmd == "to-words":
             return cmd_numbers_to_words(args)
